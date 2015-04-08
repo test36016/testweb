@@ -1,0 +1,5 @@
+# config/cucumber.yml
+##YAML Template
+---
+Android-Login: RESET_BETWEEN_SCENARIOS=1 PLATFORM=android -r features/support -r features/pages -r features/step_definitions --tag @Login
+ 

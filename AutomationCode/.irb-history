@@ -1,0 +1,50 @@
+clr
+exit
+query "*"
+exit
+exit
+query "*"
+query "*"
+query "*"
+query "*"
+query "*"
+irb(main)
+query "*"
+exit
+query "*"
+query "*"
+start_test_server_in_background
+query "*"
+exit
+query "*"
+exit
+query "*"
+exit
+query "*"
+query "*"
+clr
+exit
+query "*"
+query "*"
+exit
+query "*"
+exit
+query "*"
+query "*"
+exit
+query "*"
+query "*"
+query "*"
+clr
+exit
+touch(query("* id:'call_back_button'"))
+touch(query("* id:'call_respond_with_video_button'"))
+exit
+query "*"
+touch(query("* id:'call_camera_button'"))
+touch(query("* id:'call_camera_button'"))
+exit
+query "*"
+query "*"
+query "*"
+exit
