@@ -1,4 +1,4 @@
 cucumber_report: -f pretty -f json -o cucumber.json -f 'Cucumber::Formatter::Html' -o result.html
 Beta_server: -f pretty -f json -o cucumber.json -f 'Cucumber::Formatter::Html' -o result.html
-cumber_report_withRerun: -f rerun --out rerun.txt -f pretty -f json -o cucumber.json -f 'Cucumber::Formatter::Html' -o result.html
+cumcumber_report_withRerun: -f rerun --out rerun.txt -f pretty -f json -o cucumber.json -f 'Cucumber::Formatter::Html' -o result.html
 
