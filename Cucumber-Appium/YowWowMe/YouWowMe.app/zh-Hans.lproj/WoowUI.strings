@@ -1,0 +1,1728 @@
+/* 
+ woow_ui.strings
+ WoowUI
+ 
+ Created by Mihai Babusca on 09/09/14.
+ Copyright (c) 2014 Mihai Babusca. All rights reserved.
+*********
+ * Common *
+ *********
+*/
+"kLabelSave" = "保存";
+
+"kLabelSend" = "发送";
+
+"kLabelSearching" = "正在搜索...";
+
+"kButtonCancel" = "取消";
+
+"kLabelOk" = "Ok";
+
+"kLabelSending" = "正在发送...";
+
+"kButtonEdit" = "编辑";
+
+"kButtonNext" = "下一步";
+
+"kAccept" = "接受";
+
+"kDecline" = "拒绝";
+
+"kYes" = "是";
+
+"kNo" = "不";
+
+"kMale" = "男性";
+
+"kFemale" = "女性";
+
+"kNotSpecified" = "未指定";
+
+"kSaving" = "正在保存......";
+
+"kAddedToFavorites" = "添加到收藏夹";
+
+"kRemovedFromFavorites" = "从收藏夹中删除";
+
+/* ***********
+ * Defaults *
+ ***********
+*/
+"kAlertViewDefaultTitle" = "";
+
+"kActionSheetDefaultTitle" = "WowApp";
+
+"kCouldNotCompleteAction" = "无法完成该指令";
+
+"kListPickerDefaultTitle" = "WowApp";
+
+/* ******************************
+ * Roster Groups *
+ ******************************
+*/
+"kRosterGroupFriends" = "朋友";
+
+"kRosterGroupFavorites" = "收藏夹";
+
+/* ******************************
+ * SearchAccountViewController *
+ ******************************
+*/
+"kSearchAccountViewControllerTitle" = "WowApp 用户";
+
+"kSearchAccountViewControllerSearchBarPlaceholder" = "搜索";
+
+"kSearchAccountViewControllerFooterExplanation" = "您的搜索结果\n将在这里显示";
+
+"kSearchAccountViewControllerFooterNoResults" = "没有搜索到任何信息";
+
+/* ******************************
+ * GroupChatEditViewController *
+ ******************************
+*/
+"kGroupChatEditViewControllerTitle" = "群信息";
+
+"kGroupChatEditViewControllerAddToContacts" = "将群组添加到联系人列表中";
+
+"kGroupChatEditViewControllerRemoveFromContacts" = "将该组从联系人列表中删除";
+
+"kGroupChatEditViewControllerAddToFavorites" = "将该组添加到收藏夹";
+
+"kGroupChatEditViewControllerRemoveFromFavorites" = "将该组从收藏夹删除";
+
+"kGroupChatEditViewControllerParticipants" = "参加者";
+
+"kGroupChatEditViewControllerAddMoreParticipants" = "添加更多参加者";
+
+"kGroupChatEditViewControllerGroupNameHeader" = "名称";
+
+"kGroupChatEditViewControllerGroupNamePlaceholder" = "请输入组名称";
+
+"kGroupChatEditViewControllerGroupSubjectHeader" = "组主题";
+
+"kGroupChatEditViewControllerGroupSubjectPlaceholder" = "请输入组主题";
+
+"kGroupChatEditViewControllerLeaveGroupChat" = "离开群聊";
+
+/* ********************************
+ * GroupChatCreateViewController *
+ ********************************
+*/
+"kGroupChatCreateViewControllerTitle" = "新建组";
+
+"kGroupChatSubjectTitle" = "组主题";
+
+"kGroupChatSubjectPlaceholder" = "请输入组主题......";
+
+"kGroupChatParticipants" = "参加者";
+
+"kGroupChatContactNamePlaceholder" = "请输入联系人姓名......";
+
+/* ********************
+ * Group chat common *
+ ********************
+*/
+"kGroupChat" = "群聊";
+
+"kGroupChatCantAddMoreParticipants" = "您已添加的参加者的数量已达到最多容许的范围";
+
+"kGroupChatTopicMaxLengthExceeded" = "主题已经超过允许的最长%i个字符";
+
+"kGroupChatEditGroup" = "编辑组";
+
+"kGroupChatCantYouLeftConversation" = "您已从对话中被删除或者将自己遗留在另外的设备上";
+
+"kGroupChatNameCannotBeEmpty" = "群聊名称不能为空！";
+
+"kGroupChatShouldAddAtLeastOneParticipant" = "您应该至少添加一个参加者";
+
+"kGroupChatTopicCleared" = "群聊话题已被清除";
+
+"kGroupChatEmptyGroup" = "空组";
+
+/* ********************
+ * Single chat view *
+ ********************
+*/
+"kSingleChatActionSheetAudioCall" = "语音呼叫";
+
+"kSingleChatActionSheetVideoCall" = "视频呼叫";
+
+"kSingleChatActionSheetProfile" = "资料";
+
+/* *************************
+ * SettingsViewController *
+ *************************
+*/
+"kSettingsViewControllerTitle" = "设置";
+
+/* *******************************
+ * SettingsSoundsViewController *
+ *******************************
+*/
+"kSettingsSoundsViewControllerTitle" = "声音";
+
+/* ********************************
+ * SettingsCountryViewController *
+ ********************************
+*/
+"kSettingsCountryViewControllerTitle" = "您的国家";
+
+/* ****************************************
+ * SettingsBlockedContactsViewController *
+ ***************************************
+*/
+"kSettingsBlockedContactsViewControllerTitle" = "拉黑的联系人";
+
+"kSettingsBlockedContactsViewControllerUnblockButton" = "解除拉黑";
+
+/* *******************************
+ * ContactRequestViewController *
+ *******************************
+*/
+"kContactRequestViewControllerTitle" = "联系人添加请求";
+
+"kContactRequestViewControllerGroupsHeader" = "添加到组";
+
+"kContactRequestViewControllerGroups" = "组";
+
+"kContactRequestViewControllerPersonalMessageHeader" = "私人信息";
+
+"kContactRequestViewControllerPersonalMessage" = "我想邀请您";
+
+"kContactRequestViewControllerSendContactRequest" = "发送添加联系人请求";
+
+"kContactRequestViewControllerViewFullProfile" = "查看完整资料";
+
+"kContactRequestSent" = "您的联系人添加请求已经被发送";
+
+"kContactRequestSentFailed" = "您的联系人添加请求未被发送，请再次尝试。";
+
+"kContactRequestDefaultMessage" = "您好！请将我添加为联系人。";
+
+/* ******************************************
+ * ContactRequestSelectGroupViewController *
+ ******************************************
+*/
+"kContactRequestSelectGroupViewControllerTitle" = "选择组";
+
+/* ******************************************
+ * ContactRequestSelectGroupViewController *
+ ******************************************
+*/
+"kContactRequestMessageViewControllerTitle" = "消息";
+
+/* ************************
+ * Privacy Common Strings *
+ ************************
+*/
+"kPrivacyTypePublic" = "公开";
+
+"kPrivacyTypePrivate" = "私密";
+
+"kPrivacyTypeFriends" = "朋友";
+
+/* ************************
+ * PrivacyViewController *
+ ************************
+*/
+"kPrivacyViewControllerTitle" = "隐私";
+
+/* ************************
+ * PrivacySelectionViewController *
+ ************************
+*/
+"kPrivacySelectionViewControllerTitle" = "隐私";
+
+/* ************************
+ * SendInviteViewController *
+ ************************
+*/
+"kSendInviteViewControllerTitle" = "邀请";
+
+"kSendInviteViewControllerHeaderName" = "名称：";
+
+"kSendInviteViewControllerHeaderEmail" = "电子邮件：";
+
+"kSendInviteViewControllerHeaderMessage" = "消息：";
+
+"kSendInviteViewControllerCheckAddToContactList" = "将此人添加到我的联系人列表";
+
+"kSendInviteViewControllerButtonViewInvites" = "查看邀请页面";
+
+"kInviteInfoInviteeName_minlength" = "请输入您朋友的名字。";
+
+"kInviteInfoInviteeName_maxlength" = "名字的长度必须在1到40个字符之间";
+
+"kInviteInfoInviteeEmail_notSpecified" = "请输入您朋友的电子邮件地址。";
+
+"kInviteInfoInviteeEmail_invalidFormat" = "请输入一个有效的电子邮件地址";
+
+"kSendInviteInvalidData" = "无效数据，请检查您的邀请信息。";
+
+"kSendInviteSucces" = "恭喜！您的邀请已发送。";
+
+"kSendInviteAlreadyUser" = "该人已经是WowApp用户。";
+
+"kSendInviteAlreadyInvitedFriend" = "此用户已经向您发送邀请并正等待您的审核。";
+
+"kSendInviteDuplicateEmail" = "该邀请中包含一个重复的电子邮件地址。";
+
+"kSendInviteAlreadySent" = "您已经邀请此人加入WowApp。";
+
+"kSendInviteFailed" = "抱歉，我们此时还不能发送您的邀请。请检查您的网络连接并稍后再试。";
+
+"kNoInvitesLeftMessage" = "没有剩余的邀请发送权限";
+
+/* ********************************
+ * PhoneValidationViewController *
+ ********************************
+*/
+"kPhoneValidationViewControllerTitle" = "电话验证";
+
+"kPhoneValidationViewControllerHeaderMessage" = "请确认您的国家代码并输入您的电话号码";
+
+"kPhoneValidationViewControllerCountryPlaceHolder" = "选择国家";
+
+"kPhoneValidationViewControllerPhoneNumberPlaceHolder" = "电话号码";
+
+"kPhoneValidationViewControllerAlert" = "我们将会验证电话号码：\n%@%@\n号码正确吗，或者您想编辑该号码？";
+
+/* ********************************
+ * PhoneValidationCodeViewController *
+ ********************************
+*/
+"kPhoneValidationCodeViewControllerHeaderMessage" = "要验证您的电话号码，请输入我们刚给您发的四位数字验证码";
+
+"kPhoneValidationCodeViewControllerResendCode" = "重新发送短信验证码在：";
+
+"kPhoneValidationCodeViewControllerEditPhoneNumber" = "编辑电话号码在：";
+
+"kPhoneValidationCodeViewControllerValidateCode" = "您的号码已被验证并被分配作为您的呼叫方 id";
+
+/* **********************************
+ * ProfileCompletionViewController *
+ **********************************
+*/
+"kProfileCompletionViewControllerTitle" = "创建帐户";
+
+"kProfileCompletionViewControllerHeader" = "太好了，你在这里。 \n让我们设置您的帐户。";
+
+"kProfileCompletionViewControllerPersonalInfo" = "个人信息";
+
+"kProfileCompletionViewControllerFirstName" = "名";
+
+"kProfileCompletionViewControllerLastName" = "姓";
+
+"kProfileCompletionViewControllerGender" = "性别：";
+
+"kProfileCompletionViewControllerBirthday" = "生日：";
+
+"kProfileCompletionViewControllerGenderPlaceholder" = "选择性别";
+
+"kProfileCompletionViewControllerBirthdayPlaceholder" = "选择生日";
+
+"kMandatoryFieldsMessage" = "所有字段均为必填项";
+
+"kProfileCompletionViewControllerNameError" = "无效的名字";
+
+"kProfileCompletionViewControllerBirthdayError" = "无效的出生日期";
+
+/* **********************************
+ * ProfileCompletionStepTwoViewController *
+ **********************************
+*/
+"kProfileCompletionStepTwoViewControllerTitle" = "欢迎";
+
+"kProfileCompletionStepTwoViewControllerChooseAvatar" = "选择您的个人资料图片";
+
+"kProfileCompletionStepTwoViewControllerTakePhoto" = "拍照";
+
+"kProfileCompletionStepTwoViewControllerChooseFromGallery" = "从图库中选择";
+
+/* ***************************
+ * EditStatusViewController *
+ ***************************
+*/
+"kEditStatusViewControllerTitle" = "编辑状态";
+
+"kEditStatusViewControllerAlertMessage" = "状态已保存";
+
+/* ************************
+ * Report a Problem *
+ ************************
+*/
+"kReportProblemTitle" = "报告问题";
+
+"kReportProblemSummary" = "摘要：";
+
+"kReportProblemDescription" = "告诉我们有什么问题：";
+
+"kReportProblemFailedToSendBugReport" = "未能成功提交问题报告，请稍后再试。";
+
+/* ************************
+ * Send General Feedback *
+ ************************
+*/
+"kSendGeneralFeedbackTitle" = "发送反馈";
+
+"kSendGeneralFeedbackSummary" = "摘要：";
+
+"kSendGeneralFeedbackDescription" = "描述：";
+
+"kSendGeneralFeedbackFailedToSendFeedback" = "未能成功发送反馈，请稍后再试。";
+
+/* **************************
+ * Feedback error messages *
+ **************************
+*/
+"kFeedbackInfoInvalidSummary_minlength" = "请写一段简要的摘要。";
+
+"kFeedbackInfoInvalidSummary_maxlength" = "摘要最长不能超过256个字符";
+
+"kFeedbackInfoInvalidMessage_minlength" = "请写一段简要的描述。";
+
+/* ******************************
+ *     My Profile Screen       *
+ ******************************
+*/
+"kMyProfileStatus" = "状态";
+
+/* ******************************
+ *       Profile Screen        *
+ ******************************
+*/
+"kFriendProfileButtonAudioCall" = "语音呼叫";
+
+"kFriendProfileButtonVideoCall" = "视频呼叫";
+
+"kFriendProfileButtonMessage" = "消息";
+
+"kFriendProfileButtonMore" = "更多";
+
+"kAddContact" = "添加到联系信息里";
+
+"kAddContactSent" = "联系人添加请求已发送";
+
+"kFriendProfileActionEditProfile" = "编辑资料";
+
+"kFriendProfileActionFavorite" = "添加到收藏夹";
+
+"kFriendProfileActionRemoveFavorite" = "从收藏夹中删除";
+
+"kFriendProfileActionBlockContact" = "拉黑联系人";
+
+"kFriendProfileActionUnBlockContact" = "取消对联系人的阻止";
+
+"kFriendProfileActionDelete" = "从联系人列表中删除";
+
+"KAlertAreYouSureMessage" = "您确认要删除此联系人吗？\n  在将他们添加回来之前，您将不能向其发送消息或发起呼叫。";
+
+"kADBProfileButtonPaidCall" = "付费呼叫";
+
+"kADBProfileButtonInvite" = "邀请";
+
+"kADBSaveProfileConfirmationMessage" = "您确定要保存吗？";
+
+/* ******************************
+ *         Menu Screen         *
+ ******************************
+*/
+"kMenuNetwork" = "网络";
+
+"kMenuSendInvites" = "邀请";
+
+"kMenuEarnings" = "收入";
+
+"kMenuMyWow" = "我的Wow";
+
+"kMenuGeneralFeedbackButtonTitle" = "发送整体反馈";
+
+"kMenuReportAProblemButtonTitle" = "报告问题";
+
+"kSendFeedbackTitle" = "发送反馈";
+
+"kSendFeedbackSummary" = "摘要";
+
+"kSendFeedbackDescription" = "描述";
+
+"kSendFeedbackAlert" = "发送反馈信息中...";
+
+"kSendFeedbackMessage" = "消息";
+
+"kMenuViewProfile" = "查看资料";
+
+"kMenuEditPrivacy" = "编辑隐私";
+
+"kMenuChangeStatus" = "更改状态";
+
+/* ******************************
+ *      Contacts Screen        *
+ ******************************
+*/
+"kContactsScreenMakeCalls" = "呼叫";
+
+"kContactsScreenSearchYouWowMe" = "在WowApp上搜索";
+
+"kContactsTitle" = "联系信息";
+
+/* ******************************
+ *     Awards Legend Screen    *
+ ******************************
+*/
+"KAwardsLegendTitle" = "获奖传奇";
+
+"kWhiteFeatherDescription" = "2+ 成功邀请";
+
+"kBlueFeatherDescription" = "10+ 成功邀请";
+
+"kGreenFeatherDescription" = "20+ 成功邀请";
+
+"kRedFeatherDescription" = "50+ 成功邀请";
+
+"kPinkFeatherDescription" = "100+ 成功邀请";
+
+"kOrangeFeatherDescription" = "200+ 成功邀请";
+
+"kDoubleOrangeFeatherDescription" = "500+ 成功邀请";
+
+"kSuperFeatherDescription" = "1000+ 成功邀请";
+
+"kAwardsLegendNote" = "注意：该数字不包括您的联系人发送的邀请";
+
+/* ******************************
+ *       Common - Share -      *
+ ******************************
+*/
+"kCancel" = "取消";
+
+"kSendLocation" = "共享位置信息";
+
+"kSendContact" = "共享联系人";
+
+"kSendFromCamera" = "拍照";
+
+"kSendFromVideo" = "摄像";
+
+"kSendFromGallery" = "媒体库";
+
+/* ******************************
+ *      IncomingFriendRequest  *
+ ******************************
+*/
+"kIncomingFriendRequestTitle" = "好友添加请求";
+
+/* ******************************
+ *      Upgrade                 *
+ ******************************
+*/
+"kUpgradeTitle" = "请现在更新";
+
+"kUpgradeSubtitle" = "需要立即更新";
+
+/* ******************************
+ * FriendProfileEdit Screen    *
+ ******************************
+*/
+"kFriendProfileEditViewControllerTitle" = "编辑资料";
+
+"kFriendProfileEditViewControllerNameHeader" = "昵称";
+
+"kFriendProfileEditViewControllerEmailHeader" = "电子邮件";
+
+"kFriendProfileEditViewControllerPhoneHeader" = "电话";
+
+"kFriendProfileEditViewControllerNotesHeader" = "备注";
+
+"kFriendProfileEditViewControllerAddEmail" = "添加电子邮件";
+
+"kFriendProfileEditViewControllerAddPhone" = "添加电话";
+
+"kFriendProfileEditViewControllerNamePlaceholder" = "输入名称";
+
+"kFriendProfileEditListPickerTitle" = "选择类别";
+
+"kFriendProfileEditPlaceholderEmail" = "输入电子邮件地址";
+
+"kFriendProfileEditPlaceholderPhone" = "输入电话号码";
+
+"kCategoryHome" = "家";
+
+"kCategoryOffice" = "办公室";
+
+"kCategoryMobile" = "移动";
+
+"kCategoryOther" = "其他";
+
+"kPhoneNumberInvalid" = "至少一个电话号码无效！请查看号码";
+
+/* ******************************
+ * PhoneContactsViewController *
+ ******************************
+*/
+"kPhoneContactsAccessContactsMessage" = "此应用程序要求访问您的手机联系人";
+
+"kPhoneContactsMakeCalls" = "呼叫";
+
+"kPhoneContactsMyNumber" = "我的号码：";
+
+/* ****************************
+ * ContactInfoViewController *
+ ****************************
+*/
+"kContactInfoPaidCall" = "付费呼叫";
+
+"kContactInfoInvite" = "邀请";
+
+"kContactInfoContactInfo" = "联系信息";
+
+"kContactInfoEmail" = "电子邮件：";
+
+"kContactInfoPhone" = "电话：";
+
+"kContactInfoWeb" = "网站：";
+
+/* ******************************
+ * TextInputBar				   *
+ ******************************
+*/
+"kChatTextFieldPlaceholder" = " 输入一条消息";
+
+/* ******************************
+ * Chat menu				   *
+ ******************************
+*/
+"kMenuCallLabel" = "语音呼叫";
+
+"kMenuVideoLabel" = "视频呼叫";
+
+"kMenuSendPhotoLabel" = "拍照";
+
+"kMenuSendVideoLabel" = "摄像";
+
+"kMenuGallery" = "媒体库";
+
+"kMenuSendContactLabel" = "共享联系人";
+
+"kMenuSendLocationLabel" = "共享位置信息";
+
+"kMenuGroupChat" = "添加成员";
+
+/* ******************************
+ * PrivacyScreen               *
+ ******************************
+*/
+"kUnableToUpdatePrivacySetting" = "不能保存隐私“%@”。";
+
+"kPrivacySettingsGenderTitle" = "性别";
+
+"kPrivacySettingsLanguageTitle" = "语言";
+
+"kPrivacySettingsAwardsTitle" = "奖励";
+
+"kPrivacySettingsNetworkTitle" = "网络";
+
+"kPrivacySettingsPhoneNumberTitle" = "电话号码";
+
+"kPrivacySettingsEmailTitle" = "电子邮件";
+
+"kPrivacySettingsBirthdayDayMonthTitle" = "生日";
+
+"kPrivacySettingsBirthdayYearTitle" = "显示出生的年份";
+
+/* ******************************
+ * About Screen                *
+ ******************************
+*/
+"kAboutWowTermsAndConditionsButtonTitle" = "条款";
+
+"kAboutWowPoliciesButtonTitle" = "政策";
+
+"kWowAppVersion" = "版本%@";
+
+"kAboutViewControllerTitle" = "关于";
+
+/* ******************************
+ * AdvertiseMe Screen          *
+ ******************************
+*/
+"kAdvertiseMeScreenTitle" = "为我做广告";
+
+"kAdvertiseMeSettingLabelText" = "为我做广告";
+
+"kAdvertiseMeReadMoreLabelText" = "了解更多关于为我做广告";
+
+"kAdvertiseMeFailedToChangeStatus" = "未能成功保存状态，请稍后再试。";
+
+/* ******************************
+ * Settings                    *
+ ******************************
+*/
+"kSettingsTitle" = "设置";
+
+"kSettingsAutoSaveContentToGallery" = "保存传入媒体文件";
+
+"kSettingsAutoDownloadContentOn3G" = "自动下载照片";
+
+"kSettingsVibrationsAndSounds" = "振动和声音";
+
+"kSettingsBlockedContacts" = "拉黑的联系人";
+
+/* ******************************
+ * Sounds and vibration        *
+ ******************************
+*/
+"kSettingsSoundsTitle" = "振动和声音";
+
+"kSettingsMessagesSectionTitle" = "消息";
+
+"kSettingsCallsSectionTitle" = "呼叫";
+
+"kSettingsLoginSectionTitle" = "登录";
+
+"kSettingsNetworkSectionTitle" = "网络：";
+
+"kSettingsEarningsSectionTitle" = "收入";
+
+"kSettingsVibrateLabel" = "应用程序内震动";
+
+"kSettingsSoundLabel" = "应用程序内声音";
+
+"kCountriesViewTitle" = "您的国家";
+
+"kBlockedContactsViewTitle" = "拉黑的联系人";
+
+/* ******************************
+ * My Profile Edit             *
+ ******************************
+*/
+"kMyProfileEditViewControllerTitle" = "编辑资料";
+
+"kMyProfileGenderDisplayStringMale" = "男性";
+
+"kMyProfileGenderDisplayStringFemale" = "女性";
+
+"kMyProfileEditAvatar" = "头像";
+
+"kMyProfileEditBirthday" = "生日";
+
+"kMyProfileEditGender" = "性别";
+
+"kMyProfileEditCityCountry" = "城市/国家";
+
+"kMyProfileEditPhone" = "手机";
+
+"kMyProfileEditWebsite" = "网站";
+
+"kMyProfileFirstNamePlaceholder" = "名";
+
+"kMyProfileLastNamePlaceholder" = "姓";
+
+"kMyProfileCityPlaceholder" = "输入城市";
+
+"kMyProfileWebsitePlaceholder" = "网站：";
+
+"kOneNameIsEmpty" = "名和姓不能为空";
+
+"kNameMustHaveALetter" = "名和姓必须至少包括一个字母";
+
+"kAvatarPickerTitle" = "头像选择";
+
+"kInvalidatingNumberAlert" = "这是您WowApp绑定的有效移动电话号码。编辑或者删除并保存修改，都会要求您验证新的号码。您确认要进行吗？";
+
+/* ******************************
+ * Intro Screen               *
+ ******************************
+*/
+"kIntroSignInButton" = "登录";
+
+"kIntroCreateAccountButton" = "创建帐户";
+
+"kIntroBottomText" = "底部文字";
+
+/* ******************************
+ * SignIn Screen               *
+ ******************************
+*/
+"kSignInButton" = "登录";
+
+"kSignInPlaceholderUsername" = "用户名";
+
+"kSignInPlaceholderPassword" = "密码";
+
+"kSignInLabelShowPassword" = "显示密码";
+
+"kSignInButtonForgotPassword" = "忘记密码？";
+
+/* ******************************
+ * Tutorial Screen               *
+ ******************************
+*/
+"kTutorialCongrats" = "恭喜！";
+
+"kTutorialReceived" = "您收到了您的第一个WowCoin";
+
+"kTutorialWowCoin" = "1 WowCoin = 1 分( 美元)";
+
+"kTutorialEarnMoney" = "现在让我们赚钱去吧！";
+
+"kTutorialSkip" = "跳过";
+
+"kTutorialSwipe" = "向左滑动";
+
+"kTutorialHowItWorks" = "如何工作";
+
+"kTutorialIncreaseNetwork" = "增加您的朋友网络圈";
+
+"kTutorialSendInvites" = "通过发送朋友邀请";
+
+"kTutorialTellFriends" = "并告诉您的朋友们";
+
+"kTutorialAdMe" = "开启为我广告功能\n将会为您每天都赚钱！";
+
+"kTutorialChooseAds" = "选择在WowApp上看广告\n您就能够每天通过您的网络\n和您自己赚WowCoins";
+
+"kTutorialGetStarted" = "开始";
+
+"kTutorialChatButtonTop" = "聊天并赚钱！";
+
+"kTutorialChatButtonBottom" = "这将会为您的账户打开为我广告功能";
+
+"kTutorialUseMessengerButtonTop" = "我不喜欢免费的钱！";
+
+"kTutorialUseMessengerButtonBottom" = "我只想使用最好的，没有广告的聊天工具";
+
+/* ******************************
+ * Mass invite                 *
+ ******************************
+*/
+"kMassInviteSelectionScreenTitle" = "告诉您的朋友";
+
+"kMassInviteSelectionScreenSelectButtonTitle" = "选择呼叫";
+
+"kMassInviteSelectionScreenDeselectButtonTitle" = "取消全选";
+
+"kMassInviteSelectionScreenSendInvitesButtonTitle" = "发送%@个邀请";
+
+"kMassInviteSelectionScreenMailActionSheetOptionTitle" = "发送邮件";
+
+"kMassInviteSelectionScreenMessageActionSheetOptionTitle" = "消息";
+
+"kMassInviteSelectionScreenSendInvitesButtonText" = "发送%d个邀请";
+
+"kMassInviteSelectionScreenCanNotSendEmail" = "请在这台设备上配置您的邮箱以便能够邀请您的朋友";
+
+"kMassInviteSelectionScreenCanNotSendSMS" = "此设备无法发送邮件。请确保您已经安装SIM卡。";
+
+/* ******************************
+ * Stickers                    *
+ ******************************
+*/
+"kStickerSent" = "发送的贴纸";
+
+"kStickerReceived" = "收到的贴纸";
+
+// Needs translation, do not remove
+"kStickerUnknownSticker" = "更新来看到此贴画";
+
+/* ******************************
+ * Account notifications       *
+ ******************************
+*/
+"kAccountNotificationsAdMeDailyTitle" = "每日为我做广告收入报告：";
+
+"kAccountNotificationsAdMeWeeklyTitle" = "每周为我做广告报告：";
+
+"kAccountNotificationsAdMeMonthlyTitle" = "每月为我做广告收入报告：";
+
+"kAccountNotificationsAdMeEarn" = "已获得的WowCoins ：";
+
+"kAccountNotificationsAdMeLoss" = "消费的WowCoins ：";
+
+"kAccountNotificationsAdMeActionEarnMore" = "想要赚更多吗？点击这里了解如何做";
+
+"kAccountNotificationsAdMeActionImproveEarnings" = "点击这里提高收入";
+
+"kAccountNotificationsAdMeActionGrowEarnings" = "学习如何使用WowApp提高收入";
+
+"kAccountNotificationsAdMeEnableTitle" = "打开为我做广告";
+
+"kAccountNotificationsAdMeEnableSubtitle" = "通过您及您的朋友圈在WowApp上看到的广告赚取WowCoins。\n现在就在移动设备上打开为我做广告！";
+
+"kAccountNotificationsAdMeEnableAction" = "点击此处开始";
+
+"kAccountNotificationsAdMeEnableReminderTitle" = "使用WowApp赚更多！";
+
+"kAccountNotificationsAdMeEnableReminderSubtitle" = "在手机上打开为我做广告并通过您及您联系圈看到的广告赚取WowCoins。";
+
+"kAccountNotificationsAdMeEnableReminderLoss" = "您已错过的收入：%@个WowCoins。";
+
+"kAccountNotificationsAdMeEnableReminderAction" = "点击此处开始";
+
+"kAccountNotificationsAdMeDisabledTitle" = "为我做广告已关闭";
+
+"kAccountNotificationsAdMeDisabledSubtitle" = "您刚刚为您的账户关闭了为我做广告。";
+
+"kAccountNotificationsAdMeDisabledAction" = "打开为我做广告再次开始赚钱";
+
+"kAccountNotificationsAdMeDisabledReminderTitle" = "使用WowApp赚更多！";
+
+"kAccountNotificationsAdMeDisabledReminderSubtitle" = "在手机上打开为我做广告并通过您及您联系圈看到的广告赚取WowCoins。";
+
+"kAccountNotificationsAdMeDisabledReminderLoss" = "您可能已经错过了%@个WowCoins。";
+
+"kAccountNotificationsAdMeDisabledReminderAction" = "打开为我做广告重新开始赚钱";
+
+"kAccountNotificationsTalkNewFriendsTitle" = "%d个新朋友";
+
+"kAccountNotificationsTalkNewFriendsSubtitle" = "已被添加到您的联系圈";
+
+"kAccountNotificationsTalkNewFriendsAction" = "点击此处查看新朋友";
+
+"kAccountNotificationsTalkNewFriendSubtitleFriendRequest" = "新朋友";
+
+"kAccountNotificationsRegistrationAcceptedTitle" = "%@是您的一级联系人";
+
+"kAccountNotificationsSubtitleContactAddedToRoster" = "已添加到您的联系人列表";
+
+"kAccountNotificationsSubtitleContactPendingPeerAcceptance" = "待通过的添加联系人请求";
+
+"kAccountNotificationsSubtitleContactPendingMyAcceptance" = "正在等待您的同意";
+
+"kAccountNotificationsSubtitleContactBlockedByMe" = "该用户在您的黑名单列表中";
+
+"kAccountNotificationsActionSendContactRequest" = "发送朋友添加请求";
+
+"kAccountNotificationsActionAcceptContactRequest" = "发送朋友添加请求";
+
+"kFeatherLevel1" = "银色羽毛";
+
+"kFeatherLevel2" = "蓝色羽毛";
+
+"kFeatherLevel3" = "绿色羽毛";
+
+"kFeatherLevel4" = "红色羽毛";
+
+"kFeatherLevel5" = "粉色羽毛";
+
+"kFeatherLevel6" = "一片金色羽毛";
+
+"kFeatherLevel7" = "2片金色羽毛";
+
+"kFeatherLevel8" = "Wow帽子";
+
+"kOwnFeatherLevel1" = "您被授予 %@ 并获得2次额外的朋友添加发送权利，已将其添加到您的权限总数中。";
+
+"kOwnFeatherLevel2" = "您被授予 %@ 并获得3次额外的朋友添加发送权利，已将其添加到您的权限总数中。";
+
+"kOwnFeatherLevel3" = "您被授予 %@ 并获得5次额外的朋友添加发送权利，已将其添加到您的权限总数中。";
+
+"kOwnFeatherLevel4" = "您被授予 %@ 并获得5次额外的朋友添加发送权利，已将其添加到您的权限总数中。";
+
+"kOwnFeatherLevel5" = "您被授予 %@ 并获得5次额外的朋友添加发送权利，已将其添加到您的权限总数中。";
+
+"kOwnFeatherLevel6" = "您被授予 %@ 并获得5次额外的朋友添加发送权利，已将其添加到您的权限总数中。";
+
+"kOwnFeatherLevel7" = "您被授予 %@ 并获得5次额外的朋友添加发送权利，已将其添加到您的权限总数中。";
+
+"kOwnFeatherLevel8" = "您被授予 %@ 并获得10次额外的朋友添加发送权利，已将其添加到您的权限总数中。";
+
+"kContactsFeatherLevel1" = "%@ 成功邀请了2个人使用WowApp并赚到%@";
+
+"kContactsFeatherLevel2" = "%@ 成功邀请了10个人使用WowApp并赚到%@";
+
+"kContactsFeatherLevel3" = "%@ 成功邀请了20个人使用WowApp并赚到%@";
+
+"kContactsFeatherLevel4" = "%@ 成功邀请了50个人使用WowApp并赚到%@";
+
+"kContactsFeatherLevel5" = "%@ 成功邀请了100个人使用WowApp并赚到%@";
+
+"kContactsFeatherLevel6" = "%@ 成功邀请了200个人使用WowApp并赚到%@";
+
+"kContactsFeatherLevel7" = "%@ 成功邀请了500个人使用WowApp并赚到%@";
+
+"kContactsFeatherLevel8" = "%@ 成功邀请了1000个人使用WowApp并赚到%@";
+
+"kAwardsDescriptionLevel1" = "2+ 成功的邀请";
+
+"kAwardsDescriptionLevel2" = "10+ 成功邀请";
+
+"kAwardsDescriptionLevel3" = "20+ 成功邀请";
+
+"kAwardsDescriptionLevel4" = "50+ 成功邀请";
+
+"kAwardsDescriptionLevel5" = "100+ 成功邀请";
+
+"kAwardsDescriptionLevel6" = "200+ 成功邀请";
+
+"kAwardsDescriptionLevel7" = "500+ 成功邀请";
+
+"kAwardsDescriptionLevel8" = "1000+ 成功邀请";
+
+"kAccountNotificationsScreenTitle" = "账户通知";
+
+/* ******************************
+ * Email Validation            *
+ ******************************
+*/
+"kValidateYourEmailMessage" = "验证您的电子邮件";
+
+"kChangeEmailAction" = "更改电子邮件地址";
+
+"kResendEmailAction" = "重新发送邮件";
+
+"kEmailValidationResendRequestSuccessful" = "您的请求已被发送！您将很快收到一封邮件。";
+
+/* ********************************
+ * My Profile Avatar Action Sheet*
+ *******************************
+*/
+"kMyProfileAvatarActionSheetTakePhoto" = "拍照";
+
+"kMyProfileAvatarActionSheetChooseExisting" = "选择现有的";
+
+"kMyProfileAvatarActionSheetViewPhoto" = "查看照片";
+
+"kMyProfileAvatarActionSheetDeletePhoto" = "删除照片";
+
+/* ******************************
+ * Notifications Screen        *
+ ******************************
+*/
+"kNotificationsTitle" = "打开通知功能";
+
+"kNotificationsSubtitle" = "在您的手机上即时查看信息。";
+
+"kOpenSettings" = "打开 iPhone 设置";
+
+"kTapNotificationCenter" = "点击通知中心";
+
+"kSelectWOWApp" = "选择 WowApp";
+
+"kSelectBanners" = "选择横栏";
+
+"kTurnViewInLockScreen" = "打开锁屏查看";
+
+"kShowOnLockScreen" = "在锁屏上显示";
+
+"kButtonNone" = "无";
+
+"kButtonBanners" = "横栏";
+
+"kButtonAlerts" = "警告";
+
+/* ******************************
+ * Disconnect Bar              *
+ ******************************
+*/
+"kLabelConnected" = "已连接";
+
+"kLabelConnecting" = "正在连接......";
+
+"kLabelDisconnected" = "没有网络连接";
+
+/* ******************************
+ * Call Forwarding             *
+ ******************************
+*/
+"kMyProfileCallForwarding" = "呼叫转接中";
+
+/* ******************************
+ * Share Location              *
+ ******************************
+*/
+"kShareLocationCenterButton" = "定位到您所在位置";
+
+"kShareLocationSendLocationButton" = "发送位置信息";
+
+"kMapOpenPrompt" = "打开（从）";
+
+"kMapApple" = "地图";
+
+"kMapSafari" = "Safari";
+
+/* ****************************************
+ * Plist Localization                    *
+ * Don't delete, if you add announce PM  *
+ ***************************************
+*/
+"Privacy Camera" = "若想通过WowApp拍照或进行视频呼叫，您需授权访问摄像机";
+
+"Privacy Contacts" = "WowApp保证您的联系人列表绝对安全。我们仅访问联系人列表，便于您免费呼叫与发短信给联系人。";
+
+"Privacy Location" = "您需访问授权，才可与朋友分享或接收位置信息";
+
+"Privacy Microphone" = "若想通过WowApp呼叫，您需授权访问麦克风";
+
+"Privacy Photos" = "若想在WowApp对话中发送与接收照片，您需访问照片";
+
+/* ****************************************
+ * Video Sharing                         *
+ ****************************************
+*/
+"kVideoPlayNotAllowedDueToCallInProgress" = "在通话期间您不能播放媒体文件。请在呼叫结束后再次尝试。";
+
+/* ****************************************
+ * Login Screen                         *
+ ****************************************
+*/
+"kLoginScreenUserNamePlaceholder" = "用户名";
+
+"kLoginScreenPasswordPlaceholder" = "密码";
+
+"kLoginScreenLoginButtonTittle" = "登录";
+
+"kLoginScreenShowPasswordButtonTitle" = "展示";
+
+"kLoginScreenHidePasswordButtonTitle" = "隐藏";
+
+"kLoginScreenForgotPasswordButtonTitle" = "忘了用户名或密码？";
+
+"kLoginScreenIndicatorLbl" = "正在登录中...";
+
+/* ******************************
+ * OLD STRINGS                 *
+ ******************************
+*/
+// Working
+"kContactStatusOfflineString" = "离线";
+
+"kContactStatusOnlineString" = "在线";
+
+"kContactStatusBusyString" = "忙";
+
+"kContactStatusAwayString" = "离开";
+
+"kShareLocationFailedTitle" = "无法获取位置信息";
+
+"kLocationLoading" = "正在获取位置信息...";
+
+"kActivitySubtitleCallMissed" = "未接来电 ";
+
+"kActivitySubtitleCallReceived" = "来电 ";
+
+"kActivitySubtitleCallMade" = "去电 ";
+
+"kActivitySubtitleSharedLocation" = "共享的位置信息 ";
+
+"kActivitySubtitleSharedContact" = "共享的联系人信息 ";
+
+"kActivitySubtitleParticipantInteraction" = "%@ %@ 对话";
+
+"kActivitySubtitleParticipantEntered" = "已进入";
+
+"kActivitySubtitleParticipantExited" = "已退出";
+
+"kActivitySubtitleGroupchatRenamedNotification" = "群聊话题变更为：\n  %@";
+
+"kAcceptedFriendRequestMessage" = "已添加到联系人列表";
+
+"kInvitationJoinMessage" = "%@加入到了对话中";
+
+"kDoneLabel" = "完成";
+
+"kAddedText" = "已在您的列表中";
+
+"kRequestFailTimeout" = "您的请求已超时。请再次尝试。";
+
+"kRequestFailForbidden" = "不正确的用户名或密码，请再次尝试。";
+
+"kRequestFailInvalidEmail" = "您的帐户已被禁用。请到您的电子邮箱验证该帐户。";
+
+"kRequestFailConectivityIssues" = "您的网络连接现存在连接问题。请再次尝试。";
+
+"kRequestCanceled" = "已取消";
+
+"kLoginErrorTitle" = "登录错误";
+
+"kLoginInvalidUsernameOrPassword" = "不正确的密码或帐户名称";
+
+"kServiceUnavailable" = "该服务当前不可用。请稍后再试。";
+
+"kTokenRequestAuthenticationFailed" = "该服务当前不可用。请稍后再试。";
+
+"kTokenRequestAuthenticationForbidden" = "登录服务不可用。请稍后再试。";
+
+"kBugReportAttachmentRequestTooLarge" = "附件太大";
+
+// Need to test this 2 strings on all screens they appear
+"kInternetStatusNotAvailable" = "没有网络！没有发现正在使用的网络连接。如果WIFI已启用，请将其关闭或连接到另一个不同的WIFI热点。";
+
+"kInternetStatusTitle" = "连接错误";
+
+"kErrorTitle" = "错误";
+
+"kNewFriends" = "新朋友";
+
+"kMicrophoneAccessNote" = "请前往您设备上的设置，授权WowApp访问麦克风，以在音频呼叫中讲话";
+
+"kCameraAccessNote" = "如果您向与朋友进行视频通话，请到您设备的设置页并确保WowApp有访问相机的权限。";
+
+// Need to test this on the device
+"kCameraNotAvailable" = "没有在您的设备上检测到照相机或者对其的使用已被禁用";
+
+"kCameraNotAvailableTitle" = "未授权访问摄像机";
+
+"kCameraAlreadyInUse" = "相机已被使用";
+
+"kNumberOfPhotosSelected" = "%d照片已选择";
+
+// Not sure where this appears
+"kFileSavedSuccesInPhotos" = "文件已被成功保存在照片中。";
+
+// Same
+"kFileSavedErrorInPhotos" = "保存文件时出错";
+
+// Same
+"kFileSizeTooLarge" = "该文件太大。";
+
+// Don't know how these appear
+"kFileTransferStatusOutgoing" = "您已从桌面设备发送了一个文件。";
+
+"kFileTransferStatusIncoming" = "您已从桌面设备接收到一个文件。";
+
+"kRetryLabel" = "重试";
+
+"kNotOnRosterUserMessage" = "该用户不在您的联系人列表";
+
+// To be removed from the project
+"kDefaultGreetingMessage" = "你好！请添加我为您的联系人";
+
+// Don't know if this is used, I moved it anyway but I can't test it
+"kInvitationJoinMessage" = "%@加入到了对话中";
+
+// Cannot test this
+"kAddedText" = "已在您的列表中";
+
+// Don't know where to test this
+"kRequestFailTimeout" = "您的请求已超时。请再次尝试。";
+
+"kRequestFailForbidden" = "不正确的用户名或密码，请再次尝试。";
+
+"kRequestFailInvalidEmail" = "您的帐户已被禁用。请到您的电子邮箱验证该帐户。";
+
+"kRequestFailConectivityIssues" = "您的网络连接现存在连接问题。请再次尝试。";
+
+"kRequestCanceled" = "已取消";
+
+"kServiceUnavailable" = "该服务当前不可用。请稍后再试。";
+
+"kTokenRequestAuthenticationFailed" = "该服务当前不可用。请稍后再试。";
+
+"kTokenRequestAuthenticationForbidden" = "登录服务不可用。请稍后再试。";
+
+"kBugReportAttachmentRequestTooLarge" = "附件太大";
+
+"kContactActionCanceledReasonNotFriend" = "要执行此操作，请将此人添加到您的联系人列表中";
+
+"kContactActionCanceledReasonBlocked" = "要执行此操作，先取消对此人的锁定（设置 -> 拉黑的联系人）";
+
+"kContactActionCanceledReasonPending" = "对于此操作，对方必须先将您添加到他的/她的联系人列表中";
+
+"kContactActionHasNoSharedDetails" = "此联系人还没有与您分享所有信息。";
+
+"kNotAvailableLocation" = "无可用的位置信息";
+
+"kContactDetailUpdateItemSucceeded" = "联系人资料已更新";
+
+"kContactDetailUpdateItemFailed" = "更新联系人资料失败。请再次尝试。";
+
+"kSaveAccountSucceded" = "账户信息已保存";
+
+"kSaveAccountError" = "无法保存账户信息";
+
+"kUnknownError" = "未知错误";
+
+"kSearchAccounts" = "搜索账户";
+
+"kShareLocationFailedReasonNetwork" = "网络错误，请稍后再试。";
+
+"kShareLocationFailedReasonTimeout" = "操作超时，请稍后再试。";
+
+"kContactPendingRequest" = "等待中...";
+
+"kActivitySubtitleFriendRequest" = "联系人添加请求";
+
+"kActivitySubtitleFriendRequestAccept" = "已添加到联系人列表";
+
+"kActivitySubtitleFriendRequestDecline" = "添加联系人请求被拒绝";
+
+"kActivityTitleText" = "文件传送";
+
+"kActivitySubtitleText" = "文件传送";
+
+"kDisplayedStatusMessage" = "文件传送";
+
+"kUserMightNotSupportCloudTransfer" = "Oops！%@ 似乎正在至少一台设备上使用一款较老版本的应用程序，您正发送的文件将不会在其设备上显示，除非%@ 将程序升级到最新版本。";
+
+"kRetrieveActivitiesFailed" = "抱歉，我们无法现在无法恢复您的聊天。请稍后再试。";
+
+"kCallStatusConnectingString" = "正在呼叫...";
+
+"kCallTypeIncomingString" = "呼入 %@ 电话";
+
+"kCallTypeIncomingConferenceString" = "呼入的会议电话";
+
+"kCallTypeAudio" = "音频";
+
+"kCallTypeVideo" = "视频";
+
+"kCallWoow" = "免费电话";
+
+"kMicrophoneAccessTitle" = "未授权访问麦克风";
+
+"kMicrophoneAccessAlertMessage" = "%1$@无法执行您的请求，除非您授权访问麦克风。若启用授权，请到iPhone设置> 隐私 > 麦克风 > %1$@ > 设为开启";
+
+"kShareLocationFailedReasonDenied" = "请到设置页，为WowApp开启地理位置服务。";
+
+"kNoAddressbookAccess" = "WowApp无法执行您的请求，除非您授权访问联系人。为启动授权，请前往设置 -> 隐私 -> 联系人，并确定WowApp被标记为开启";
+
+"kNoAddressbookAccessTitle" = "未授权访问联系人";
+
+"kGalleryNotAvailableTitle" = "未授权访问照片";
+
+"kGalleryNotAvailableMessage" = "WowApp无法发送与接收来自对话的照片，除非您授权访问照片。为启动照片授权，请前往设置 -> 隐私 -> 照片";
+
+"kPrivacyPhotoAlbumPermissionRequired" = "允许访问照片，便于您与WowApp联系人交换照片。";
+
+"kNotificationsAddressBookAccessTitle" = "允许“WowApp”访问联系人";
+
+"kNotificationsAddressBookAccessMessage" = "当您登录WowApp时，这将允许您免费呼叫并发送短信给手机联系人。";
+
+"kLabelEdit" = "编辑";
+
+"kLabelSave" = "保存";
+
+"kLabelCancel" = "取消";
+
+"kLabelOk" = "Ok";
+
+"kLabelYes" = "是";
+
+"kLabelDeleteAll" = "删除全部";
+
+"kLabelLoadingDots" = "正在加载...";
+
+"kLabelMaybeLater" = "或许稍后";
+
+"kLabelWarning" = "警告";
+
+"kLabelWhy" = "为什么";
+
+"kLabelAgree" = "同意";
+
+"kMenuOptionEdit" = "编辑";
+
+"kDialpadAddPhoneTitle" = "添加电话号码";
+
+"kDialpadAddPhoneNewContact" = "新建一个联系人";
+
+"kDialpadAddPhoneAddToExisting" = "添加到现有联系人";
+
+"kDialpadAddressbookContactsPickerTitle" = "联系人地址簿";
+
+"kDialpadSMSNotVailableMessage" = "将很快提供SMS功能";
+
+"kAccountNotificationsViewTitle" = "通知";
+
+"kAccountNewNotificationsText" = "您有 %i 条新的通知";
+
+"kAccountNotificationsDeleteActionText" = "删除通知";
+
+"kRegistrationAcceptedInvitationNameToDisplay" = "已接受的邀请";
+
+"kRegistrationOwnFeatherNameToDisplay" = "我的羽毛级别上升";
+
+"kRegistrationContactsFeatherNameToDisplay" = "朋友羽毛级别上升";
+
+"kSystemCriticalMessageNameToDisplay" = "系统消息";
+
+"kSystemInfoMessageNameToDisplay" = "信息消息";
+
+"kCallHangUpDeclined" = "您所呼叫的用户拒绝接听";
+
+"kCallHangUpBusy" = "您所呼叫的号码正忙";
+
+"kCallHangUpNotFound" = "网络错误";
+
+"kCallHangUpUnreachable" = "网络错误";
+
+"kCallHangUpTimeout" = "无应答";
+
+"kCallHangUpForbidden" = "您现有0元呼叫点数。呼叫点数用来拨打付费电话并能够在WowApp网站购买。";
+
+"kCallHangUpSendToVoicemail" = "呼叫已被转到语音信箱";
+
+"kCallHangUpInvalidNumber" = "您所拨打的电话号码无效";
+
+"kCallHangUpUnknown" = "未知错误";
+
+"kCallHangUpRemotelyAnswered" = "呼叫已在其他设备上应答";
+
+"kCallHangUpForwarded" = "呼叫已被转接";
+
+"kCallAttemptOfflineContact" = "该联系人目前离线";
+
+"kContactsSearchButtonTitle" = "在WowApp上搜索联系人";
+
+"kContactsSaveNumberButtonTitle" = "保存电话号码";
+
+"kContactsSearchInfoLbl" = "不在您的联系人列表中。";
+
+"kContactsSegmentedControlPhone" = "电话";
+
+"kProfileAddContactViewTitle" = "添加联系人";
+
+"kProfileAddContactConnectionsLblText" = "网络：";
+
+"kProfileAddContactContactsLblText" = "联系信息";
+
+"kProfileAddContactAddContactButtonText" = "添加到联系人列表";
+
+"kProfileAddContactViewProfileButtonText" = "查看完整资料";
+
+"kProfileAddContactGreetingMessageLblText" = "撰写问候消息";
+
+"kProfileAddContactSendRequestButtonText" = "发送添加联系人请求";
+
+"kProfileAddContactResendRequestButtonText" = "重新发送添加联系人请求";
+
+"kProfileAddContactInListRequestButtonText" = "已添加到您的联系人列表";
+
+"kProfileAddContactNoGreetingMessageInfo" = "请撰写一条问候消息";
+
+"kProfileAddContactCantAddYourselfErrorMessage" = "您不能添加自己";
+
+"kProfileAddContactUserInYourListErrorMessage" = "该用户已经在您的联系人列表中";
+
+"kProfileAddContactsFriendRequestSentMessage" = "已添加朋友";
+
+"kMenuItemNew" = "新的";
+
+"kMenuCellSettings" = "设置";
+
+"kMenuCellAdMe" = "为我做广告";
+
+"kMenuCellKeypad" = "小键盘";
+
+"kMenuCellInvites" = "告诉您的朋友";
+
+"kMenuCellFeedback" = "发送反馈";
+
+"kMenuCellAbout" = "关于";
+
+"kChatsDeleteConversation" = "删除对话";
+
+"kLoadEarlierMessages" = "加载更早的消息";
+
+"kThisMessageWasRemoved" = "此消息已被删除";
+
+"kChatBackButtonTitle" = "聊天";
+
+"kChatRightNavButtonTitle" = "联系人";
+
+"kChatTypingMessage" = "正在输入...";
+
+"kActionSheetOptionSendVideoFromCamera" = "发送视频";
+
+"kActionSheetOptionSendPhotoFromCamera" = "发送照片";
+
+"kCompressingVideoText" = "压缩视频中...";
+
+"kButtonAcceptMessage" = "您和%@现在是朋友了";
+
+"kButtonBlockedMessage" = "已将%@天骄到您的黑名单中";
+
+"kButtonDeclinedMessage" = "请求被拒绝";
+
+"kBlockPopUpQuestion" = "您想同时拉黑该用户吗？";
+
+"kValidPhoneNumberMessage" = "请输入一个有效的电话号码";
+
+"kNumberValidationMessage" = "确认号码：\n %@\n 上面的电话号码正确吗？";
+
+"kMyProfileSectionTitleInfo" = "个人信息";
+
+"kMyProfileSectionTitleContact" = "联系信息";
+
+"kMyProfileAward" = "奖励：";
+
+"kMyProfileWoowUsername" = "用户名：";
+
+"kMyProfileNetwork" = "网络：";
+
+"kMyProfileBirthday" = "生日";
+
+"kMyProfileGender" = "性别";
+
+"kMyProfileCityCountry" = "城市/国家：";
+
+"kMyProfileLanguage" = "语言：";
+
+"kMyProfileEmail" = "电子邮件：";
+
+"kMyProfilePhone" = "电话：";
+
+"kMyProfileWebsite" = "网站：";
+
+"kQBImagePickerControllerTitle" = "相册";
+
+"kFormatNumberOfPhotosAndVideos" = "%ld 张图片， %ld 个视频";
+
+"kFormatNumberOfPhotos" = "%ld 张图片";
+
+"kFileNotAvailable" = "不可用";
+
+"kFileTooLarge" = "已从桌面设备中发送了一个大文件";
+
+"kMyProfileInviteFriends" = "发送邀请";
+
+"kRemoveFromBlockedContactsMessage" = "已将%@ 从黑名单中删除";
+
+"kMandatoryFieldsText" = "* 为必填项";
+
+"kEmailLblText" = "电子邮件*";
+
+"kFirstNameLblText" = "名*";
+
+"kMessageLblText" = "消息";
+
+"kSendInviteButtonText" = "发送邀请";
+
+"kViewInvitesButtonText" = "查看邀请";
+
+"kShowInRosterButtonText" = "将此人添加到我的联系人列表";
+
+"kBugReportPlaceholders" = "应用程序崩溃";
+
+"kAlreadyInACallMessage" = "您已经处于一个通话中";
+
+"kAlreadyInAGSMCallMessage" = "当GSM通话中时不能进行Wow通话。要使用Wow电话，您必须首先结束GSM通话。";
+
+"kNullJid" = "NULL logged in jid";
+
+"kInvalidFirstNameMessage" = "名字的长度必须在1到40个字符之间";
+
+"kInvalidEmailMessage" = "请输入一个有效的电子邮件地址";
+
+"kPleaseSelectCountry" = "请先选择国家";
+
+"kSelectCountryFromList" = "选择来源列表";
+
+"kCountryCodePhoneNumber" = "国家代码";
+
+"kLabelInfo" = "信息";
+
+"kNoInvitesLeftMessage" = "没有剩余的邀请发送权限";
+
+"kInviteScreenViewTitle" = "现在邀请";
+
+"kValidationViewTitle" = "您的电话号码";
+
+"kTabbarDialpadString" = "小键盘";
+
+"kPeerVersionLower" = "您的朋友正在使用过期版本的WowApp。请让他/她升级！";
+
+"kPeerVersionHigher" = "您的朋友正在使用较新版本的WowApp。请升级！";
+
+"kPhoneValidationScreenTitle" = "请确认您的国家代码并输入您的电话号码";
+
+"kPhoneValidationScreenCountry" = "您的国家代买和电话号码";
+
+"kPhoneValidationScreenSelectCountryFirstMessage" = "请先选择您的国家代码";
+
+"kMessagesLabel" = "消息";
+
+"kEnterSMSCodeLabel" = "我们已向上面的电话号码发送了验证代码。";
+
+"kEnterIVRCodeLabel" = "我们将会呼叫上面的电话号码并给您发送验证代码。";
+
+"kEditPhoneNumberLabel" = "编辑电话号码";
+
+"kEditResendSMSCodeLabel" = "重新发送短信验证码";
+
+"kEditCallMeAgainLabel" = "再次呼叫我";
+
+"kEditPhoneNumberInLabel" = "编辑电话号码在 %@";
+
+"kEditResendSMSCodeInLabel" = "重新发送短信验证码在 %@";
+
+"kEditCallMeInLabel" = "呼叫我在 %@";
+
+"kEditCallMeLabel" = "呼叫我";
+
+"kEditCallMeAgainInLabel" = "再次呼叫我在 %@";
+
+"kNotifySupportLabel" = "告知客服部 ";
+
+"kPhoneValidationNotifySupportSuccess" = "感谢您通知我们，会有客服尽快通过电子邮件联系您。";
+
+"kPhoneValidationNotifySupportFailed" = "无法与客服部联系，请稍后再试。";
+
+"kMaxNumberOfRequestsReachedMessage" = "您已达到了短信/呼叫请求的最多次数。\n  如果您还没有收到验证码，请点击通知客服按钮。";
+
+"kNotifySupportBugText" = "电话号码验证";
+
+"kValidationError400Message" = "请检查您的电话号码并再次尝试。";
+
+"kValidationError418Message" = "该号码正在被验证，请等待短信验证码或稍后几分钟再试。";
+
+"kValidationError404Message" = "服务不可用。请稍后再试。";
+
+"kSMSValidationError409Message" = "短信发送请求无法完成。请检查您的电话号码并再次尝试。";
+
+"kIVRValidationError409Message" = "该号码正在被验证，请等待短信验证码或稍后几分钟再试。";
+
+"kCodeValidationError409Message" = "您所输入的验证码不正确。请再次输入。";
+
+"kCodeValidationSuccessMessage" = "您的号码已被验证并被分配作为您的呼叫方 id";
+
+"kCrashReportTitle" = "崩溃报告";
+
+"kCrashReportMessage" = "应用程序意外停止。您想发送崩溃报告吗？";
+
+"kUpdateAvailableTitle" = "有可用的新更新";
+
+"kUpdateAvailableMessage" = "强烈建议您安装此版本。";
+
+"kLabelInstall" = "安装";
+
+"kFeatherText_LEVEL_BEGIN" = "恭喜！";
+
+"kFeatherText_LEVEL_Awarded" = "已获奖！";
+
+"kNewUnknownNotification" = "未知的通知类型";
+
+"kNewUnknownNotificationContent" = "未知的通知内容";
+
+"kNewUnknownNotificationTitle" = "未知的通知标题";
+
+"kNumberTooLong" = "数字 %@ 太长";
+
+"kNumberTooShort" = "数字 %@ 太短";
+
+"kNumberInvalidCountryCode" = "数字 %@ 有无效的国家代码";
+
+"kNumberInvalid" = "数字 %@ 无效";
+
+"kNumberCannotBeParsed" = "数字 %@ 不能被解析";
+
+"kNumberIsNotMobile" = "数字 %@ 不是手机号";
+
+"kGroupChat" = "群聊";
+
+"kGroupChatNewGroup" = "新建组";
+
+"kGroupChatEditGroup" = "编辑组";
+
+"kGroupChatTopicMaxLengthExceeded" = "主题已经超过允许的最长%i个字符";
+
+"kGroupChatCantAddMoreParticipants" = "您已添加的参加者的数量已达到最多容许的范围";
+
+"kGroupChatCantYouLeftConversation" = "您已从对话中被删除或者将自己遗留在另外的设备上";
+
+"kGroupChatNameCannotBeEmpty" = "群聊名称不能为空！";
+
+"kGroupChatShouldAddAtLeastOneParticipant" = "您应该至少添加一个参加者";
+
+"kGroupChatEmptyGroup" = "空组";
+
+"kGroupChatXAddedYToTheGroup" = "%1$@ 将 %2$@ 添加到组";
+
+"kGroupChatXAddedYAndZOtherPeopleToTheGroup" = "%1$@ 将 %2$@ 和 %3$d 其他人添加到了组";
+
+"kGroupChatXAddedYPeopleToTheGroup" = "%1$@ 添加了 %2$d 人到组";
+
+"kGroupChatXRemovedYFromTheGroup" = "%1$@ 将 %2$@ 从组中删除了";
+
+"kGroupChatXRemovedYAndZOtherPeopleFromTheGroup" = "%1$@ 将 %2$@ 和 %3$d 其他人从组中删除了";
+
+"kGroupChatXRemovedYPeopleFromTheGroup" = "%1$@ 将 %2$d 人从组中删除了";
+
+"kGroupChatXHaveBeenRemovedFromTheGroup" = "%@ 已被从组中删除";
+
+"kGroupChatXAndYOtherPeopleHaveBeenRemovedFromTheGroup" = "%1$@ 和 %2$d 其他人已经被从组中删除";
+
+"kGroupChatXPeopleHaveBeenRemovedFromTheGroup" = "%d 个人已经被从组中删除";
+
+"kGroupChatSeenByX" = "被 %@ 看到";
+
+"kGroupChatSeenByXAndYOtherPeople" = "被 %1$@ 和 %2$d 其他人看到";
+
+"kGroupChatSeenByXPeople" = "被 %d 人看到";
+
+"kGroupChatUserLeftConversation" = "您离开了组。您需要被要求才能回来继续。";
+
+"kGroupChatSelfRemovedFromConversation" = "您已从组中被删除。您需要被邀请回来才能继续。";
+
+"kGroupChatPeerLeftConversation" = "%@ 已经离开组";
+
+"kGroupChatSingleUserRemovedByPeerSuffix" = "%@ 已被从组中删除";
+
+"kGroupChatTopicCleared" = "群聊话题已被清除";
+
+"kSingleChatLastSeenMessagePrefix" = "最后被看到";
+
+"kSingleChatSeenMessagePrefix" = "被看到";
+
+"kGroupChatSeenByEveryone" = "被所有人看到";
+
+"kSingleChatUnknownEventMessage" = "%@ 使用的特色功能在新版本上才有，请升级。";
+
+"kDeleteSendingErrorMessage" = "您不能删除正在被发送的消息。";
+
+"kDeleteOngoingCallErrorMessage" = "您不能删除正在进行的通话。";
+
+"kDeleteOngoingFileTransferErrorMessage" = "您不能删除正在传输的文件。";
+
+"kLabelContinue" = "继续";
+
+"kDeleteConversationConfirmation" = "该对话将从您的活动历史中永远消失。";
+
+"kContactsScreenFriendInvitesGroupName" = "添加联系人请求";
+
+"kContactsScreenFavoritesGroupName" = "收藏夹";
+
+"kContactsScreenFriendsGroupName" = "朋友";
+
+"kContactsScreenGroupChatsGroupName" = "组";
+
+"kContactsScreenAddressbookGroupName" = "电话号码";
+
+"kContactsScreenAutopopulateGroupName" = "移动电话联系人";
+
+"kContactsScreenFriendRequestSent" = "添加联系人请求已发送 - 正在等待通过";
+
+"kLoadingScreenSubtitle" = "感谢您使用 WowApp！";
+
+"kResumeCallLabel" = "点击返回呼叫界面";
+
+"kSwitchCamera" = "转换摄像头";
+
+"kTurnOffCamera" = "没有摄像头";
+
+"kVideoToggleAnnotation" = "视频";
+
+"kMicrophoneToggleAnnotation" = "静音";
+
+"kSpeakerToggleAnnotation" = "扬声器";
+
+"kMenuAnnotation" = "更多";
+
+// Cannot test
+"kAddressBookUpdateItemSucceeded" = "资料已更新";
+
+"kAddressBookUpdateItemFailed" = "通讯簿更新失败。请再次尝试。";
+
+"kCameraNotAvailableMessage" = "WowApp无法执行您的请求，除非您授权访问摄像机。为开启授权，请前往设置 -> 隐私 -> 摄像机";
+
+"kConnectionUnavailableTitle" = "连接不可用";
+
+"kInternalServerErrorMessage" = "WowApp 当前不可用。请稍后再试。我们已获悉了问题并正在解决。如果问题仍然存在，请通过support@wowapp.com与我们联系。";
+
+"kIgnoreWowCallWhileGSMCall" = "在GSM呼叫的同时，您无法进行WOW呼叫。";
+
+"kUnknownCallerID" = "未知呼叫方用户名";
+
+"kInsufficientFunds" = "您没有足够的点数向该目的地呼叫。";
+

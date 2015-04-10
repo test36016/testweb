@@ -1,0 +1,1713 @@
+/*
+ woow_ui.strings
+ WoowUI
+ 
+ Created by Mihai Babusca on 09/09/14.
+ Copyright (c) 2014 Mihai Babusca. All rights reserved.
+ *********
+ * Common *
+ *********
+ */
+"kLabelSave" = "Salvează";
+
+"kLabelSend" = "Trimite";
+
+"kLabelSearching" = "Căutare...";
+
+"kButtonCancel" = "Anulează";
+
+"kLabelOk" = "Ok";
+
+"kLabelSending" = "Se trimite...";
+
+"kButtonEdit" = "Editează";
+
+"kButtonNext" = "Mai departe";
+
+"kAccept" = "Acceptă";
+
+"kDecline" = "Refuză";
+
+"kYes" = "Da";
+
+"kNo" = "Nu";
+
+"kMale" = "Bărbat";
+
+"kFemale" = "Femeie";
+
+"kNotSpecified" = "Nespecificat";
+
+"kSaving" = "Se salvează...";
+
+"kAddedToFavorites" = "Adăugat la Favoriți";
+
+"kRemovedFromFavorites" = "Scos de la Favoriți";
+
+/* ***********
+ * Defaults *
+ ***********
+ */
+"kAlertViewDefaultTitle" = "";
+
+"kActionSheetDefaultTitle" = "WowApp";
+
+"kCouldNotCompleteAction" = "Acțiunea nu a putut fi finalizată";
+
+"kListPickerDefaultTitle" = "WowApp";
+
+/* ******************************
+ * Roster Groups *
+ ******************************
+ */
+"kRosterGroupFriends" = "Prieteni";
+
+"kRosterGroupFavorites" = "Favoriţi";
+
+/* ******************************
+ * SearchAccountViewController *
+ ******************************
+ */
+"kSearchAccountViewControllerTitle" = "Utilizatori WowApp";
+
+"kSearchAccountViewControllerSearchBarPlaceholder" = "Caută";
+
+"kSearchAccountViewControllerFooterExplanation" = "Rezultatele căutării vor aparea aici";
+
+"kSearchAccountViewControllerFooterNoResults" = "Nici un rezultat";
+
+/* ******************************
+ * GroupChatEditViewController *
+ ******************************
+ */
+"kGroupChatEditViewControllerTitle" = "Informații despre grup";
+
+"kGroupChatEditViewControllerAddToContacts" = "Salvează grupul în lista de contacte";
+
+"kGroupChatEditViewControllerRemoveFromContacts" = "Șterge grupul din lista de contacte";
+
+"kGroupChatEditViewControllerAddToFavorites" = "Adaugă grupul la Favoriți";
+
+"kGroupChatEditViewControllerRemoveFromFavorites" = "Șterge grupul de la Favoriți";
+
+"kGroupChatEditViewControllerParticipants" = "Participanți";
+
+"kGroupChatEditViewControllerAddMoreParticipants" = "Adaugă mai mulți participanți";
+
+"kGroupChatEditViewControllerGroupNameHeader" = "Nume";
+
+"kGroupChatEditViewControllerGroupNamePlaceholder" = "Dă un nume grupului";
+
+"kGroupChatEditViewControllerGroupSubjectHeader" = "Subiectul grupului";
+
+"kGroupChatEditViewControllerGroupSubjectPlaceholder" = "Scrie subiect";
+
+"kGroupChatEditViewControllerLeaveGroupChat" = "Părăsește grup";
+
+/* ********************************
+ * GroupChatCreateViewController *
+ ********************************
+ */
+"kGroupChatCreateViewControllerTitle" = "Grup nou";
+
+"kGroupChatSubjectTitle" = "Subiectul grupului";
+
+"kGroupChatSubjectPlaceholder" = "Scrie subiect ...";
+
+"kGroupChatParticipants" = "Participanți";
+
+"kGroupChatContactNamePlaceholder" = "Scrie nume contact ...";
+
+/* ********************
+ * Group chat common *
+ ********************
+ */
+"kGroupChat" = "Conversație în grup";
+
+"kGroupChatCantAddMoreParticipants" = "Grupul a atins numărul maxim de participanți";
+
+"kGroupChatTopicMaxLengthExceeded" = "Subiectul grupului a atins numărul maxim de %i caractere";
+
+"kGroupChatEditGroup" = "Editează grup";
+
+"kGroupChatCantYouLeftConversation" = "Ai fost scos din conversație sau ai ieșit singur din ea de pe un alt dispozitiv";
+
+"kGroupChatNameCannotBeEmpty" = "Spațiul pentru numele grupului nu poate fi gol!";
+
+"kGroupChatShouldAddAtLeastOneParticipant" = "Trebuie să adaugi cel puțin un participant";
+
+"kGroupChatTopicCleared" = "Subiectul grupului a fost șters";
+
+"kGroupChatEmptyGroup" = "Grup gol";
+
+/* ********************
+ * Single chat view *
+ ********************
+ */
+"kSingleChatActionSheetAudioCall" = "Apel audio";
+
+"kSingleChatActionSheetVideoCall" = "Apel video";
+
+"kSingleChatActionSheetProfile" = "Profil";
+
+/* *************************
+ * SettingsViewController *
+ *************************
+ */
+"kSettingsViewControllerTitle" = "Setări";
+
+/* *******************************
+ * SettingsSoundsViewController *
+ *******************************
+ */
+"kSettingsSoundsViewControllerTitle" = "Sunete";
+
+/* ********************************
+ * SettingsCountryViewController *
+ ********************************
+ */
+"kSettingsCountryViewControllerTitle" = "Țara ta";
+
+/* ****************************************
+ * SettingsBlockedContactsViewController *
+ ***************************************
+ */
+"kSettingsBlockedContactsViewControllerTitle" = "Contacte blocate";
+
+"kSettingsBlockedContactsViewControllerUnblockButton" = "Deblochează";
+
+/* *******************************
+ * ContactRequestViewController *
+ *******************************
+ */
+"kContactRequestViewControllerTitle" = "Cerere de contact";
+
+"kContactRequestViewControllerGroupsHeader" = "ADAUGĂ LA GRUP";
+
+"kContactRequestViewControllerGroups" = "Grupuri";
+
+"kContactRequestViewControllerPersonalMessageHeader" = "MESAJ PERSONAL";
+
+"kContactRequestViewControllerPersonalMessage" = "Aș vrea să te invit";
+
+"kContactRequestViewControllerSendContactRequest" = "Trimite cerere de contact";
+
+"kContactRequestViewControllerViewFullProfile" = "Vezi profilul complet";
+
+"kContactRequestSent" = "Cererea de contact a fost trimisă";
+
+"kContactRequestSentFailed" = "Cererea de contact nu a fost trimisă. Te rugăm să încerci din nou.";
+
+"kContactRequestDefaultMessage" = "Bună! Te rog să mă adaugi la lista de contacte.";
+
+/* ******************************************
+ * ContactRequestSelectGroupViewController *
+ ******************************************
+ */
+"kContactRequestSelectGroupViewControllerTitle" = "Selectează grup";
+
+/* ******************************************
+ * ContactRequestSelectGroupViewController *
+ ******************************************
+ */
+"kContactRequestMessageViewControllerTitle" = "Mesaj";
+
+/* ************************
+ * Privacy Common Strings *
+ ************************
+ */
+"kPrivacyTypePublic" = "Public";
+
+"kPrivacyTypePrivate" = "Privat";
+
+"kPrivacyTypeFriends" = "Prieteni";
+
+/* ************************
+ * PrivacyViewController *
+ ************************
+ */
+"kPrivacyViewControllerTitle" = "Confidențialitate";
+
+/* ************************
+ * PrivacySelectionViewController *
+ ************************
+ */
+"kPrivacySelectionViewControllerTitle" = "Confidențialitate";
+
+/* ************************
+ * SendInviteViewController *
+ ************************
+ */
+"kSendInviteViewControllerTitle" = "Invită";
+
+"kSendInviteViewControllerHeaderName" = "NUME:";
+
+"kSendInviteViewControllerHeaderEmail" = "EMAIL:";
+
+"kSendInviteViewControllerHeaderMessage" = "MESAJ:";
+
+"kSendInviteViewControllerCheckAddToContactList" = "Adaugă această persoană la lista mea de contacte";
+
+"kSendInviteViewControllerButtonViewInvites" = "Vezi Pagina cu Invitații";
+
+"kInviteInfoInviteeName_minlength" = "Te rugăm să introduci numele contactului.";
+
+"kInviteInfoInviteeName_maxlength" = "Prenumele trebuie să aibă între 1 și 40 de caractere.";
+
+"kInviteInfoInviteeEmail_notSpecified" = "Te rugăm să introduci adresa de email a contactului.";
+
+"kInviteInfoInviteeEmail_invalidFormat" = "Te rugăm să introduci o adresă de email corectă.";
+
+"kSendInviteInvalidData" = "Informațiile sunt invalide, te rugăm să verifici detaliile din invitație.";
+
+"kSendInviteSucces" = "Felicitări! Invitația a fost trimisă.";
+
+"kSendInviteAlreadyUser" = "Persoana aceasta are deja cont WowApp.";
+
+"kSendInviteAlreadyInvitedFriend" = "Persoana aceasta a primit deja o invitație de la tine.";
+
+"kSendInviteDuplicateEmail" = "Invitația conține o adresă de email incorectă.";
+
+"kSendInviteAlreadySent" = "Ai invitat deja această persoană în WowApp.";
+
+"kSendInviteFailed" = "Ne pare rău, nu îți putem trimite invitația în acest moment. Te rugăm să îți verifici conexiunea la internet și să încerci mai târziu.";
+
+"kNoInvitesLeftMessage" = "Nu mai ai invitații rămase";
+
+/* ********************************
+ * PhoneValidationViewController *
+ ********************************
+ */
+"kPhoneValidationViewControllerTitle" = "Verifică numărul de telefon";
+
+"kPhoneValidationViewControllerHeaderMessage" = "Te rugăm să confirmi codul de țară și să introduci numărul de telefon";
+
+"kPhoneValidationViewControllerCountryPlaceHolder" = "Selectează țara";
+
+"kPhoneValidationViewControllerPhoneNumberPlaceHolder" = "număr de telefon";
+
+"kPhoneValidationViewControllerAlert" = "Vom verifica acest număr de telefon:\n%@%@\nEste corect sau vrei să îl editezi ?";
+
+/* ********************************
+ * PhoneValidationCodeViewController *
+ ********************************
+ */
+"kPhoneValidationCodeViewControllerHeaderMessage" = "Pentru a valida numărul de telefon, introdu codul de 4 cifre din SMS-ul pe care tocmai ți l-am trimis";
+
+"kPhoneValidationCodeViewControllerResendCode" = "Retrimite codul prin SMS în:";
+
+"kPhoneValidationCodeViewControllerEditPhoneNumber" = "Editează numărul de telefon în:";
+
+"kPhoneValidationCodeViewControllerValidateCode" = "Numărul de telefon a fost validat și l-am desemnat drept ID-ul tău de apelant";
+
+/* **********************************
+ * ProfileCompletionViewController *
+ **********************************
+ */
+"kProfileCompletionViewControllerTitle" = "Creează cont";
+
+"kProfileCompletionViewControllerHeader" = "Bun, ai ajuns!\nHai să-ți configurăm contul.";
+
+"kProfileCompletionViewControllerPersonalInfo" = "INFORMAȚII PERSONALE";
+
+"kProfileCompletionViewControllerFirstName" = "Prenume";
+
+"kProfileCompletionViewControllerLastName" = "Nume";
+
+"kProfileCompletionViewControllerGender" = "SEX";
+
+"kProfileCompletionViewControllerBirthday" = "ZI DE NAȘTERE";
+
+"kProfileCompletionViewControllerGenderPlaceholder" = "Selectează sexul";
+
+"kProfileCompletionViewControllerBirthdayPlaceholder" = "Selectează ziua de naștere";
+
+"kMandatoryFieldsMessage" = "Toate câmpurile sunt obligatorii";
+
+"kProfileCompletionViewControllerNameError" = "Nume invalid";
+
+"kProfileCompletionViewControllerBirthdayError" = "Zi de naştere invalidă";
+
+/* **********************************
+ * ProfileCompletionStepTwoViewController *
+ **********************************
+ */
+"kProfileCompletionStepTwoViewControllerTitle" = "Bine ai venit";
+
+"kProfileCompletionStepTwoViewControllerChooseAvatar" = "Selectează Poza de Profil";
+
+"kProfileCompletionStepTwoViewControllerTakePhoto" = "Fă o fotografie";
+
+"kProfileCompletionStepTwoViewControllerChooseFromGallery" = "Alege din Galeria Foto";
+
+/* ***************************
+ * EditStatusViewController *
+ ***************************
+ */
+"kEditStatusViewControllerTitle" = "Modifică status";
+
+"kEditStatusViewControllerAlertMessage" = "Status salvat";
+
+/* ************************
+ * Report a Problem *
+ ************************
+ */
+"kReportProblemTitle" = "Raportează o problemă";
+
+"kReportProblemSummary" = "Titlu:";
+
+"kReportProblemDescription" = "Spune-ne ce s-a întâmplat:";
+
+"kReportProblemFailedToSendBugReport" = "Nu s-a putut trimite problema, te rugăm să încerci mai târziu.";
+
+/* ************************
+ * Send General Feedback *
+ ************************
+ */
+"kSendGeneralFeedbackTitle" = "Trimite feedback";
+
+"kSendGeneralFeedbackSummary" = "Titlu:";
+
+"kSendGeneralFeedbackDescription" = "Descriere:";
+
+"kSendGeneralFeedbackFailedToSendFeedback" = "Nu s-a putut trimite feedbackul, te rugăm să încerci mai târziu.";
+
+/* **************************
+ * Feedback error messages *
+ **************************
+ */
+"kFeedbackInfoInvalidSummary_minlength" = "Te rugăm să introduci un titlu.";
+
+"kFeedbackInfoInvalidSummary_maxlength" = "Titlul nu poate fi mai lung de 256 caractere";
+
+"kFeedbackInfoInvalidMessage_minlength" = "Te rugăm să descrii pe scurt problema.";
+
+/* ******************************
+ *     My Profile Screen       *
+ ******************************
+ */
+"kMyProfileStatus" = "STATUS";
+
+/* ******************************
+ *       Profile Screen        *
+ ******************************
+ */
+"kFriendProfileButtonAudioCall" = "Apel audio";
+
+"kFriendProfileButtonVideoCall" = "Apel video";
+
+"kFriendProfileButtonMessage" = "Mesaj";
+
+"kFriendProfileButtonMore" = "Mai mult";
+
+"kAddContact" = "Adaugă la contacte";
+
+"kAddContactSent" = "Cerere de contact trimisă";
+
+"kFriendProfileActionEditProfile" = "Editează profil";
+
+"kFriendProfileActionFavorite" = "Adăugă la Favoriți";
+
+"kFriendProfileActionRemoveFavorite" = "Scoate de la Favoriți";
+
+"kFriendProfileActionBlockContact" = "Blochează contact";
+
+"kFriendProfileActionUnBlockContact" = "Deblochează contact";
+
+"kFriendProfileActionDelete" = "Șterge din lista de contacte";
+
+"KAlertAreYouSureMessage" = "Ești sigur că vrei să ștergi acest contact?\n Nu vei mai putea suna sau trimite mesaje către acesta până nu îl vei adăuga din nou.";
+
+"kADBProfileButtonPaidCall" = "Apel plătit";
+
+"kADBProfileButtonInvite" = "Invită";
+
+"kADBSaveProfileConfirmationMessage" = "Ești sigur că vrei să salvezi?";
+
+/* ******************************
+ *         Menu Screen         *
+ ******************************
+ */
+"kMenuNetwork" = "REŢEA";
+
+"kMenuSendInvites" = "INVITĂ";
+
+"kMenuEarnings" = "CÂŞTIGURI";
+
+"kMenuMyWow" = "My Wow";
+
+"kMenuGeneralFeedbackButtonTitle" = "Trimite feedback general";
+
+"kMenuReportAProblemButtonTitle" = "Raportează o problemă";
+
+"kSendFeedbackTitle" = "Trimite feedback";
+
+"kSendFeedbackSummary" = "Titlu";
+
+"kSendFeedbackDescription" = "Descriere";
+
+"kSendFeedbackAlert" = "Se trimite feedbackul...";
+
+"kSendFeedbackMessage" = "Mesaj";
+
+"kMenuViewProfile" = "Vezi profil";
+
+"kMenuEditPrivacy" = "Editează setările de confidențialitate";
+
+"kMenuChangeStatus" = "Schimbă status";
+
+/* ******************************
+ *      Contacts Screen        *
+ ******************************
+ */
+"kContactsScreenMakeCalls" = "Sună";
+
+"kContactsScreenSearchYouWowMe" = "Caută în WowApp";
+
+"kContactsTitle" = "Contacte";
+
+/* ******************************
+ *     Awards Legend Screen    *
+ ******************************
+ */
+"KAwardsLegendTitle" = "Detalii despre căștiguri";
+
+"kWhiteFeatherDescription" = "2+ invitații acceptate";
+
+"kBlueFeatherDescription" = "10+ invitații acceptate";
+
+"kGreenFeatherDescription" = "20+ invitații acceptate";
+
+"kRedFeatherDescription" = "50+ invitații acceptate";
+
+"kPinkFeatherDescription" = "100+ invitații acceptate";
+
+"kOrangeFeatherDescription" = "200+ invitații acceptate";
+
+"kDoubleOrangeFeatherDescription" = "500+ invitații acceptate pe nivel 1";
+
+"kSuperFeatherDescription" = "1000+ invitații acceptate";
+
+"kAwardsLegendNote" = "Atenție: Acest număr nu reflectă invitațiile trimise de perosanele din rețeaua ta";
+
+/* ******************************
+ *       Common - Share -      *
+ ******************************
+ */
+"kCancel" = "Anulează";
+
+"kSendLocation" = "Trimite poziție";
+
+"kSendContact" = "Trimite contact";
+
+"kSendFromCamera" = "Fă o fotografie";
+
+"kSendFromVideo" = "Fă un videoclip";
+
+"kSendFromGallery" = "Galerie foto";
+
+/* ******************************
+ *      IncomingFriendRequest  *
+ ******************************
+ */
+"kIncomingFriendRequestTitle" = "Cerere de contact";
+
+/* ******************************
+ *      Upgrade                 *
+ ******************************
+ */
+"kUpgradeTitle" = "Te rugăm să actualizezi acum";
+
+"kUpgradeSubtitle" = "Actualizarea la noua versiune este absolut necesară.";
+
+/* ******************************
+ * FriendProfileEdit Screen    *
+ ******************************
+ */
+"kFriendProfileEditViewControllerTitle" = "Editează profil";
+
+"kFriendProfileEditViewControllerNameHeader" = "Poreclă";
+
+"kFriendProfileEditViewControllerEmailHeader" = "Email";
+
+"kFriendProfileEditViewControllerPhoneHeader" = "Telefon";
+
+"kFriendProfileEditViewControllerNotesHeader" = "Note";
+
+"kFriendProfileEditViewControllerAddEmail" = "Adaugă Email";
+
+"kFriendProfileEditViewControllerAddPhone" = "Adaugă telefon";
+
+"kFriendProfileEditViewControllerNamePlaceholder" = "Scrie nume";
+
+"kFriendProfileEditListPickerTitle" = "Alege categorie";
+
+"kFriendProfileEditPlaceholderEmail" = "Introdu o adresă de email";
+
+"kFriendProfileEditPlaceholderPhone" = "Introdu un număr de telefon";
+
+"kCategoryHome" = "acasă";
+
+"kCategoryOffice" = "birou";
+
+"kCategoryMobile" = "mobil";
+
+"kCategoryOther" = "altele";
+
+"kPhoneNumberInvalid" = "Cel puțin un număr de telefon nu este valid! Te rugăm să verifici numerele";
+
+/* ******************************
+ * PhoneContactsViewController *
+ ******************************
+ */
+"kPhoneContactsAccessContactsMessage" = "WowApp trebuie să-ți acceseze contactele";
+
+"kPhoneContactsMakeCalls" = "Sună";
+
+"kPhoneContactsMyNumber" = "Numărul meu:";
+
+/* ****************************
+ * ContactInfoViewController *
+ ****************************
+ */
+"kContactInfoPaidCall" = "Apel plătit";
+
+"kContactInfoInvite" = "Invită";
+
+"kContactInfoContactInfo" = "Informații despre contact";
+
+"kContactInfoEmail" = "Email:";
+
+"kContactInfoPhone" = "Telefon:";
+
+"kContactInfoWeb" = "Pagină web:";
+
+/* ******************************
+ * TextInputBar				   *
+ ******************************
+ */
+"kChatTextFieldPlaceholder" = " Scrie mesaj";
+
+/* ******************************
+ * Chat menu				   *
+ ******************************
+ */
+"kMenuCallLabel" = "Apel audio";
+
+"kMenuVideoLabel" = "Apel video";
+
+"kMenuSendPhotoLabel" = "Fă o fotografie";
+
+"kMenuSendVideoLabel" = "Fă un videoclip";
+
+"kMenuGallery" = "Galerie foto";
+
+"kMenuSendContactLabel" = "Trimite contact";
+
+"kMenuSendLocationLabel" = "Trimite poziție";
+
+"kMenuGroupChat" = "Adaugă participanți";
+
+/* ******************************
+ * PrivacyScreen               *
+ ******************************
+ */
+"kUnableToUpdatePrivacySetting" = "Nu se poate salva setarea de confidențialitate %@.";
+
+"kPrivacySettingsGenderTitle" = "Sex";
+
+"kPrivacySettingsLanguageTitle" = "Limbă";
+
+"kPrivacySettingsAwardsTitle" = "Premii";
+
+"kPrivacySettingsNetworkTitle" = "Reţea";
+
+"kPrivacySettingsPhoneNumberTitle" = "Număr de telefon";
+
+"kPrivacySettingsEmailTitle" = "Email";
+
+"kPrivacySettingsBirthdayDayMonthTitle" = "Zi de naștere";
+
+"kPrivacySettingsBirthdayYearTitle" = "Arată anul naşterii";
+
+/* ******************************
+ * About Screen                *
+ ******************************
+ */
+"kAboutWowTermsAndConditionsButtonTitle" = "Termeni și condiții";
+
+"kAboutWowPoliciesButtonTitle" = "Politici";
+
+"kWowAppVersion" = "Versiunea %@";
+
+"kAboutViewControllerTitle" = "Despre";
+
+/* ******************************
+ * AdvertiseMe Screen          *
+ ******************************
+ */
+"kAdvertiseMeScreenTitle" = "Advertise Me";
+
+"kAdvertiseMeSettingLabelText" = "Advertise Me";
+
+"kAdvertiseMeReadMoreLabelText" = "Citește mai mult despre Advertise Me";
+
+"kAdvertiseMeFailedToChangeStatus" = "Nu s-a salvat statusul. Te rugăm să încerci mai târziu.";
+
+/* ******************************
+ * Settings                    *
+ ******************************
+ */
+"kSettingsTitle" = "Setări";
+
+"kSettingsAutoSaveContentToGallery" = "Salvează fișierele media primite";
+
+"kSettingsAutoDownloadContentOn3G" = "Descarcă fotografiile automat";
+
+"kSettingsVibrationsAndSounds" = "Vibraţii şi sunete";
+
+"kSettingsBlockedContacts" = "Contacte blocate";
+
+/* ******************************
+ * Sounds and vibration        *
+ ******************************
+ */
+"kSettingsSoundsTitle" = "Vibraţii şi sunete";
+
+"kSettingsMessagesSectionTitle" = "Mesaje";
+
+"kSettingsCallsSectionTitle" = "Apeluri";
+
+"kSettingsLoginSectionTitle" = "Conectează-te";
+
+"kSettingsNetworkSectionTitle" = "Reţea";
+
+"kSettingsEarningsSectionTitle" = "Câştiguri";
+
+"kSettingsVibrateLabel" = "Vibrații în aplicație";
+
+"kSettingsSoundLabel" = "Sunete în aplicație";
+
+"kCountriesViewTitle" = "Țara ta";
+
+"kBlockedContactsViewTitle" = "Contacte blocate";
+
+/* ******************************
+ * My Profile Edit             *
+ ******************************
+ */
+"kMyProfileEditViewControllerTitle" = "Editează profil";
+
+"kMyProfileGenderDisplayStringMale" = "Bărbat";
+
+"kMyProfileGenderDisplayStringFemale" = "Femeie";
+
+"kMyProfileEditAvatar" = "Avatar";
+
+"kMyProfileEditBirthday" = "ZI DE NAȘTERE";
+
+"kMyProfileEditGender" = "SEX";
+
+"kMyProfileEditCityCountry" = "ORAȘ/ȚARĂ";
+
+"kMyProfileEditPhone" = "TELEFON";
+
+"kMyProfileEditWebsite" = "PAGINĂ WEB";
+
+"kMyProfileFirstNamePlaceholder" = "Prenume";
+
+"kMyProfileLastNamePlaceholder" = "Nume";
+
+"kMyProfileCityPlaceholder" = "Introdu oraș";
+
+"kMyProfileWebsitePlaceholder" = "Pagină web";
+
+"kOneNameIsEmpty" = "Spațiul pentru Nume și Prenume nu poate rămâne gol";
+
+"kNameMustHaveALetter" = "Prenumele și Numele trebuie să conțină cel puțin o literă";
+
+"kAvatarPickerTitle" = "Selectare Avatar";
+
+"kInvalidatingNumberAlert" = "WowApp a validat acest număr de telefon. Dacă îl editezi sau îl ștergi va trebui să validezi un nou număr de telefon după salvarea schimbărilor. Ești sigur că vrei să continui ?";
+
+/* ******************************
+ * Intro Screen               *
+ ******************************
+ */
+"kIntroSignInButton" = "Conectează-mă";
+
+"kIntroCreateAccountButton" = "Creează cont";
+
+"kIntroBottomText" = "Text de jos";
+
+/* ******************************
+ * SignIn Screen               *
+ ******************************
+ */
+"kSignInButton" = "Conectează-mă";
+
+"kSignInPlaceholderUsername" = "Nume de utilizator";
+
+"kSignInPlaceholderPassword" = "Parolă";
+
+"kSignInLabelShowPassword" = "Arată parola";
+
+"kSignInButtonForgotPassword" = "Ai uitat parola?";
+
+/* ******************************
+ * Tutorial Screen               *
+ ******************************
+ */
+"kTutorialCongrats" = "Felicitări!";
+
+"kTutorialReceived" = "Ai primit primul tău WowCoin";
+
+"kTutorialWowCoin" = "1 WowCoin = 1 Cent  ( Dolar )";
+
+"kTutorialEarnMoney" = "Hai să câștigăm bani!";
+
+"kTutorialSkip" = "Sari peste";
+
+"kTutorialSwipe" = "Glisează spre stânga";
+
+"kTutorialHowItWorks" = "CUM FUNCŢIONEAZĂ";
+
+"kTutorialIncreaseNetwork" = "mărește-ți rețeaua";
+
+"kTutorialSendInvites" = "prin trimiterea invitațiilor";
+
+"kTutorialTellFriends" = "și prin a le spune prietenilor";
+
+"kTutorialAdMe" = "dacă pornești AdvertiseMe vei câștiga în fiecare zi!";
+
+"kTutorialChooseAds" = "Alege să vezi reclame în WowApp și vei putea câștiga WowCoins în fiecare zi din reclamele văzute de tine și de rețeaua ta.";
+
+"kTutorialGetStarted" = "Să începem";
+
+"kTutorialChatButtonTop" = "Vorbește și câștigă bani!";
+
+"kTutorialChatButtonBottom" = "Apăsând aici vei porni AD ME pe cont";
+
+"kTutorialUseMessengerButtonTop" = "Nu vreau să primesc bani gratis!";
+
+"kTutorialUseMessengerButtonBottom" = "Vreau să folosesc cea mai bună aplicație de mesagerie instantă fără reclame";
+
+/* ******************************
+ * Mass invite                 *
+ ******************************
+ */
+"kMassInviteSelectionScreenTitle" = "Spune-le și prietenilor";
+
+"kMassInviteSelectionScreenSelectButtonTitle" = "Selectează tot";
+
+"kMassInviteSelectionScreenDeselectButtonTitle" = "Deselectează tot";
+
+"kMassInviteSelectionScreenSendInvitesButtonTitle" = "Trimite %@ invitații";
+
+"kMassInviteSelectionScreenMailActionSheetOptionTitle" = "Trimite email";
+
+"kMassInviteSelectionScreenMessageActionSheetOptionTitle" = "Mesaj";
+
+"kMassInviteSelectionScreenSendInvitesButtonText" = "Trimite %d invitații";
+
+"kMassInviteSelectionScreenCanNotSendEmail" = "Te rugăm să îți configurezi adresa de email pe acest dispozitiv pentru a-ți putea invita prietenii";
+
+"kMassInviteSelectionScreenCanNotSendSMS" = "Acest dispozitiv nu poate trimite mesaje. Asigură-te că are o cartelă SIM instalată.";
+
+/* ******************************
+ * Stickers                    *
+ ******************************
+ */
+"kStickerSent" = "Sticker trimis";
+
+"kStickerReceived" = "Sticker primit";
+
+// Needs translation, do not remove
+"kStickerUnknownSticker" = "Actualizează pentru a vedea acest sticker";
+
+/* ******************************
+ * Account notifications       *
+ ******************************
+ */
+"kAccountNotificationsAdMeDailyTitle" = "Raport zilnic al căștigurilor AdvertiseMe:";
+
+"kAccountNotificationsAdMeWeeklyTitle" = "Raport săptămânal al căștigurilor AdvertiseMe:";
+
+"kAccountNotificationsAdMeMonthlyTitle" = "Raport lunar al căștigurilor AdvertiseMe:";
+
+"kAccountNotificationsAdMeEarn" = "WowCoins caștigate:";
+
+"kAccountNotificationsAdMeLoss" = "WowCoins pierdute:";
+
+"kAccountNotificationsAdMeActionEarnMore" = "Vrei să câștigi mai mult? Apasă aici pentru afla cum";
+
+"kAccountNotificationsAdMeActionImproveEarnings" = "Apasă aici pentru a-ți îmbunătăți câștigurile";
+
+"kAccountNotificationsAdMeActionGrowEarnings" = "Învață cum să-ți îmbunătățești câștigurile cu WowApp";
+
+"kAccountNotificationsAdMeEnableTitle" = "Pornește Advertise Me";
+
+"kAccountNotificationsAdMeEnableSubtitle" = "Câștigă WowCoins datorită reclamelor pe care tu și persoanele din rețeaua ta le văd pe WowApp. \nPornește Advertise Me pe mobil acum!";
+
+"kAccountNotificationsAdMeEnableAction" = "Apasă aici pentru a începe";
+
+"kAccountNotificationsAdMeEnableReminderTitle" = "Câștigă mai mult cu WowApp!";
+
+"kAccountNotificationsAdMeEnableReminderSubtitle" = "Pornește Advertise Me pentru mobil și câștigă WowCoins pentru reclamele pe care tu și cei din rețeaua ta le vedeți.";
+
+"kAccountNotificationsAdMeEnableReminderLoss" = "Câștiguri pierdute:%@ WowCoins.";
+
+"kAccountNotificationsAdMeEnableReminderAction" = "Apasă aici pentru a începe";
+
+"kAccountNotificationsAdMeDisabledTitle" = "Advertise Me e oprit";
+
+"kAccountNotificationsAdMeDisabledSubtitle" = "Tocmai ai oprit Advertise Me pe acest cont.";
+
+"kAccountNotificationsAdMeDisabledAction" = "Pornește pentru a câștiga din nou";
+
+"kAccountNotificationsAdMeDisabledReminderTitle" = "Câștigă mai mult cu WowApp!";
+
+"kAccountNotificationsAdMeDisabledReminderSubtitle" = "Pornește Advertise Me pentru mobil și câștigă WowCoins pentru reclamele pe care tu și cei din rețeaua ta le vedeți.";
+
+"kAccountNotificationsAdMeDisabledReminderLoss" = "E posibil să fi pierdut deja %@ WowCoins.";
+
+"kAccountNotificationsAdMeDisabledReminderAction" = "Pornește Advertise Me pentru a căștiga din nou";
+
+"kAccountNotificationsTalkNewFriendsTitle" = "%d prieteni noi";
+
+"kAccountNotificationsTalkNewFriendsSubtitle" = "au fost adăugați în rețeaua ta";
+
+"kAccountNotificationsTalkNewFriendsAction" = "Apasă aici pentru a vizualiza prietenii noi";
+
+"kAccountNotificationsTalkNewFriendSubtitleFriendRequest" = "Contact nou";
+
+"kAccountNotificationsRegistrationAcceptedTitle" = "%@ este conexiunea ta de nivel 1";
+
+"kAccountNotificationsSubtitleContactAddedToRoster" = "Adăugat la lista de contacte";
+
+"kAccountNotificationsSubtitleContactPendingPeerAcceptance" = "Cereri de contact în așteptare";
+
+"kAccountNotificationsSubtitleContactPendingMyAcceptance" = "Se așteaptă aprobarea ta";
+
+"kAccountNotificationsSubtitleContactBlockedByMe" = "Acest utilizator este în lista de contacte blocate";
+
+"kAccountNotificationsActionSendContactRequest" = "Trimite cerere de contact";
+
+"kAccountNotificationsActionAcceptContactRequest" = "Trimite cerere de contact";
+
+"kFeatherLevel1" = "Pana Argintie";
+
+"kFeatherLevel2" = "Pana Albastră";
+
+"kFeatherLevel3" = "Pana Verde";
+
+"kFeatherLevel4" = "Pana Roşie";
+
+"kFeatherLevel5" = "Pana Roz";
+
+"kFeatherLevel6" = "O Pană Aurie";
+
+"kFeatherLevel7" = "Două Pene Aurii";
+
+"kFeatherLevel8" = "Pălaria Wow";
+
+"kOwnFeatherLevel1" = "Ți-a fost acordată %@ și încă 2 invitații au fost adăugate la totalul tău.";
+
+"kOwnFeatherLevel2" = "Ți-a fost acordată %@ și încă 3 invitații au fost adăugate la totalul tău.";
+
+"kOwnFeatherLevel3" = "Ți-a fost acordată %@ și încă 5 invitații au fost adăugate la totalul tău.";
+
+"kOwnFeatherLevel4" = "Ți-a fost acordată %@ și încă 5 invitații au fost adăugate la totalul tău.";
+
+"kOwnFeatherLevel5" = "Ți-a fost acordată %@ și încă 5 invitații au fost adăugate la totalul tău.";
+
+"kOwnFeatherLevel6" = "Ți-a fost acordată %@ și încă 5 invitații au fost adăugate la totalul tău.";
+
+"kOwnFeatherLevel7" = "Ți-a fost acordată %@ și încă 5 invitații au fost adăugate la totalul tău.";
+
+"kOwnFeatherLevel8" = "Ți-a fost acordată %@ și încă 10 invitații au fost adăugate la totalul tău.";
+
+"kContactsFeatherLevel1" = "%@ a invitat cu succes 2 persoane în WowApp și a câștigat %@";
+
+"kContactsFeatherLevel2" = "%@ a invitat cu succes 10 persoane în WowApp și a câștigat %@";
+
+"kContactsFeatherLevel3" = "%@ a invitat cu succes 20 persoane în WowApp și a câștigat %@";
+
+"kContactsFeatherLevel4" = "%@ a invitat cu succes 50 persoane în WowApp și a câștigat %@";
+
+"kContactsFeatherLevel5" = "%@ a invitat cu succes 100 persoane în WowApp și a câștigat %@";
+
+"kContactsFeatherLevel6" = "%@ a invitat cu succes 200 persoane în WowApp și a câștigat %@";
+
+"kContactsFeatherLevel7" = "%@ a invitat cu succes 500 persoane în WowApp și a câștigat %@";
+
+"kContactsFeatherLevel8" = "%@ a invitat cu succes 1000 persoane în WowApp și a câștigat %@";
+
+"kAwardsDescriptionLevel1" = "2+ invitații acceptate pe nivel 1";
+
+"kAwardsDescriptionLevel2" = "10+  invitații acceptate pe nivel 1";
+
+"kAwardsDescriptionLevel3" = "20+  invitații acceptate pe nivel 1";
+
+"kAwardsDescriptionLevel4" = "50+ invitații acceptate pe nivel 1";
+
+"kAwardsDescriptionLevel5" = "100+ invitații acceptate pe nivel 1";
+
+"kAwardsDescriptionLevel6" = "200+ invitații acceptate pe nivel 1";
+
+"kAwardsDescriptionLevel7" = "500+ invitații acceptate pe nivel 1";
+
+"kAwardsDescriptionLevel8" = "1000+ invitații acceptate pe nivel 1";
+
+"kAccountNotificationsScreenTitle" = "Notificări de cont";
+
+/* ******************************
+ * Email Validation            *
+ ******************************
+ */
+"kValidateYourEmailMessage" = "Validează adresa de email";
+
+"kChangeEmailAction" = "Schimbă email";
+
+"kResendEmailAction" = "Retrimite email";
+
+"kEmailValidationResendRequestSuccessful" = "Cererea ta a fost trimisă! Vei primi un email în curând.";
+
+/* ********************************
+ * My Profile Avatar Action Sheet*
+ *******************************
+ */
+"kMyProfileAvatarActionSheetTakePhoto" = "Fă o fotografie";
+
+"kMyProfileAvatarActionSheetChooseExisting" = "Alege o fotografie deja existentă";
+
+"kMyProfileAvatarActionSheetViewPhoto" = "Vezi fotografia";
+
+"kMyProfileAvatarActionSheetDeletePhoto" = "Șterge fotografia";
+
+/* ******************************
+ * Notifications Screen        *
+ ******************************
+ */
+"kNotificationsTitle" = "Pornește notificările";
+
+"kNotificationsSubtitle" = "Vezi mesajele instant pe telefon.";
+
+"kOpenSettings" = "Deschide Setările iPhone";
+
+"kTapNotificationCenter" = "Apasă Notificări";
+
+"kSelectWOWApp" = "Selectează WowApp";
+
+"kSelectBanners" = "Selectează Bannere";
+
+"kTurnViewInLockScreen" = "Setează Vizualizare în Ecran blocat";
+
+"kShowOnLockScreen" = "Arată în Ecran blocat";
+
+"kButtonNone" = "Niciun fel";
+
+"kButtonBanners" = "Bannere";
+
+"kButtonAlerts" = "Alerte";
+
+/* ******************************
+ * Disconnect Bar              *
+ ******************************
+ */
+"kLabelConnected" = "Conectat";
+
+"kLabelConnecting" = "Se conectează ...";
+
+"kLabelDisconnected" = "Nu există conexiune la internet";
+
+/* ******************************
+ * Call Forwarding             *
+ ******************************
+ */
+"kMyProfileCallForwarding" = "Redirecţionare apeluri";
+
+/* ******************************
+ * Share Location              *
+ ******************************
+ */
+"kShareLocationCenterButton" = "Centrează";
+
+"kShareLocationSendLocationButton" = "Trimite poziția";
+
+"kMapOpenPrompt" = "Deschide în";
+
+"kMapApple" = "Hărţi";
+
+"kMapSafari" = "Safari";
+
+
+/* ****************************************
+ * Video Sharing                         *
+ ****************************************
+ */
+"kVideoPlayNotAllowedDueToCallInProgress" = "Nu poți asculta fișiere media în timpul apelurilor. Te rugăm să încerci din nou după finalizarea apelului.";
+
+/* ****************************************
+ * Login Screen                         *
+ ****************************************
+ */
+"kLoginScreenUserNamePlaceholder" = "Nume de utilizator";
+
+"kLoginScreenPasswordPlaceholder" = "Parolă";
+
+"kLoginScreenLoginButtonTittle" = "Conectează-te";
+
+"kLoginScreenShowPasswordButtonTitle" = "Arată";
+
+"kLoginScreenHidePasswordButtonTitle" = "Ascunde";
+
+"kLoginScreenForgotPasswordButtonTitle" = "Nume de utilizator sau parolă uitate?";
+
+"kLoginScreenIndicatorLbl" = "Se conectează...";
+
+/* ******************************
+ * OLD STRINGS                 *
+ ******************************
+ */
+// Working
+"kContactStatusOfflineString" = "Deconectat";
+
+"kContactStatusOnlineString" = "Disponibil";
+
+"kContactStatusBusyString" = "Ocupat";
+
+"kContactStatusAwayString" = "Indisponibil";
+
+"kShareLocationFailedTitle" = "Nu se poate obţine poziţia";
+
+"kLocationLoading" = "Se caută poziția...";
+
+"kActivitySubtitleCallMissed" = "Apel pierdut ";
+
+"kActivitySubtitleCallReceived" = "Apel primit ";
+
+"kActivitySubtitleCallMade" = "Apel efectuat ";
+
+"kActivitySubtitleSharedLocation" = "Poziție trimisă ";
+
+"kActivitySubtitleSharedContact" = "Contact trimis ";
+
+"kActivitySubtitleParticipantInteraction" = "%@%@ conversația";
+
+"kActivitySubtitleParticipantEntered" = "a intrat";
+
+"kActivitySubtitleParticipantExited" = "a ieșit";
+
+"kActivitySubtitleGroupchatRenamedNotification" = "Subiectul grupului a fost schimbat în:\n %@";
+
+"kAcceptedFriendRequestMessage" = "Adăugat la lista de contacte";
+
+"kInvitationJoinMessage" = "%@ s-a alăturat conversației";
+
+"kDoneLabel" = "Gata";
+
+"kAddedText" = "Este deja în lista ta";
+
+"kRequestFailTimeout" = "Solicitarea a expirat. Te rugăm să încerci din nou.";
+
+"kRequestFailForbidden" = "Numele de utilizator sau parola sunt incorecte. Te rugăm să încerci din nou.";
+
+"kRequestFailInvalidEmail" = "Contul tău a fost dezactivat. Te rugăm să îți accesezi adresa de email pentru a valida acest cont.";
+
+"kRequestFailConectivityIssues" = "Conexiunea la internet are probleme de conectivitate. Te rugăm să încerci mai târziu.";
+
+"kRequestCanceled" = "Anulat";
+
+"kLoginErrorTitle" = "Eroare de conectare";
+
+"kLoginInvalidUsernameOrPassword" = "Nume de utilizator sau parolă incorecte";
+
+"kServiceUnavailable" = "Funcția aceasta este indisponibilă momentan. Te rugăm să încerci mai târziu.";
+
+"kTokenRequestAuthenticationFailed" = "Funcția aceasta este indisponibilă momentan. Te rugăm să încerci mai târziu.";
+
+"kTokenRequestAuthenticationForbidden" = "Serviciul de conectare este indisponibil. Te rugăm să încerci din nou mai târziu.";
+
+"kBugReportAttachmentRequestTooLarge" = "Atașamentul este prea mare";
+
+// Need to test this 2 strings on all screens they appear
+"kInternetStatusNotAvailable" = "Conexiune la internet indisponibilă! Nu s-a găsit o conexiune la internet. Dacă WiFi-ul este activat, dezactivează-l sau contectează-te la alt WiFi.";
+
+"kInternetStatusTitle" = "Eroare de conexiune";
+
+"kErrorTitle" = "Eroare";
+
+"kNewFriends" = "Contacte noi";
+
+"kMicrophoneAccessNote" = "Accesează Configurări și permite-i aplicației WowApp accesul la Microfon pentru a putea vorbi în timpul apelurilor audio.";
+
+"kCameraAccessNote" = "Pentru a face apeluri video cu prietenii tăi, du-te în Configurări și permite-i aplicației WowApp accesul la Cameră.";
+
+// Need to test this on the device
+"kCameraNotAvailable" = "Nu a fost detectată o cameră foto pe dispozitivul tău, sau accesul la camera foto este restricționat";
+
+"kCameraNotAvailableTitle" = "Fară acces la Cameră";
+
+"kCameraAlreadyInUse" = "Camera foto este deja folosită";
+
+"kNumberOfPhotosSelected" = "%d fotografii selectate";
+
+// Not sure where this appears
+"kFileSavedSuccesInPhotos" = "Fișierul a fost salvat cu succes în Poze.";
+
+// Same
+"kFileSavedErrorInPhotos" = "A apărut o eroare la salvarea fișierului";
+
+// Same
+"kFileSizeTooLarge" = "Fişierul este prea mare.";
+
+// Don't know how these appear
+"kFileTransferStatusOutgoing" = "Ai trimis un fișier de pe un computer.";
+
+"kFileTransferStatusIncoming" = "Ai primit un fișier trimis de pe un computer.";
+
+"kRetryLabel" = "Încearcă din nou";
+
+"kNotOnRosterUserMessage" = "Utilizatorul acesta nu este în lista de Contacte";
+
+// To be removed from the project
+"kDefaultGreetingMessage" = "Bună! Te rog să mă adaugi la lista de contacte";
+
+// Don't know if this is used, I moved it anyway but I can't test it
+"kInvitationJoinMessage" = "%@ s-a alăturat conversației";
+
+// Cannot test this
+"kAddedText" = "Este deja în lista ta";
+
+// Don't know where to test this
+"kRequestFailTimeout" = "Solicitarea a expirat. Te rugăm să încerci din nou.";
+
+"kRequestFailForbidden" = "Numele de utilizator sau parola sunt incorecte. Te rugăm să încerci din nou.";
+
+"kRequestFailInvalidEmail" = "Contul tău a fost dezactivat. Te rugăm să îți accesezi adresa de email pentru a valida acest cont.";
+
+"kRequestFailConectivityIssues" = "Conexiunea la internet are probleme de conectivitate. Te rugăm să încerci mai târziu.";
+
+"kRequestCanceled" = "Anulat";
+
+"kServiceUnavailable" = "Funcția aceasta este indisponibilă momentan. Te rugăm să încerci mai târziu.";
+
+"kTokenRequestAuthenticationFailed" = "Funcția aceasta este indisponibilă momentan. Te rugăm să încerci mai târziu.";
+
+"kTokenRequestAuthenticationForbidden" = "Serviciul de conectare este indisponibil. Te rugăm să încerci din nou mai târziu.";
+
+"kBugReportAttachmentRequestTooLarge" = "Atașamentul este prea mare";
+
+"kContactActionCanceledReasonNotFriend" = "Pentru a efectua această acțiune, te rugăm să adaugi persoana aceasta la lista de contacte";
+
+"kContactActionCanceledReasonBlocked" = "Pentru a efectua această acțiune, trebuie să deblochezi prima dată persoana aceasta (din Setări -> Contacte blocate)";
+
+"kContactActionCanceledReasonPending" = "Pentru putea face această acțiune, utilizatorul trebuie să te adauge în lista lui de contacte";
+
+"kContactActionHasNoSharedDetails" = "Acest contact nu și-a împărtășit datele sale cu tine.";
+
+"kNotAvailableLocation" = "Poziția nu este disponibilă";
+
+"kContactDetailUpdateItemSucceeded" = "Profilul a fost actualizat";
+
+"kContactDetailUpdateItemFailed" = "Nu s-a putut actualiza profilul contactului. Te rugăm să mai încerci.";
+
+"kSaveAccountSucceded" = "Informațiile contului au fost salvate";
+
+"kSaveAccountError" = "Nu s-au putut salva informațiile contului";
+
+"kUnknownError" = "Eroare necunoscută.";
+
+"kSearchAccounts" = "Caută utilizatori";
+
+"kShareLocationFailedReasonNetwork" = "Eroare de reţea, te rugăm să încerci din nou mai târziu.";
+
+"kShareLocationFailedReasonTimeout" = "Acțiunea aceasta durează prea mult, te rugăm să încerci mai târziu.";
+
+"kContactPendingRequest" = "În așteptare...";
+
+"kActivitySubtitleFriendRequest" = "Cerere de contact";
+
+"kActivitySubtitleFriendRequestAccept" = "Adăugat la lista de contacte";
+
+"kActivitySubtitleFriendRequestDecline" = "Cerere de contact respinsă";
+
+"kActivityTitleText" = "Transfer fişier";
+
+"kActivitySubtitleText" = "Transfer fişier";
+
+"kDisplayedStatusMessage" = "Transfer fişier";
+
+"kUserMightNotSupportCloudTransfer" = "Opa! Se pare că %@ folosește o versiune mai veche a aplicației pe cel puțin un dispozitiv iar fișierul pe care i-l trimiți nu va fi disponibil până când %@ nu actualizează la ultima versiune.";
+
+"kRetrieveActivitiesFailed" = "Ne pare rău, nu îți putem afișa conversațiile mai vechi în acest moment. Te rugăm să încerci mai târziu.";
+
+"kCallStatusConnectingString" = "Sună...";
+
+"kCallTypeIncomingString" = "Apel %@";
+
+"kCallTypeIncomingConferenceString" = "Conferință telefonică primită";
+
+"kCallTypeAudio" = "Audio";
+
+"kCallTypeVideo" = "Video";
+
+"kCallWoow" = "Apel gratuit";
+
+"kMicrophoneAccessTitle" = "Fără acces la Microfon";
+
+"kMicrophoneAccessAlertMessage" = "%1$@ nu poate efectua această cerere dacă nu vei permite accesul la Microfon. Accesul poate fi permis din Configurări iPhone > Intimitate > Microfon > %1$@ > setează pe Activ";
+
+"kShareLocationFailedReasonDenied" = "Te rugăm să intri în Configurări și permite WowApp folosirea serviciilor de indentificare a poziției.";
+
+"kNoAddressbookAccess" = "WowApp nu poate efectua acțiunea această dacă nu îi permiți accesul la Contacte. Pentru a-i permite accesul, mergi în Configurări -> Intimitate -> Contacte și asigură-te că WowApp are acces la ele";
+
+"kNoAddressbookAccessTitle" = "Fară acces la Contacte";
+
+"kGalleryNotAvailableTitle" = "Fără acces la Poze";
+
+"kGalleryNotAvailableMessage" = "Nu poți trimite sau primi imagini prin WowApp dacă aplicația nu are acces la Poze. Pentru a permite accesul te rugăm să mergi în Configurări -> Intimitate -> Poze";
+
+"kPrivacyPhotoAlbumPermissionRequired" = "Permite accesul la Poze pentru a putea face schimb de fotografii cu persoanele de contact WowApp.";
+
+"kNotificationsAddressBookAccessTitle" = "Permite “WowApp” accesul la Contacte";
+
+"kNotificationsAddressBookAccessMessage" = "Acest lucru îți permite să suni și să trimiți mesaje Contactelor telefonice gratis dacă sunt pe WowApp.";
+
+"kLabelEdit" = "Editează";
+
+"kLabelSave" = "Salvează";
+
+"kLabelCancel" = "Anulează";
+
+"kLabelOk" = "Ok";
+
+"kLabelYes" = "Da";
+
+"kLabelDeleteAll" = "Şterge tot";
+
+"kLabelLoadingDots" = "Se încarcă...";
+
+"kLabelMaybeLater" = "Poate mai tarziu";
+
+"kLabelWarning" = "Atenție";
+
+"kLabelWhy" = "De ce";
+
+"kLabelAgree" = "Sunt de acord";
+
+"kMenuOptionEdit" = "Editează";
+
+"kDialpadAddPhoneTitle" = "Adaugă număr de telefon";
+
+"kDialpadAddPhoneNewContact" = "Adaugă un contact nou";
+
+"kDialpadAddPhoneAddToExisting" = "Adaugă numărul la un contact deja existent";
+
+"kDialpadAddressbookContactsPickerTitle" = "Contacte din agenda telefonică";
+
+"kDialpadSMSNotVailableMessage" = "Opțiunea de a trimite SMS-uri va fi disponibilă în curând";
+
+"kAccountNotificationsViewTitle" = "Notificări";
+
+"kAccountNewNotificationsText" = "Ai %i notificari noi";
+
+"kAccountNotificationsDeleteActionText" = "Șterge notificarea";
+
+"kRegistrationAcceptedInvitationNameToDisplay" = "Invitaţie acceptată";
+
+"kRegistrationOwnFeatherNameToDisplay" = "Nivelul meu la Pene";
+
+"kRegistrationContactsFeatherNameToDisplay" = "Nivelul prietenilor mei la Pene";
+
+"kSystemCriticalMessageNameToDisplay" = "Mesaj de sistem";
+
+"kSystemInfoMessageNameToDisplay" = "Mesaj informativ";
+
+"kCallHangUpDeclined" = "Persoana apelată a respins apelul";
+
+"kCallHangUpBusy" = "Numărul apelat este ocupat";
+
+"kCallHangUpNotFound" = "Eroare de rețea";
+
+"kCallHangUpUnreachable" = "Eroare de rețea";
+
+"kCallHangUpTimeout" = "Fără răspuns";
+
+"kCallHangUpForbidden" = "Ai $0.00 credit pentru apeluri. Creditul este necesar pentru a iniția apeluri plătite și poate fi cumpărat de pe site-ul WowApp.";
+
+"kCallHangUpSendToVoicemail" = "Apelul a fost trimis către căsuța vocală";
+
+"kCallHangUpInvalidNumber" = "Numărul apelat nu este valid";
+
+"kCallHangUpUnknown" = "Eroare necunoscută";
+
+"kCallHangUpRemotelyAnswered" = "Apelul a fost preluat pe un alt dispozitiv";
+
+"kCallHangUpForwarded" = "Apelul a fost redirecționat";
+
+"kCallAttemptOfflineContact" = "Acest contact este momentan deconectat.";
+
+"kContactsSearchButtonTitle" = "Caută Contactul în WowApp";
+
+"kContactsSaveNumberButtonTitle" = "Salvează număr de telefon";
+
+"kContactsSearchInfoLbl" = "nu se alfă în lista de contacte.";
+
+"kContactsSegmentedControlPhone" = "Telefon";
+
+"kProfileAddContactViewTitle" = "Adaugă Contact";
+
+"kProfileAddContactConnectionsLblText" = "Reţea";
+
+"kProfileAddContactContactsLblText" = "Contacte";
+
+"kProfileAddContactAddContactButtonText" = "Adaugă la lista de contacte";
+
+"kProfileAddContactViewProfileButtonText" = "Vezi profilul complet";
+
+"kProfileAddContactGreetingMessageLblText" = "Scrie un mesaj de salut";
+
+"kProfileAddContactSendRequestButtonText" = "Trimite cerere de contact";
+
+"kProfileAddContactResendRequestButtonText" = "Retrimite cerere de contact";
+
+"kProfileAddContactInListRequestButtonText" = "Adăugat la lista de contacte";
+
+"kProfileAddContactNoGreetingMessageInfo" = "Te rugăm să scrii un mesaj de salut";
+
+"kProfileAddContactCantAddYourselfErrorMessage" = "Nu te poți adăuga pe tine la lista de contacte";
+
+"kProfileAddContactUserInYourListErrorMessage" = "Utilizatorul este deja în lista ta de contacte";
+
+"kProfileAddContactsFriendRequestSentMessage" = "Prieten adăugat la lista de contacte";
+
+"kMenuItemNew" = "NOU";
+
+"kMenuCellSettings" = "Setări";
+
+"kMenuCellAdMe" = "Advertise Me";
+
+"kMenuCellKeypad" = "Tastatură";
+
+"kMenuCellInvites" = "Spune-le și prietenilor";
+
+"kMenuCellFeedback" = "Trimite feedback";
+
+"kMenuCellAbout" = "Despre";
+
+"kChatsDeleteConversation" = "Șterge conversația";
+
+"kLoadEarlierMessages" = "Arată mesaje mai vechi";
+
+"kThisMessageWasRemoved" = "Acest mesaj a fost șters";
+
+"kChatBackButtonTitle" = "Conv.";
+
+"kChatRightNavButtonTitle" = "Contact";
+
+"kChatTypingMessage" = "scrie...";
+
+"kActionSheetOptionSendVideoFromCamera" = "Trimite video";
+
+"kActionSheetOptionSendPhotoFromCamera" = "Trimite fotografie";
+
+"kCompressingVideoText" = "Se comprimă videoclipul...";
+
+"kButtonAcceptMessage" = "Tu şi %@ sunteți prieteni";
+
+"kButtonBlockedMessage" = "%@ a fost adăugat la lista de persoane blocate";
+
+"kButtonDeclinedMessage" = "Cererea a fost respinsă";
+
+"kBlockPopUpQuestion" = "Vrei să blochezi acest utilizator?";
+
+"kValidPhoneNumberMessage" = "Te rugăm să introduci un număr de telefon valid";
+
+"kNumberValidationMessage" = "CONFIRMAREA NUMĂRULUI:\n %@\n  Este corect acest număr?";
+
+"kMyProfileSectionTitleInfo" = "INFORMAȚII PERSONALE";
+
+"kMyProfileSectionTitleContact" = "INFORMAŢII DE CONTACT";
+
+"kMyProfileAward" = "Premiu:";
+
+"kMyProfileWoowUsername" = "Nume de utilizator:";
+
+"kMyProfileNetwork" = "Reţea:";
+
+"kMyProfileBirthday" = "Zi de naștere:";
+
+"kMyProfileGender" = "Sex:";
+
+"kMyProfileCityCountry" = "Oraş/Ţară:";
+
+"kMyProfileLanguage" = "Limbă:";
+
+"kMyProfileEmail" = "Email:";
+
+"kMyProfilePhone" = "Telefon:";
+
+"kMyProfileWebsite" = "Pagină web:";
+
+"kQBImagePickerControllerTitle" = "Albume";
+
+"kFormatNumberOfPhotosAndVideos" = "%ld fotografii, %ld videoclipuri";
+
+"kFormatNumberOfPhotos" = "%ld fotografii";
+
+"kFileNotAvailable" = "Indisponibil";
+
+"kFileTooLarge" = "Un fișier mare a fost trimis de pe un computer";
+
+"kMyProfileInviteFriends" = "Trimite invitaţie";
+
+"kRemoveFromBlockedContactsMessage" = "%@ a fost scos din lista de persoane blocate";
+
+"kMandatoryFieldsText" = "*obligatoriu";
+
+"kEmailLblText" = "Email*";
+
+"kFirstNameLblText" = "Prenume*";
+
+"kMessageLblText" = "Mesaj";
+
+"kSendInviteButtonText" = "Trimite invitaţie";
+
+"kViewInvitesButtonText" = "Vezi invitațiile";
+
+"kShowInRosterButtonText" = "Adaugă această persoană la lista mea de contacte";
+
+"kBugReportPlaceholders" = "Aplicația s-a oprit brusc";
+
+"kAlreadyInACallMessage" = "Ești deja într-un apel";
+
+"kAlreadyInAGSMCallMessage" = "Nu poți iniția un apel prin WowApp atâta timp cât există deja un apel GSM în desfășurare. Pentru a apela prin intermediul WowApp, trebuie să închizi prima dată apelul GSM.";
+
+"kNullJid" = "NULL logat jid";
+
+"kInvalidFirstNameMessage" = "Prenumele trebuie să aibă între 1 și 40 de caractere";
+
+"kInvalidEmailMessage" = "Te rugăm să introduci o adresă de email corectă";
+
+"kPleaseSelectCountry" = "Te rugăm să selectezi o țară prima dată";
+
+"kSelectCountryFromList" = "Selectează din listă";
+
+"kCountryCodePhoneNumber" = "Cod de ţară";
+
+"kLabelInfo" = "Info";
+
+"kNoInvitesLeftMessage" = "Nu mai ai invitații rămase";
+
+"kInviteScreenViewTitle" = "Invită acum";
+
+"kValidationViewTitle" = "Numărul tău de telefon";
+
+"kTabbarDialpadString" = "Tastatură";
+
+"kPeerVersionLower" = "Prietenul tău folosește o versiune învechită de WowApp. Te rugăm să îi spui să actualizeze!";
+
+"kPeerVersionHigher" = "Prietenul tău folosește o versiune nouă de WowApp. Te rugăm să actualizezi!";
+
+"kPhoneValidationScreenTitle" = "Te rugăm să confirmi codul de țară și să introduci numărul de telefon";
+
+"kPhoneValidationScreenCountry" = "Codul de țară și numărul de telefon";
+
+"kPhoneValidationScreenSelectCountryFirstMessage" = "Te rugăm să selectezi codul de țară";
+
+"kMessagesLabel" = "Mesaje";
+
+"kEnterSMSCodeLabel" = "Am trimis un SMS cu un cod de validare numărului de telefon de mai sus.";
+
+"kEnterIVRCodeLabel" = "Vom suna numărul acesta de telefon și-ți vom da un cod de validare.";
+
+"kEditPhoneNumberLabel" = "Editează numarul de telefon";
+
+"kEditResendSMSCodeLabel" = "Retrimite codul prin SMS";
+
+"kEditCallMeAgainLabel" = "Sună-mă din nou";
+
+"kEditPhoneNumberInLabel" = "Editează numărul de telefon în %@";
+
+"kEditResendSMSCodeInLabel" = "Retrimite codul prin SMS în %@";
+
+"kEditCallMeInLabel" = "Sună-mă în %@";
+
+"kEditCallMeLabel" = "Sună-mă";
+
+"kEditCallMeAgainInLabel" = "Suna-mă din nou în %@";
+
+"kNotifySupportLabel" = "Anunță Departamentul de Suport";
+
+"kPhoneValidationNotifySupportSuccess" = "Îți mulțumim că ne-ai anunțat, cineva te va contacta prin email în cel mai scurt timp.";
+
+"kPhoneValidationNotifySupportFailed" = "Nu s-a putut contacta departamentul de Suport, te rugăm să încerci mai târziu.";
+
+"kMaxNumberOfRequestsReachedMessage" = "Ai atins numărul maxim de apeluri/SMS-uri. \n Dacă nu primești codul de activare te rugăm să apeși butonul Anunță Departamentul de Suport.";
+
+"kNotifySupportBugText" = "Verificare telefon";
+
+"kValidationError400Message" = "Te rugăm să verifici numărul de telefon și să încerci din nou.";
+
+"kValidationError418Message" = "Acest număr este în proces de a fi validat, te rugăm să aștepți SMS-ul nostru și să încerci din nou în câteva minute.";
+
+"kValidationError404Message" = "Funcție indisponibilă. Te rugăm să încerci mai târziu.";
+
+"kSMSValidationError409Message" = "Nu s-a putut trimite solicitarea de SMS. Te rugăm să îți verifici numărul de telefon și să încerci din nou.";
+
+"kIVRValidationError409Message" = "Acest număr este în proces de a fi validat, te rugăm să aștepți SMS-ul nostru și să încerci din nou în câteva minute.";
+
+"kCodeValidationError409Message" = "Codul de verificare introdus este greșit. Te rugăm să încerci din nou.";
+
+"kCodeValidationSuccessMessage" = "Numărul de telefon a fost validat și l-am desemnat drept ID-ul tău de apelant";
+
+"kCrashReportTitle" = "Raport de eroare";
+
+"kCrashReportMessage" = "Aplicația s-a oprit în mod neașteptat. Vrei să trimiți un raport de eroare?";
+
+"kUpdateAvailableTitle" = "O nouă versiune este disponibilă";
+
+"kUpdateAvailableMessage" = "Este recomandat să îți instalezi această versiune.";
+
+"kLabelInstall" = "Instalează";
+
+"kFeatherText_LEVEL_BEGIN" = "Felicitări!";
+
+"kFeatherText_LEVEL_Awarded" = "Premiat!";
+
+"kNewUnknownNotification" = "Nu se cunoaște tipul de notificare";
+
+"kNewUnknownNotificationContent" = "Conținutul notificării este necunoscut";
+
+"kNewUnknownNotificationTitle" = "Notificare necunoscută";
+
+"kNumberTooLong" = "Numărul %@ este prea mare";
+
+"kNumberTooShort" = "Numărul %@ este prea scurt";
+
+"kNumberInvalidCountryCode" = "Numărul %@ are un cod de țară incorect";
+
+"kNumberInvalid" = "Numărul %@ este incorect";
+
+"kNumberCannotBeParsed" = "Numărul %@ nu poate fi analizat";
+
+"kNumberIsNotMobile" = "Numărul %@ nu are formatul unui număr de telefon mobil";
+
+"kGroupChat" = "Conversație în grup";
+
+"kGroupChatNewGroup" = "Grup nou";
+
+"kGroupChatEditGroup" = "Editează grup";
+
+"kGroupChatTopicMaxLengthExceeded" = "Subiectul grupului a atins numărul maxim de %i caractere";
+
+"kGroupChatCantAddMoreParticipants" = "Grupul a atins numărul maxim de participanți";
+
+"kGroupChatCantYouLeftConversation" = "Ai fost scos din conversație sau ai ieșit singur din ea de pe un alt dispozitiv";
+
+"kGroupChatNameCannotBeEmpty" = "Spațiul pentru numele grupului nu poate fi gol!";
+
+"kGroupChatShouldAddAtLeastOneParticipant" = "Trebuie să adaugi cel puțin un participant";
+
+"kGroupChatEmptyGroup" = "Grup gol";
+
+"kGroupChatXAddedYToTheGroup" = "%1$@ a adăugat pe %2$@ la grup";
+
+"kGroupChatXAddedYAndZOtherPeopleToTheGroup" = "%1$@ a adăugat pe %2$@ și %3$d alte persoane la grup";
+
+"kGroupChatXAddedYPeopleToTheGroup" = "%1$@ a adăugat %2$d persoane la grup";
+
+"kGroupChatXRemovedYFromTheGroup" = "%1$@ a scos pe %2$@ din grup";
+
+"kGroupChatXRemovedYAndZOtherPeopleFromTheGroup" = "%1$@ a scos pe %2$@ și %3$d alte persoane din grup";
+
+"kGroupChatXRemovedYPeopleFromTheGroup" = "%1$@ a scos %2$d persoane din grup";
+
+"kGroupChatXHaveBeenRemovedFromTheGroup" = "Utilizatorul %@ a fost scos din grup";
+
+"kGroupChatXAndYOtherPeopleHaveBeenRemovedFromTheGroup" = "%1$@ și %2$d alte persoane au fost scoase din grup";
+
+"kGroupChatXPeopleHaveBeenRemovedFromTheGroup" = "%d persoane au fost scoase din grup";
+
+"kGroupChatSeenByX" = "Văzut de %@";
+
+"kGroupChatSeenByXAndYOtherPeople" = "Văzut de %1$@ și %2$d alte persoane";
+
+"kGroupChatSeenByXPeople" = "Văzut de %d persoane";
+
+"kGroupChatUserLeftConversation" = "Ai părăsit grupul. Trebuie să fii invitat înapoi pentru a continua.";
+
+"kGroupChatSelfRemovedFromConversation" = "Ai fost scos din grup. Trebuie să fii invitat înapoi pentru a continua.";
+
+"kGroupChatPeerLeftConversation" = "%@ a părăsit grupul";
+
+"kGroupChatSingleUserRemovedByPeerSuffix" = "Utilizatorul %@ a fost scos din grup";
+
+"kGroupChatTopicCleared" = "Subiectul grupului a fost șters";
+
+"kSingleChatLastSeenMessagePrefix" = "Activ";
+
+"kSingleChatSeenMessagePrefix" = "Văzut";
+
+"kGroupChatSeenByEveryone" = "Văzut de toată lumea";
+
+"kSingleChatUnknownEventMessage" = "%@ a folosit o funcție care este disponibilă pe o versiune mai nouă, te rugăm să actualizezi.";
+
+"kDeleteSendingErrorMessage" = "Nu poți șterge un mesaj care este în curs de a fi trimis.";
+
+"kDeleteOngoingCallErrorMessage" = "Nu poți șterge un apel în desfășurare.";
+
+"kDeleteOngoingFileTransferErrorMessage" = "Nu poți șterge un transfer de fișiere în desfășurare.";
+
+"kLabelContinue" = "Continuă";
+
+"kDeleteConversationConfirmation" = "Această conversaţie va disparea pentru totdeauna din istoricul activităților tale.";
+
+"kContactsScreenFriendInvitesGroupName" = "CERERI DE CONTACT";
+
+"kContactsScreenFavoritesGroupName" = "FAVORIȚI";
+
+"kContactsScreenFriendsGroupName" = "PRIETENI";
+
+"kContactsScreenGroupChatsGroupName" = "GRUPURI";
+
+"kContactsScreenAddressbookGroupName" = "Numere de telefon";
+
+"kContactsScreenAutopopulateGroupName" = "Contacte din Agenda telefonică";
+
+"kContactsScreenFriendRequestSent" = "Cerere de contact trimisă - Se așteaptă acordul";
+
+"kLoadingScreenSubtitle" = "Îți mulțumim că folosești WowApp!";
+
+"kResumeCallLabel" = "Apasă pentru a reveni la apel";
+
+"kSwitchCamera" = "Schimbă Camera foto";
+
+"kTurnOffCamera" = "Fără Cameră foto";
+
+"kVideoToggleAnnotation" = "Video";
+
+"kMicrophoneToggleAnnotation" = "Microfon";
+
+"kSpeakerToggleAnnotation" = "Difuzor";
+
+"kMenuAnnotation" = "Mai mult";
+
+// Cannot test
+"kAddressBookUpdateItemSucceeded" = "Profilul a fost actualizat";
+
+"kAddressBookUpdateItemFailed" = "Nu s-au putut actualiza contactele din Agenda telefonică. Te rugăm să încerci mai târziu.";
+
+"kCameraNotAvailableMessage" = "WowApp nu poate efectua această cerere dacă nu îi permiți accesul la Cameră. Pentru a permite accesul te rugăm să mergi în Configurări -> Intimitate -> Cameră";
+
+"kConnectionUnavailableTitle" = "Conexiune indisponibilă";
+
+"kInternalServerErrorMessage" = "WowApp este indisponibilă momentan. Te rugăm să încerci mai târziu. Am luat la cunoștință problema și încercăm să o rezolvăm. Dacă persistă, te rugăm să ne contactezi pe support@wowapp.com.";
+
+"kIgnoreWowCallWhileGSMCall" = "În timpul unui apel GSM nu poți prelua apeluri pe Wow.";
+
+"kUnknownCallerID" = "ID de apelant necunoscut";
+
+"kInsufficientFunds" = "Nu ai credit suficient pentru a face un apel către această destinație.";

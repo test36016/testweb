@@ -1,0 +1,1713 @@
+/*
+ woow_ui.strings
+ WoowUI
+ 
+ Created by Mihai Babusca on 09/09/14.
+ Copyright (c) 2014 Mihai Babusca. All rights reserved.
+ *********
+ * Common *
+ *********
+ */
+"kLabelSave" = "Enregistrer";
+
+"kLabelSend" = "Envoyer";
+
+"kLabelSearching" = "Recherche...";
+
+"kButtonCancel" = "Annuler";
+
+"kLabelOk" = "Ok";
+
+"kLabelSending" = "Envoi...";
+
+"kButtonEdit" = "Modifier";
+
+"kButtonNext" = "Suivant";
+
+"kAccept" = "Accepter";
+
+"kDecline" = "Décliner";
+
+"kYes" = "Oui";
+
+"kNo" = "Non";
+
+"kMale" = "Homme";
+
+"kFemale" = "Femme";
+
+"kNotSpecified" = "Non spécifié";
+
+"kSaving" = "Enregistrement ...";
+
+"kAddedToFavorites" = "Ajouté aux favoris";
+
+"kRemovedFromFavorites" = "Supprimé des favoris";
+
+/* ***********
+ * Defaults *
+ ***********
+ */
+"kAlertViewDefaultTitle" = "";
+
+"kActionSheetDefaultTitle" = "WowApp";
+
+"kCouldNotCompleteAction" = "L'action n'a pas pu être complétée";
+
+"kListPickerDefaultTitle" = "WowApp";
+
+/* ******************************
+ * Roster Groups *
+ ******************************
+ */
+"kRosterGroupFriends" = "Amis";
+
+"kRosterGroupFavorites" = "Favoris";
+
+/* ******************************
+ * SearchAccountViewController *
+ ******************************
+ */
+"kSearchAccountViewControllerTitle" = "Utilisateurs WowApp";
+
+"kSearchAccountViewControllerSearchBarPlaceholder" = "Rechercher";
+
+"kSearchAccountViewControllerFooterExplanation" = "Vos résultats de recherche apparaîtront ici";
+
+"kSearchAccountViewControllerFooterNoResults" = "Aucun résultat";
+
+/* ******************************
+ * GroupChatEditViewController *
+ ******************************
+ */
+"kGroupChatEditViewControllerTitle" = "Info de groupe";
+
+"kGroupChatEditViewControllerAddToContacts" = "Enregistrer le groupe dans les contacts";
+
+"kGroupChatEditViewControllerRemoveFromContacts" = "Supprimer le groupe des contacts";
+
+"kGroupChatEditViewControllerAddToFavorites" = "Ajouter le groupe à vos favoris";
+
+"kGroupChatEditViewControllerRemoveFromFavorites" = "Supprimer le groupe de vos favoris";
+
+"kGroupChatEditViewControllerParticipants" = "Participants";
+
+"kGroupChatEditViewControllerAddMoreParticipants" = "Ajouter plus de participants";
+
+"kGroupChatEditViewControllerGroupNameHeader" = "Nom";
+
+"kGroupChatEditViewControllerGroupNamePlaceholder" = "Entrer le nom du groupe";
+
+"kGroupChatEditViewControllerGroupSubjectHeader" = "Sujet de groupe";
+
+"kGroupChatEditViewControllerGroupSubjectPlaceholder" = "Entrer dans le sujet de groupe";
+
+"kGroupChatEditViewControllerLeaveGroupChat" = "Quitter la discussion de groupe";
+
+/* ********************************
+ * GroupChatCreateViewController *
+ ********************************
+ */
+"kGroupChatCreateViewControllerTitle" = "Nouveau groupe";
+
+"kGroupChatSubjectTitle" = "Sujet de groupe";
+
+"kGroupChatSubjectPlaceholder" = "Entrer dans le sujet de groupe ...";
+
+"kGroupChatParticipants" = "Participants";
+
+"kGroupChatContactNamePlaceholder" = "Entrez le nom du contact ...";
+
+/* ********************
+ * Group chat common *
+ ********************
+ */
+"kGroupChat" = "Discussion de groupe";
+
+"kGroupChatCantAddMoreParticipants" = "Vous avez atteint le nombre maximum de participants";
+
+"kGroupChatTopicMaxLengthExceeded" = "La sujet a dépassé la longueur maximale de %i caractères";
+
+"kGroupChatEditGroup" = "Modifier un groupe";
+
+"kGroupChatCantYouLeftConversation" = "Vous avez été supprimé de la conversation ou vous l'avez quitté vous-même sur un autre périphérique";
+
+"kGroupChatNameCannotBeEmpty" = "Le nom de la discussion de groupe ne peut pas être vide!";
+
+"kGroupChatShouldAddAtLeastOneParticipant" = "Vous devez ajouter au moins un participant";
+
+"kGroupChatTopicCleared" = "Le sujet de groupe a été annulé";
+
+"kGroupChatEmptyGroup" = "Groupe vide";
+
+/* ********************
+ * Single chat view *
+ ********************
+ */
+"kSingleChatActionSheetAudioCall" = "Appel audio";
+
+"kSingleChatActionSheetVideoCall" = "Appel vidéo";
+
+"kSingleChatActionSheetProfile" = "Profil";
+
+/* *************************
+ * SettingsViewController *
+ *************************
+ */
+"kSettingsViewControllerTitle" = "Paramètres";
+
+/* *******************************
+ * SettingsSoundsViewController *
+ *******************************
+ */
+"kSettingsSoundsViewControllerTitle" = "Sons";
+
+/* ********************************
+ * SettingsCountryViewController *
+ ********************************
+ */
+"kSettingsCountryViewControllerTitle" = "Votre pays";
+
+/* ****************************************
+ * SettingsBlockedContactsViewController *
+ ***************************************
+ */
+"kSettingsBlockedContactsViewControllerTitle" = "Contacts bloqués";
+
+"kSettingsBlockedContactsViewControllerUnblockButton" = "Débloquer";
+
+/* *******************************
+ * ContactRequestViewController *
+ *******************************
+ */
+"kContactRequestViewControllerTitle" = "Demande de contact";
+
+"kContactRequestViewControllerGroupsHeader" = "AJOUTER AU GROUPE";
+
+"kContactRequestViewControllerGroups" = "Groupes";
+
+"kContactRequestViewControllerPersonalMessageHeader" = "MESSAGE PERSONNEL";
+
+"kContactRequestViewControllerPersonalMessage" = "Je voudrais vous inviter";
+
+"kContactRequestViewControllerSendContactRequest" = "Envoyer une demande de contact";
+
+"kContactRequestViewControllerViewFullProfile" = "Voir le profil complet";
+
+"kContactRequestSent" = "Votre demande de contact a été envoyée";
+
+"kContactRequestSentFailed" = "Votre demande de contact n'a pas été envoyée. Veuillez réessayer.";
+
+"kContactRequestDefaultMessage" = "Bonjour ! Veuillez m'ajouter comme contact.";
+
+/* ******************************************
+ * ContactRequestSelectGroupViewController *
+ ******************************************
+ */
+"kContactRequestSelectGroupViewControllerTitle" = "Sélectionner le groupe";
+
+/* ******************************************
+ * ContactRequestSelectGroupViewController *
+ ******************************************
+ */
+"kContactRequestMessageViewControllerTitle" = "Message";
+
+/* ************************
+ * Privacy Common Strings *
+ ************************
+ */
+"kPrivacyTypePublic" = "Public";
+
+"kPrivacyTypePrivate" = "Privé";
+
+"kPrivacyTypeFriends" = "Amis";
+
+/* ************************
+ * PrivacyViewController *
+ ************************
+ */
+"kPrivacyViewControllerTitle" = "Vie privée";
+
+/* ************************
+ * PrivacySelectionViewController *
+ ************************
+ */
+"kPrivacySelectionViewControllerTitle" = "Vie privée";
+
+/* ************************
+ * SendInviteViewController *
+ ************************
+ */
+"kSendInviteViewControllerTitle" = "Inviter";
+
+"kSendInviteViewControllerHeaderName" = "NOM :";
+
+"kSendInviteViewControllerHeaderEmail" = "EMAIL :";
+
+"kSendInviteViewControllerHeaderMessage" = "MESSAGE :";
+
+"kSendInviteViewControllerCheckAddToContactList" = "Ajouter cette personne à ma liste de contacts";
+
+"kSendInviteViewControllerButtonViewInvites" = "Voir la page d'invitations";
+
+"kInviteInfoInviteeName_minlength" = "Veuillez entrer le nom de vos amis.";
+
+"kInviteInfoInviteeName_maxlength" = "Le prénom doit avoir entre 1 et 40 caractères.";
+
+"kInviteInfoInviteeEmail_notSpecified" = "Veuillez entrer l' adresse email de vos amis.";
+
+"kInviteInfoInviteeEmail_invalidFormat" = "Veuillez entrer une adresse email valide.";
+
+"kSendInviteInvalidData" = "Donnée non valide, veuillez vérifier les informations relatives à votre invitation.";
+
+"kSendInviteSucces" = "Félicitations ! Votre invitation a été envoyée.";
+
+"kSendInviteAlreadyUser" = "Cette personne est déjà un utilisateur de WowApp.";
+
+"kSendInviteAlreadyInvitedFriend" = "Cette personne a déjà une invitation en cours de votre part.";
+
+"kSendInviteDuplicateEmail" = "L'invitation contient une adresse email en double.";
+
+"kSendInviteAlreadySent" = "Vous avez déjà invité cette personne à rejoindre WowApp.";
+
+"kSendInviteFailed" = "Désolé, nous ne pouvons pas envoyer votre invitation pour l'instant. Veuillez vérifier votre connexion internet et réessayer plus tard.";
+
+"kNoInvitesLeftMessage" = "Aucune invitation restante";
+
+/* ********************************
+ * PhoneValidationViewController *
+ ********************************
+ */
+"kPhoneValidationViewControllerTitle" = "Validation de téléphone";
+
+"kPhoneValidationViewControllerHeaderMessage" = "Veuillez confirmer votre code pays et entrer votre numéro de téléphone";
+
+"kPhoneValidationViewControllerCountryPlaceHolder" = "Sélectionner le pays";
+
+"kPhoneValidationViewControllerPhoneNumberPlaceHolder" = "Numéro de téléphone";
+
+"kPhoneValidationViewControllerAlert" = "Nous vérifierons le numéro de téléphone : \n%@ %@ \nEst-ce que c'est bon ou souhaitez-vous modifier le numéro ?";
+
+/* ********************************
+ * PhoneValidationCodeViewController *
+ ********************************
+ */
+"kPhoneValidationCodeViewControllerHeaderMessage" = "Pour vérifier votre numéro de téléphone, entrez le code à 4 chiffres indiqué dans le SMS que nous venons de vous envoyer";
+
+"kPhoneValidationCodeViewControllerResendCode" = "Renvoyer le code SMS dans :";
+
+"kPhoneValidationCodeViewControllerEditPhoneNumber" = "Modifier le numéro de téléphone dans :";
+
+"kPhoneValidationCodeViewControllerValidateCode" = "Votre numéro a été validé et a été assigné comme votre identification d'appelant";
+
+/* **********************************
+ * ProfileCompletionViewController *
+ **********************************
+ */
+"kProfileCompletionViewControllerTitle" = "Créer un compte";
+
+"kProfileCompletionViewControllerHeader" = "Bien, vous êtes là !\nPassons à la configuration de votre compte.";
+
+"kProfileCompletionViewControllerPersonalInfo" = "INFOS PERSONNELLES";
+
+"kProfileCompletionViewControllerFirstName" = "Prénom";
+
+"kProfileCompletionViewControllerLastName" = "Nom de famille";
+
+"kProfileCompletionViewControllerGender" = "Sexe";
+
+"kProfileCompletionViewControllerBirthday" = "Anniversaire";
+
+"kProfileCompletionViewControllerGenderPlaceholder" = "Sélectionnez le sexe";
+
+"kProfileCompletionViewControllerBirthdayPlaceholder" = "Sélectionner la date d'anniversaire";
+
+"kMandatoryFieldsMessage" = "Tous les champs sont obligatoires";
+
+"kProfileCompletionViewControllerNameError" = "Nom non valide";
+
+"kProfileCompletionViewControllerBirthdayError" = "Date d'anniversaire non valide";
+
+/* **********************************
+ * ProfileCompletionStepTwoViewController *
+ **********************************
+ */
+"kProfileCompletionStepTwoViewControllerTitle" = "Bienvenue";
+
+"kProfileCompletionStepTwoViewControllerChooseAvatar" = "Choisir votre photo de profil";
+
+"kProfileCompletionStepTwoViewControllerTakePhoto" = "Prendre une photo";
+
+"kProfileCompletionStepTwoViewControllerChooseFromGallery" = "Choisir dans la galerie";
+
+/* ***************************
+ * EditStatusViewController *
+ ***************************
+ */
+"kEditStatusViewControllerTitle" = "Modifier le statut";
+
+"kEditStatusViewControllerAlertMessage" = "Statut enregistré";
+
+/* ************************
+ * Report a Problem *
+ ************************
+ */
+"kReportProblemTitle" = "Signaler un problème";
+
+"kReportProblemSummary" = "Résumé :";
+
+"kReportProblemDescription" = "Dites-nous ce qui ne va pas :";
+
+"kReportProblemFailedToSendBugReport" = "Echec de la notification du problème, veuillez réessayer ultérieurement.";
+
+/* ************************
+ * Send General Feedback *
+ ************************
+ */
+"kSendGeneralFeedbackTitle" = "Envoyer un commentaire";
+
+"kSendGeneralFeedbackSummary" = "Résumé :";
+
+"kSendGeneralFeedbackDescription" = "Description :";
+
+"kSendGeneralFeedbackFailedToSendFeedback" = "Echec de l'envoi du commentaire, veuillez réessayer ultérieurement.";
+
+/* **************************
+ * Feedback error messages *
+ **************************
+ */
+"kFeedbackInfoInvalidSummary_minlength" = "Veuillez écrire un bref résumé.";
+
+"kFeedbackInfoInvalidSummary_maxlength" = "Le résumé ne peut pas contenir plus de 256 caractères";
+
+"kFeedbackInfoInvalidMessage_minlength" = "Veuillez écrire une courte description.";
+
+/* ******************************
+ *     My Profile Screen       *
+ ******************************
+ */
+"kMyProfileStatus" = "STATUT";
+
+/* ******************************
+ *       Profile Screen        *
+ ******************************
+ */
+"kFriendProfileButtonAudioCall" = "Appel audio";
+
+"kFriendProfileButtonVideoCall" = "Appel vidéo";
+
+"kFriendProfileButtonMessage" = "Message";
+
+"kFriendProfileButtonMore" = "Plus";
+
+"kAddContact" = "Ajouter aux contacts";
+
+"kAddContactSent" = "Demande de contact envoyée";
+
+"kFriendProfileActionEditProfile" = "Modifier le profil";
+
+"kFriendProfileActionFavorite" = "Ajouter aux favoris";
+
+"kFriendProfileActionRemoveFavorite" = "Supprimer des favoris";
+
+"kFriendProfileActionBlockContact" = "Bloquer un contact";
+
+"kFriendProfileActionUnBlockContact" = "Débloquer un contact";
+
+"kFriendProfileActionDelete" = "Supprimer des contacts";
+
+"KAlertAreYouSureMessage" = "Êtes-vous sûr de vouloir supprimer ce contact ?   \n Vous ne serez pas en mesure d'envoyer des messages ou d'appeler ce contact jusqu'à ce que vous ne l'ajoutiez à nouveau.";
+
+"kADBProfileButtonPaidCall" = "Appel payant";
+
+"kADBProfileButtonInvite" = "Inviter";
+
+"kADBSaveProfileConfirmationMessage" = "Êtes-vous sûr(e) de vouloir enregistrer ?";
+
+/* ******************************
+ *         Menu Screen         *
+ ******************************
+ */
+"kMenuNetwork" = "RÉSEAU";
+
+"kMenuSendInvites" = "INVITER";
+
+"kMenuEarnings" = "GAINS";
+
+"kMenuMyWow" = "My Wow";
+
+"kMenuGeneralFeedbackButtonTitle" = "Envoyer un commentaire d'ordre général";
+
+"kMenuReportAProblemButtonTitle" = "Signaler un problème";
+
+"kSendFeedbackTitle" = "Envoyer un commentaire";
+
+"kSendFeedbackSummary" = "Résumé";
+
+"kSendFeedbackDescription" = "Description";
+
+"kSendFeedbackAlert" = "Envoi de vos commentaires...";
+
+"kSendFeedbackMessage" = "Message";
+
+"kMenuViewProfile" = "Voir le profil";
+
+"kMenuEditPrivacy" = "Modifier la politique de confidentialité";
+
+"kMenuChangeStatus" = "Changer le statut";
+
+/* ******************************
+ *      Contacts Screen        *
+ ******************************
+ */
+"kContactsScreenMakeCalls" = "Placer des appels";
+
+"kContactsScreenSearchYouWowMe" = "Recherche WowApp";
+
+"kContactsTitle" = "Contacts";
+
+/* ******************************
+ *     Awards Legend Screen    *
+ ******************************
+ */
+"KAwardsLegendTitle" = "Légende des récompenses";
+
+"kWhiteFeatherDescription" = "2+ invitations réussies";
+
+"kBlueFeatherDescription" = "10+ invitations réussies";
+
+"kGreenFeatherDescription" = "20+ invitations réussies";
+
+"kRedFeatherDescription" = "50+ invitations réussies";
+
+"kPinkFeatherDescription" = "100+ invitations réussies";
+
+"kOrangeFeatherDescription" = "200+ invitations réussies";
+
+"kDoubleOrangeFeatherDescription" = "500+ invitations réussies";
+
+"kSuperFeatherDescription" = "1000+ invitations réussies";
+
+"kAwardsLegendNote" = "Remarque : ce numéro n'inclut pas les invitations envoyées par les membres de votre réseau";
+
+/* ******************************
+ *       Common - Share -      *
+ ******************************
+ */
+"kCancel" = "Annuler";
+
+"kSendLocation" = "Partager la position géographique";
+
+"kSendContact" = "Partager le contact";
+
+"kSendFromCamera" = "Prendre une photo";
+
+"kSendFromVideo" = "Faire une vidéo";
+
+"kSendFromGallery" = "Galerie";
+
+/* ******************************
+ *      IncomingFriendRequest  *
+ ******************************
+ */
+"kIncomingFriendRequestTitle" = "Demande d'ami";
+
+/* ******************************
+ *      Upgrade                 *
+ ******************************
+ */
+"kUpgradeTitle" = "Veuillez actualiser maintenant";
+
+"kUpgradeSubtitle" = "Une mise à jour immédiate est exigée.";
+
+/* ******************************
+ * FriendProfileEdit Screen    *
+ ******************************
+ */
+"kFriendProfileEditViewControllerTitle" = "Modifier le profil";
+
+"kFriendProfileEditViewControllerNameHeader" = "Pseudo";
+
+"kFriendProfileEditViewControllerEmailHeader" = "Email";
+
+"kFriendProfileEditViewControllerPhoneHeader" = "Téléphone";
+
+"kFriendProfileEditViewControllerNotesHeader" = "Notes";
+
+"kFriendProfileEditViewControllerAddEmail" = "Ajouter Email";
+
+"kFriendProfileEditViewControllerAddPhone" = "Ajouter téléphone";
+
+"kFriendProfileEditViewControllerNamePlaceholder" = "Entrez le nom";
+
+"kFriendProfileEditListPickerTitle" = "Sélectionner une catégorie";
+
+"kFriendProfileEditPlaceholderEmail" = "Entrer l'adresse email";
+
+"kFriendProfileEditPlaceholderPhone" = "Entrez un numéro de téléphone";
+
+"kCategoryHome" = "Domicile";
+
+"kCategoryOffice" = "Bureau";
+
+"kCategoryMobile" = "Mobile";
+
+"kCategoryOther" = "autre";
+
+"kPhoneNumberInvalid" = "Au moins un numéro de téléphone n'est pas valide ! Vérifiez les numéros";
+
+/* ******************************
+ * PhoneContactsViewController *
+ ******************************
+ */
+"kPhoneContactsAccessContactsMessage" = "Cette application nécessite un accès à vos contacts";
+
+"kPhoneContactsMakeCalls" = "Placer des appels";
+
+"kPhoneContactsMyNumber" = "Mon numéro :";
+
+/* ****************************
+ * ContactInfoViewController *
+ ****************************
+ */
+"kContactInfoPaidCall" = "Appel payant";
+
+"kContactInfoInvite" = "Inviter";
+
+"kContactInfoContactInfo" = "Coordonnées";
+
+"kContactInfoEmail" = "Email:";
+
+"kContactInfoPhone" = "Téléphone:";
+
+"kContactInfoWeb" = "Web :";
+
+/* ******************************
+ * TextInputBar				   *
+ ******************************
+ */
+"kChatTextFieldPlaceholder" = " Entrer un message";
+
+/* ******************************
+ * Chat menu				   *
+ ******************************
+ */
+"kMenuCallLabel" = "Appel audio";
+
+"kMenuVideoLabel" = "Appel vidéo";
+
+"kMenuSendPhotoLabel" = "Prendre une photo";
+
+"kMenuSendVideoLabel" = "Faire une vidéo";
+
+"kMenuGallery" = "Galerie";
+
+"kMenuSendContactLabel" = "Partager le contact";
+
+"kMenuSendLocationLabel" = "Partager la position géographique";
+
+"kMenuGroupChat" = "Ajouter des participants";
+
+/* ******************************
+ * PrivacyScreen               *
+ ******************************
+ */
+"kUnableToUpdatePrivacySetting" = "Impossible d'enregistrer la politique de confidentialité '%@'.";
+
+"kPrivacySettingsGenderTitle" = "Sexe";
+
+"kPrivacySettingsLanguageTitle" = "Langue";
+
+"kPrivacySettingsAwardsTitle" = "Récompenses";
+
+"kPrivacySettingsNetworkTitle" = "Réseau";
+
+"kPrivacySettingsPhoneNumberTitle" = "Numéro de téléphone";
+
+"kPrivacySettingsEmailTitle" = "Email";
+
+"kPrivacySettingsBirthdayDayMonthTitle" = "Anniversaire";
+
+"kPrivacySettingsBirthdayYearTitle" = "Afficher l'année de naissance";
+
+/* ******************************
+ * About Screen                *
+ ******************************
+ */
+"kAboutWowTermsAndConditionsButtonTitle" = "Termes et Conditions";
+
+"kAboutWowPoliciesButtonTitle" = "Politiques";
+
+"kWowAppVersion" = "Version %@";
+
+"kAboutViewControllerTitle" = "À propos";
+
+/* ******************************
+ * AdvertiseMe Screen          *
+ ******************************
+ */
+"kAdvertiseMeScreenTitle" = "Advertise Me";
+
+"kAdvertiseMeSettingLabelText" = "Advertise Me";
+
+"kAdvertiseMeReadMoreLabelText" = "Apprenez-en davantage au sujet de Advertise Me";
+
+"kAdvertiseMeFailedToChangeStatus" = "Echec de l'enregistrement du statut. Veuillez réessayer ultérieurement.";
+
+/* ******************************
+ * Settings                    *
+ ******************************
+ */
+"kSettingsTitle" = "Paramètres";
+
+"kSettingsAutoSaveContentToGallery" = "Enregistrer les supports médias entrants";
+
+"kSettingsAutoDownloadContentOn3G" = "Téléchargement automatique de photos";
+
+"kSettingsVibrationsAndSounds" = "Sons et vibrations";
+
+"kSettingsBlockedContacts" = "Contacts bloqués";
+
+/* ******************************
+ * Sounds and vibration        *
+ ******************************
+ */
+"kSettingsSoundsTitle" = "Sons et vibrations";
+
+"kSettingsMessagesSectionTitle" = "Messages";
+
+"kSettingsCallsSectionTitle" = "Appels";
+
+"kSettingsLoginSectionTitle" = "Connexion";
+
+"kSettingsNetworkSectionTitle" = "Réseau";
+
+"kSettingsEarningsSectionTitle" = "Gains";
+
+"kSettingsVibrateLabel" = "Vibreur de l'application";
+
+"kSettingsSoundLabel" = "Son de l'application";
+
+"kCountriesViewTitle" = "Votre pays";
+
+"kBlockedContactsViewTitle" = "Contacts bloqués";
+
+/* ******************************
+ * My Profile Edit             *
+ ******************************
+ */
+"kMyProfileEditViewControllerTitle" = "Modifier le profil";
+
+"kMyProfileGenderDisplayStringMale" = "Homme";
+
+"kMyProfileGenderDisplayStringFemale" = "Femme";
+
+"kMyProfileEditAvatar" = "Avatar";
+
+"kMyProfileEditBirthday" = "Anniversaire";
+
+"kMyProfileEditGender" = "Sexe";
+
+"kMyProfileEditCityCountry" = "VILLE/PAYS";
+
+"kMyProfileEditPhone" = "TÉLÉPHONE";
+
+"kMyProfileEditWebsite" = "SITE WEB";
+
+"kMyProfileFirstNamePlaceholder" = "Prénom";
+
+"kMyProfileLastNamePlaceholder" = "Nom de famille";
+
+"kMyProfileCityPlaceholder" = "Entrer la ville";
+
+"kMyProfileWebsitePlaceholder" = "Site web";
+
+"kOneNameIsEmpty" = "Le prénom et le nom de famille doivent être indiqués";
+
+"kNameMustHaveALetter" = "Le prénom et le nom de famille doivent contenir au moins une lettre";
+
+"kAvatarPickerTitle" = "Sélecteur d'avatar";
+
+"kInvalidatingNumberAlert" = "Il s'agit de votre numéro de mobile validé avec WowApp. Le modifier ou le supprimer vous obligera à valider un nouveau numéro une fois que vous aurez enregistré ces modifications. Êtes-vous sûr de vouloir continuer ?";
+
+/* ******************************
+ * Intro Screen               *
+ ******************************
+ */
+"kIntroSignInButton" = "Se connecter";
+
+"kIntroCreateAccountButton" = "Créer un compte";
+
+"kIntroBottomText" = "Text en bas de page";
+
+/* ******************************
+ * SignIn Screen               *
+ ******************************
+ */
+"kSignInButton" = "Se connecter";
+
+"kSignInPlaceholderUsername" = "Nom d'utilisateur";
+
+"kSignInPlaceholderPassword" = "Mot de passe";
+
+"kSignInLabelShowPassword" = "Afficher le mot de passe";
+
+"kSignInButtonForgotPassword" = "Mot de passe oublié?";
+
+/* ******************************
+ * Tutorial Screen               *
+ ******************************
+ */
+"kTutorialCongrats" = "Félicitations !";
+
+"kTutorialReceived" = "Vous avez reçu votre 1er WowCoin";
+
+"kTutorialWowCoin" = "1 WowCoin = 1 centime (de dollar)";
+
+"kTutorialEarnMoney" = "Maintenant gagnons un peu d'argent !";
+
+"kTutorialSkip" = "Ignorer";
+
+"kTutorialSwipe" = "Faire défiler vers la gauche";
+
+"kTutorialHowItWorks" = "COMMENT ÇA FONCTIONNE";
+
+"kTutorialIncreaseNetwork" = "Etoffez votre réseau";
+
+"kTutorialSendInvites" = "en envoyant des invitations";
+
+"kTutorialTellFriends" = "et en informant vos amis";
+
+"kTutorialAdMe" = "Activer Advertise Me se traduira en gains pour vous tous les jours !";
+
+"kTutorialChooseAds" = "Choisissez de voir les annonces de WowApp et vous pouvez gagner tous les jours des WowCoins par vous-même et par l'intermédiaire de votre réseau.";
+
+"kTutorialGetStarted" = "Commencez";
+
+"kTutorialChatButtonTop" = "Discutez et gagnez de l'argent !";
+
+"kTutorialChatButtonBottom" = "Ceci activera AD ME pour votre compte";
+
+"kTutorialUseMessengerButtonTop" = "Je n'aime pas l'argent gratuit !";
+
+"kTutorialUseMessengerButtonBottom" = "Je veux juste utiliser la meilleure messagerie sans publicité";
+
+/* ******************************
+ * Mass invite                 *
+ ******************************
+ */
+"kMassInviteSelectionScreenTitle" = "Parlez-en à vos amis";
+
+"kMassInviteSelectionScreenSelectButtonTitle" = "Sélectionnez appel";
+
+"kMassInviteSelectionScreenDeselectButtonTitle" = "Tout désélectionner";
+
+"kMassInviteSelectionScreenSendInvitesButtonTitle" = "Envoyer %@ invitation(s)";
+
+"kMassInviteSelectionScreenMailActionSheetOptionTitle" = "Mail";
+
+"kMassInviteSelectionScreenMessageActionSheetOptionTitle" = "Message";
+
+"kMassInviteSelectionScreenSendInvitesButtonText" = "Envoyer %d invitation(s)";
+
+"kMassInviteSelectionScreenCanNotSendEmail" = "Veuillez configurer la messagerie (Mail) sur cet appareil pour pouvoir inviter vos amis";
+
+"kMassInviteSelectionScreenCanNotSendSMS" = "Cet appareil ne peut pas envoyer de messages. Assurez-vous qu'une carte SIM est bien installée.";
+
+/* ******************************
+ * Stickers                    *
+ ******************************
+ */
+"kStickerSent" = "Autocollant envoyé";
+
+"kStickerReceived" = "Autocollant reçu";
+
+// Needs translation, do not remove
+"kStickerUnknownSticker" = "Actualiser pour voir cet autocollant";
+
+/* ******************************
+ * Account notifications       *
+ ******************************
+ */
+"kAccountNotificationsAdMeDailyTitle" = "Rapport quotidien sur les gains de Advertise Me :";
+
+"kAccountNotificationsAdMeWeeklyTitle" = "Rapport hebdomadaire sur les gains de Advertise Me :";
+
+"kAccountNotificationsAdMeMonthlyTitle" = "Rapport mensuel sur les gains de Advertise Me :";
+
+"kAccountNotificationsAdMeEarn" = "WowCoins gagnés :";
+
+"kAccountNotificationsAdMeLoss" = "WowCoins perdus :";
+
+"kAccountNotificationsAdMeActionEarnMore" = "Vous voulez gagner plus ? Cliquez ici pour apprendre comment";
+
+"kAccountNotificationsAdMeActionImproveEarnings" = "Cliquez ici pour améliorer vos gains";
+
+"kAccountNotificationsAdMeActionGrowEarnings" = "Apprenez comment augmenter vos gains avec WowApp";
+
+"kAccountNotificationsAdMeEnableTitle" = "Activer Advertise Me";
+
+"kAccountNotificationsAdMeEnableSubtitle" = "Gagnez des WowCoins pour les annonces que vous, et votre réseau, voyez sur WowApp. Activez Advertise Me pour mobiles maintenant !";
+
+"kAccountNotificationsAdMeEnableAction" = "Cliquez ici pour commencer";
+
+"kAccountNotificationsAdMeEnableReminderTitle" = "Gagnez plus avec WowApp !";
+
+"kAccountNotificationsAdMeEnableReminderSubtitle" = "Activez Advertise Me pour mobiles et gagnez des WowCoins pour les annonces que vous, et votre réseau, voyez.";
+
+"kAccountNotificationsAdMeEnableReminderLoss" = "Les gains que vous avez manqué : %@ WowCoins.";
+
+"kAccountNotificationsAdMeEnableReminderAction" = "Cliquez ici pour commencer";
+
+"kAccountNotificationsAdMeDisabledTitle" = "Advertise Me est désactivé";
+
+"kAccountNotificationsAdMeDisabledSubtitle" = "Vous venez juste de désactiver Advertise Me pour votre compte.";
+
+"kAccountNotificationsAdMeDisabledAction" = "Activez pour recommencer à accumuler des gains";
+
+"kAccountNotificationsAdMeDisabledReminderTitle" = "Gagnez plus avec WowApp !";
+
+"kAccountNotificationsAdMeDisabledReminderSubtitle" = "Activez Advertise Me pour mobiles et gagnez des WowCoins pour les annonces que vous, et votre réseau, voyez.";
+
+"kAccountNotificationsAdMeDisabledReminderLoss" = "Vous êtes probablement déjà passé à côté de %@ WowCoins.";
+
+"kAccountNotificationsAdMeDisabledReminderAction" = "Activez Advertise Me pour recommencer à accumuler des gains";
+
+"kAccountNotificationsTalkNewFriendsTitle" = "%d nouveaux amis";
+
+"kAccountNotificationsTalkNewFriendsSubtitle" = "ont été ajoutés à votre réseau";
+
+"kAccountNotificationsTalkNewFriendsAction" = "Cliquez ici pour afficher les nouveaux amis";
+
+"kAccountNotificationsTalkNewFriendSubtitleFriendRequest" = "Nouvel ami";
+
+"kAccountNotificationsRegistrationAcceptedTitle" = "%@ est votre connexion de NIVEAU 1";
+
+"kAccountNotificationsSubtitleContactAddedToRoster" = "Ajouté à votre liste de contacts";
+
+"kAccountNotificationsSubtitleContactPendingPeerAcceptance" = "Demandes de contact en attente";
+
+"kAccountNotificationsSubtitleContactPendingMyAcceptance" = "En attente de votre approbation";
+
+"kAccountNotificationsSubtitleContactBlockedByMe" = "Cet utilisateur est dans votre liste de contacts bloqués";
+
+"kAccountNotificationsActionSendContactRequest" = "Envoyer une demande d'ami";
+
+"kAccountNotificationsActionAcceptContactRequest" = "Envoyer une demande d'ami";
+
+"kFeatherLevel1" = "La plume d'argent";
+
+"kFeatherLevel2" = "La plume bleue";
+
+"kFeatherLevel3" = "La plume verte";
+
+"kFeatherLevel4" = "La Plume rouge";
+
+"kFeatherLevel5" = "La plume rose";
+
+"kFeatherLevel6" = "Une plume dorée";
+
+"kFeatherLevel7" = "Deux plumes dorées";
+
+"kFeatherLevel8" = "Le chapeau Wow";
+
+"kOwnFeatherLevel1" = "Vous avez reçu la %@ en récompense ainsi que 2 invitations de plus qui ont été ajoutées à votre total.";
+
+"kOwnFeatherLevel2" = "Vous avez reçu la %@ en récompense ainsi que 3 invitations de plus qui ont été ajoutées à votre total.";
+
+"kOwnFeatherLevel3" = "Vous avez reçu la %@ en récompense ainsi que 5 invitations de plus qui ont été ajoutées à votre total.";
+
+"kOwnFeatherLevel4" = "Vous avez reçu la %@ en récompense ainsi que 5 invitations de plus qui ont été ajoutées à votre total.";
+
+"kOwnFeatherLevel5" = "Vous avez reçu la %@ en récompense ainsi que 5 invitations de plus qui ont été ajoutées à votre total.";
+
+"kOwnFeatherLevel6" = "Vous avez reçu la %@ en récompense ainsi que 5 invitations de plus qui ont été ajoutées à votre total.";
+
+"kOwnFeatherLevel7" = "Vous avez reçu la %@ en récompense ainsi que 5 invitations de plus qui ont été ajoutées à votre total.";
+
+"kOwnFeatherLevel8" = "Vous avez reçu la %@ en récompense ainsi que 10 invitations de plus qui ont été ajoutées à votre total.";
+
+"kContactsFeatherLevel1" = "%@ a réussi à inviter 2 personnes à joindre WowApp et a gagné %@";
+
+"kContactsFeatherLevel2" = "%@ a réussi à inviter 10 personnes à joindre WowApp et a gagné %@";
+
+"kContactsFeatherLevel3" = "%@ a réussi à inviter 20 personnes à joindre WowApp et a gagné %@";
+
+"kContactsFeatherLevel4" = "%@ a réussi à inviter 50 personnes à joindre WowApp et a gagné %@";
+
+"kContactsFeatherLevel5" = "%@ a réussi à inviter 100 personnes à joindre WowApp et a gagné %@";
+
+"kContactsFeatherLevel6" = "%@ a réussi à inviter 200 personnes à joindre WowApp et a gagné %@";
+
+"kContactsFeatherLevel7" = "%@ a réussi à inviter 500 personnes à joindre WowApp et a gagné %@";
+
+"kContactsFeatherLevel8" = "%@ a réussi à inviter 1000 personnes à joindre WowApp et a gagné %@";
+
+"kAwardsDescriptionLevel1" = "2+ invitations réussies";
+
+"kAwardsDescriptionLevel2" = "10+ invitations réussies";
+
+"kAwardsDescriptionLevel3" = "20+ invitations réussies";
+
+"kAwardsDescriptionLevel4" = "50+ invitations réussies";
+
+"kAwardsDescriptionLevel5" = "100+ invitations réussies";
+
+"kAwardsDescriptionLevel6" = "200+ invitations réussies";
+
+"kAwardsDescriptionLevel7" = "500+ invitations réussies";
+
+"kAwardsDescriptionLevel8" = "1000+ invitations réussies";
+
+"kAccountNotificationsScreenTitle" = "Notifications de compte";
+
+/* ******************************
+ * Email Validation            *
+ ******************************
+ */
+"kValidateYourEmailMessage" = "Valider votre email";
+
+"kChangeEmailAction" = "Changer l'email";
+
+"kResendEmailAction" = "Renvoyer email";
+
+"kEmailValidationResendRequestSuccessful" = "Votre demande a été envoyée ! Vous recevrez un email très prochainement.";
+
+/* ********************************
+ * My Profile Avatar Action Sheet*
+ *******************************
+ */
+"kMyProfileAvatarActionSheetTakePhoto" = "Prendre une photo";
+
+"kMyProfileAvatarActionSheetChooseExisting" = "Choisir l'existant";
+
+"kMyProfileAvatarActionSheetViewPhoto" = "Voir Photo";
+
+"kMyProfileAvatarActionSheetDeletePhoto" = "Supprimer Photo";
+
+/* ******************************
+ * Notifications Screen        *
+ ******************************
+ */
+"kNotificationsTitle" = "Activer les notifications";
+
+"kNotificationsSubtitle" = "Voir les messages instantanément sur votre téléphone.";
+
+"kOpenSettings" = "Ouvrir les paramètres de l'iPhone";
+
+"kTapNotificationCenter" = "Sélectionner centre de notifications";
+
+"kSelectWOWApp" = "Sélectionner WowApp";
+
+"kSelectBanners" = "Sélectionner bannières";
+
+"kTurnViewInLockScreen" = "Activez Afficher sur l'écran vérouillé";
+
+"kShowOnLockScreen" = "Afficher sur l'écran vérouillé";
+
+"kButtonNone" = "Aucun(e)";
+
+"kButtonBanners" = "Bannières";
+
+"kButtonAlerts" = "Alertes";
+
+/* ******************************
+ * Disconnect Bar              *
+ ******************************
+ */
+"kLabelConnected" = "Connecté";
+
+"kLabelConnecting" = "Connexion ...";
+
+"kLabelDisconnected" = "Pas de connexion Internet";
+
+/* ******************************
+ * Call Forwarding             *
+ ******************************
+ */
+"kMyProfileCallForwarding" = "Renvoi d'appel";
+
+/* ******************************
+ * Share Location              *
+ ******************************
+ */
+"kShareLocationCenterButton" = "Centre";
+
+"kShareLocationSendLocationButton" = "Envoyer la position géographique";
+
+"kMapOpenPrompt" = "Ouvrir avec";
+
+"kMapApple" = "Maps";
+
+"kMapSafari" = "Safari";
+
+
+/* ****************************************
+ * Video Sharing                         *
+ ****************************************
+ */
+"kVideoPlayNotAllowedDueToCallInProgress" = "Vous ne pouvez pas lire les fichiers médias lorsque vous êtes en cours d'appel. Veuillez réessayer une fois votre appel terminé.";
+
+/* ****************************************
+ * Login Screen                         *
+ ****************************************
+ */
+"kLoginScreenUserNamePlaceholder" = "Nom d'utilisateur";
+
+"kLoginScreenPasswordPlaceholder" = "Mot de passe";
+
+"kLoginScreenLoginButtonTittle" = "Se connecter";
+
+"kLoginScreenShowPasswordButtonTitle" = "Afficher";
+
+"kLoginScreenHidePasswordButtonTitle" = "Cacher";
+
+"kLoginScreenForgotPasswordButtonTitle" = "Nom d'utilisateur ou mot de passe oublié ?";
+
+"kLoginScreenIndicatorLbl" = "Connexion...";
+
+/* ******************************
+ * OLD STRINGS                 *
+ ******************************
+ */
+// Working
+"kContactStatusOfflineString" = "Déconnecté";
+
+"kContactStatusOnlineString" = "Disponible";
+
+"kContactStatusBusyString" = "Occupé";
+
+"kContactStatusAwayString" = "Absent";
+
+"kShareLocationFailedTitle" = "Impossible d'obtenir la position géographique";
+
+"kLocationLoading" = "Obtention de la position géographique...";
+
+"kActivitySubtitleCallMissed" = "Appel manqué ";
+
+"kActivitySubtitleCallReceived" = "Appel entrant ";
+
+"kActivitySubtitleCallMade" = "Appel sortant ";
+
+"kActivitySubtitleSharedLocation" = "Position géographique partagée ";
+
+"kActivitySubtitleSharedContact" = "Contact partagé ";
+
+"kActivitySubtitleParticipantInteraction" = "%@ %@ la conversation";
+
+"kActivitySubtitleParticipantEntered" = "entré";
+
+"kActivitySubtitleParticipantExited" = "sortie";
+
+"kActivitySubtitleGroupchatRenamedNotification" = "Le sujet de groupe a été changé pour %@";
+
+"kAcceptedFriendRequestMessage" = "Ajouté aux contacts";
+
+"kInvitationJoinMessage" = "%@ a rejoint la conversation";
+
+"kDoneLabel" = "Terminé";
+
+"kAddedText" = "Déjà dans votre liste";
+
+"kRequestFailTimeout" = "Votre demande a expiré. Veuillez réessayer.";
+
+"kRequestFailForbidden" = "Nom d'utilisateur ou mot de passe incorrect. Veuillez réessayer.";
+
+"kRequestFailInvalidEmail" = "Votre compte a été désactivé. Veuillez vous rendre sur votre email pour valider ce compte.";
+
+"kRequestFailConectivityIssues" = "Votre connexion internet est confronté à certains problèmes de connectivité. Veuillez réessayer.";
+
+"kRequestCanceled" = "Annulé";
+
+"kLoginErrorTitle" = "Erreur de connexion";
+
+"kLoginInvalidUsernameOrPassword" = "Nom de compte ou mot de passe incorrect";
+
+"kServiceUnavailable" = "Le service est actuellement indisponible. Veuillez réessayer ultérieurement.";
+
+"kTokenRequestAuthenticationFailed" = "Le service est actuellement indisponible. Veuillez réessayer ultérieurement.";
+
+"kTokenRequestAuthenticationForbidden" = "Le service de connexion n'est pas disponible. Veuillez réessayer ultérieurement.";
+
+"kBugReportAttachmentRequestTooLarge" = "La pièce jointe est trop volumineuse";
+
+// Need to test this 2 strings on all screens they appear
+"kInternetStatusNotAvailable" = "Pas d'Internet ! Aucune connexion Internet fonctionnelle trouvée. Si le WiFi est activé, désactivez-le ou connectez-vous sur un autre hotspot WiFi.";
+
+"kInternetStatusTitle" = "Erreur de connexion";
+
+"kErrorTitle" = "Erreur";
+
+"kNewFriends" = "Nouveaux amis";
+
+"kMicrophoneAccessNote" = "Allez dans les paramètres de votre appareil et autorisez WowApp à accéder au microphone afin de pouvoir parler pendant votre appel audio.";
+
+"kCameraAccessNote" = "Allez sur les paramètres de votre appareil et autorisez WowApp à accéder à l'appareil photo si vous voulez passer un appel vidéo à votre ami.";
+
+// Need to test this on the device
+"kCameraNotAvailable" = "Pas de caméra photo détectée sur le périphérique ou l'accès est restreint";
+
+"kCameraNotAvailableTitle" = "Pas d'accès à l'appareil photo";
+
+"kCameraAlreadyInUse" = "La caméra photo est déjà utilisée";
+
+"kNumberOfPhotosSelected" = "%d photos sélectionnées";
+
+// Not sure where this appears
+"kFileSavedSuccesInPhotos" = "Le fichier a bien été enregistré dans Photos.";
+
+// Same
+"kFileSavedErrorInPhotos" = "Une erreur s'est produite lors de l'enregistrement du fichier";
+
+// Same
+"kFileSizeTooLarge" = "Le fichier est trop volumineux.";
+
+// Don't know how these appear
+"kFileTransferStatusOutgoing" = "Vous avez envoyé un fichier depuis un ordinateur.";
+
+"kFileTransferStatusIncoming" = "Vous avez reçu un fichier sur un ordinateur.";
+
+"kRetryLabel" = "Réessayer";
+
+"kNotOnRosterUserMessage" = "L'utilisateur n'est pas dans votre liste de contacts";
+
+// To be removed from the project
+"kDefaultGreetingMessage" = "Bonjour ! Veuillez m'ajouter comme contact";
+
+// Don't know if this is used, I moved it anyway but I can't test it
+"kInvitationJoinMessage" = "%@ a rejoint la conversation";
+
+// Cannot test this
+"kAddedText" = "Déjà dans votre liste";
+
+// Don't know where to test this
+"kRequestFailTimeout" = "Votre demande a expiré. Veuillez réessayer.";
+
+"kRequestFailForbidden" = "Nom d'utilisateur ou mot de passe incorrect. Veuillez réessayer.";
+
+"kRequestFailInvalidEmail" = "Votre compte a été désactivé. Veuillez vous rendre sur votre email pour valider ce compte.";
+
+"kRequestFailConectivityIssues" = "Votre connexion internet est confronté à certains problèmes de connectivité. Veuillez réessayer.";
+
+"kRequestCanceled" = "Annulé";
+
+"kServiceUnavailable" = "Le service est actuellement indisponible. Veuillez réessayer ultérieurement.";
+
+"kTokenRequestAuthenticationFailed" = "Le service est actuellement indisponible. Veuillez réessayer ultérieurement.";
+
+"kTokenRequestAuthenticationForbidden" = "Le service de connexion n'est pas disponible. Veuillez réessayer ultérieurement.";
+
+"kBugReportAttachmentRequestTooLarge" = "La pièce jointe est trop volumineuse";
+
+"kContactActionCanceledReasonNotFriend" = "Pour effectuer cette action, veuillez ajouter cette personne à votre liste de contacts";
+
+"kContactActionCanceledReasonBlocked" = "Pour effectuer cette action, débloquez d'abord cette personne (Paramètres -> Contacts bloqués)";
+
+"kContactActionCanceledReasonPending" = "Pour ce type d'action, la personne doit d'abord vous ajouter à sa liste de contacts";
+
+"kContactActionHasNoSharedDetails" = "Ce contact n'a pas partagé ses informations avec vous.";
+
+"kNotAvailableLocation" = "Position géographique non disponible";
+
+"kContactDetailUpdateItemSucceeded" = "Profil de contact mis à jour";
+
+"kContactDetailUpdateItemFailed" = "Echec de la mise à jour du profil de contact. Veuillez réessayer.";
+
+"kSaveAccountSucceded" = "Informations de compte enregistrées";
+
+"kSaveAccountError" = "Impossible d'enregistrer les informations de compte";
+
+"kUnknownError" = "Erreur inconnue.";
+
+"kSearchAccounts" = "Recherche de comptes";
+
+"kShareLocationFailedReasonNetwork" = "Erreur réseau, veuillez réessayer ultérieurement.";
+
+"kShareLocationFailedReasonTimeout" = "Cela prend beaucoup trop de temps, veuillez réessayer ultérieurement.";
+
+"kContactPendingRequest" = "En attente...";
+
+"kActivitySubtitleFriendRequest" = "Demande de contact";
+
+"kActivitySubtitleFriendRequestAccept" = "Ajouté aux contacts";
+
+"kActivitySubtitleFriendRequestDecline" = "Demande de contact déclinée";
+
+"kActivityTitleText" = "Transfert de fichier";
+
+"kActivitySubtitleText" = "Transfert de fichier";
+
+"kDisplayedStatusMessage" = "Transfert de fichier";
+
+"kUserMightNotSupportCloudTransfer" = "Oups ! Il semble que %@ utilise une ancienne version de l'application sur au moins un périphérique et le fichier que vous envoyez ne sera pas disponible sur cet appareil jusqu'à ce que %@ procède à la mise à niveau vers la dernière version.";
+
+"kRetrieveActivitiesFailed" = "Désolé, nous ne pouvons pas récupérer vos conversations pour l'instant. Veuillez réessayer ultérieurement.";
+
+"kCallStatusConnectingString" = "Appel...";
+
+"kCallTypeIncomingString" = "Appel %@ entrant";
+
+"kCallTypeIncomingConferenceString" = "Appel de conférence entrant";
+
+"kCallTypeAudio" = "Audio";
+
+"kCallTypeVideo" = "Vidéo";
+
+"kCallWoow" = "Appel gratuit";
+
+"kMicrophoneAccessTitle" = "Pas d'accès au Micro";
+
+"kMicrophoneAccessAlertMessage" = "%1$@ ne peut pas effectuer votre demande si vous n'autorisez pas l'accès au Micro. Pour ça, allez à : iPhone paramètres > confidentialité > Micro > %1$@ > sur On";
+
+"kShareLocationFailedReasonDenied" = "Veuillez aller dans Paramètres et activer les services de localisation pour ce WowApp.";
+
+"kNoAddressbookAccess" = "WowApp ne peut exécuter votre demande, vous devez accorder l'accès aux Contacts. Pour ça allez dans paramètres-> confidentialité-> Contacts et assurez-vous que WowApp est sur On";
+
+"kNoAddressbookAccessTitle" = "Pas d'accès aux Contacts";
+
+"kGalleryNotAvailableTitle" = "Pas d'accès aux Photos";
+
+"kGalleryNotAvailableMessage" = "WowApp ne peut pas envoyer et recevoir d'images de vos conversations, vous devez accorder l'accès aux Photos. Pour ça, allez dans paramètres-> confidentialité-> Photos";
+
+"kPrivacyPhotoAlbumPermissionRequired" = "Permettez l'accès aux Photos pour en échanger avec vos contacts WowApp.";
+
+"kNotificationsAddressBookAccessTitle" = "Laissez « WowApp » accéder aux Contacts";
+
+"kNotificationsAddressBookAccessMessage" = "Vous permet gratuitement d'appeler et d'envoyer des messages aux Contacts de votre téléphone lorsqu'ils sont sur WowApp.";
+
+"kLabelEdit" = "Modifier";
+
+"kLabelSave" = "Enregistrer";
+
+"kLabelCancel" = "Annuler";
+
+"kLabelOk" = "Ok";
+
+"kLabelYes" = "Oui";
+
+"kLabelDeleteAll" = "Tout supprimer";
+
+"kLabelLoadingDots" = "Chargement...";
+
+"kLabelMaybeLater" = "Peut-être plus tard";
+
+"kLabelWarning" = "Attention";
+
+"kLabelWhy" = "Pourquoi";
+
+"kLabelAgree" = "J'accepte";
+
+"kMenuOptionEdit" = "Modifier";
+
+"kDialpadAddPhoneTitle" = "Ajouter un numéro de téléphone";
+
+"kDialpadAddPhoneNewContact" = "Créer un nouveau contact";
+
+"kDialpadAddPhoneAddToExisting" = "Ajouter à un contact existant";
+
+"kDialpadAddressbookContactsPickerTitle" = "Contacts du carnet d'adresse";
+
+"kDialpadSMSNotVailableMessage" = "La fonctionnalité SMS sera bientôt disponible";
+
+"kAccountNotificationsViewTitle" = "Notifications";
+
+"kAccountNewNotificationsText" = "Vous avez %i nouvelles notifications";
+
+"kAccountNotificationsDeleteActionText" = "Supprimer la notification";
+
+"kRegistrationAcceptedInvitationNameToDisplay" = "Invitation acceptée";
+
+"kRegistrationOwnFeatherNameToDisplay" = "Ma Plume niveau supérieur";
+
+"kRegistrationContactsFeatherNameToDisplay" = "La plume de mon ami niveau supérieur";
+
+"kSystemCriticalMessageNameToDisplay" = "Message système";
+
+"kSystemInfoMessageNameToDisplay" = "Message d'info";
+
+"kCallHangUpDeclined" = "La personne que vous avez appelé a refusé l'appel";
+
+"kCallHangUpBusy" = "Le numéro composé est occupé";
+
+"kCallHangUpNotFound" = "Erreur réseau";
+
+"kCallHangUpUnreachable" = "Erreur réseau";
+
+"kCallHangUpTimeout" = "Pas de réponse";
+
+"kCallHangUpForbidden" = "Vous avez $0.00 d'appel de crédit. L'appel de crédit est nécessaire pour placer des appels payants et peut être acheté sur le site web de WowApp.";
+
+"kCallHangUpSendToVoicemail" = "L'appel a été envoyé sur votre messagerie vocale";
+
+"kCallHangUpInvalidNumber" = "Le numéro que vous avez composé n'est pas valide";
+
+"kCallHangUpUnknown" = "Erreur inconnue";
+
+"kCallHangUpRemotelyAnswered" = "L'appel a été répondu avec un autre périphérique";
+
+"kCallHangUpForwarded" = "L'appel a été transféré";
+
+"kCallAttemptOfflineContact" = "Le contact est actuellement hors ligne.";
+
+"kContactsSearchButtonTitle" = "Recherche de contact sur WowApp";
+
+"kContactsSaveNumberButtonTitle" = "Enregistrer le numéro de téléphone";
+
+"kContactsSearchInfoLbl" = "n'est pas dans votre liste de contacts.";
+
+"kContactsSegmentedControlPhone" = "Téléphone";
+
+"kProfileAddContactViewTitle" = "Ajouter un contact";
+
+"kProfileAddContactConnectionsLblText" = "Réseau";
+
+"kProfileAddContactContactsLblText" = "Contacts";
+
+"kProfileAddContactAddContactButtonText" = "Ajouter à la liste de contacts";
+
+"kProfileAddContactViewProfileButtonText" = "Voir le profil complet";
+
+"kProfileAddContactGreetingMessageLblText" = "Écrire un message de bienvenue";
+
+"kProfileAddContactSendRequestButtonText" = "Envoyer une demande de contact";
+
+"kProfileAddContactResendRequestButtonText" = "Envoyer à nouveau une demande de contact";
+
+"kProfileAddContactInListRequestButtonText" = "Ajouté à vos contacts";
+
+"kProfileAddContactNoGreetingMessageInfo" = "Veuillez écrire un message de bienvenue";
+
+"kProfileAddContactCantAddYourselfErrorMessage" = "Vous ne pouvez pas vous ajouter vous-même";
+
+"kProfileAddContactUserInYourListErrorMessage" = "L'utilisateur est déjà dans votre liste de contacts";
+
+"kProfileAddContactsFriendRequestSentMessage" = "Ami ajouté";
+
+"kMenuItemNew" = "NOUVEAU";
+
+"kMenuCellSettings" = "Paramètres";
+
+"kMenuCellAdMe" = "Advertise Me";
+
+"kMenuCellKeypad" = "Clavier";
+
+"kMenuCellInvites" = "Parlez-en à vos amis";
+
+"kMenuCellFeedback" = "Envoyer un commentaire";
+
+"kMenuCellAbout" = "À propos";
+
+"kChatsDeleteConversation" = "Supprimer la conversation";
+
+"kLoadEarlierMessages" = "Charger les messages antérieurs";
+
+"kThisMessageWasRemoved" = "Ce message a été supprimé";
+
+"kChatBackButtonTitle" = "Conv.";
+
+"kChatRightNavButtonTitle" = "Contact";
+
+"kChatTypingMessage" = "en train d'écrire...";
+
+"kActionSheetOptionSendVideoFromCamera" = "Envoyer vidéo";
+
+"kActionSheetOptionSendPhotoFromCamera" = "Envoyer photo";
+
+"kCompressingVideoText" = "Compression vidéo...";
+
+"kButtonAcceptMessage" = "Vous et %@ êtes maintenant amis";
+
+"kButtonBlockedMessage" = "%@ a été ajouté à votre liste de contacts bloqués";
+
+"kButtonDeclinedMessage" = "La demande a été refusée";
+
+"kBlockPopUpQuestion" = "Voulez-vous également bloquer cet utilisateur?";
+
+"kValidPhoneNumberMessage" = "Veuillez entrer un numéro de téléphone valide";
+
+"kNumberValidationMessage" = "CONFIRMATION DE NUMERO : \n %@ \n Le numéro de téléphone ci-dessus est-il correct?";
+
+"kMyProfileSectionTitleInfo" = "INFOS PERSONNELLES";
+
+"kMyProfileSectionTitleContact" = "INFOS DE CONTACT";
+
+"kMyProfileAward" = "Prix:";
+
+"kMyProfileWoowUsername" = "Nom d'utilisateur :";
+
+"kMyProfileNetwork" = "Réseau:";
+
+"kMyProfileBirthday" = "Anniversaire:";
+
+"kMyProfileGender" = "Sexe:";
+
+"kMyProfileCityCountry" = "Ville/Pays:";
+
+"kMyProfileLanguage" = "Langue:";
+
+"kMyProfileEmail" = "Email:";
+
+"kMyProfilePhone" = "Téléphone:";
+
+"kMyProfileWebsite" = "Site web:";
+
+"kQBImagePickerControllerTitle" = "Albums";
+
+"kFormatNumberOfPhotosAndVideos" = "%ld photos, %ld vidéos";
+
+"kFormatNumberOfPhotos" = "%ld photos";
+
+"kFileNotAvailable" = "Non disponible";
+
+"kFileTooLarge" = "Un fichier volumineux a été envoyé à partir d'un appareil de bureau";
+
+"kMyProfileInviteFriends" = "Envoyer une invitation";
+
+"kRemoveFromBlockedContactsMessage" = "%@ a été retiré de la liste de contacts bloqués";
+
+"kMandatoryFieldsText" = "*champs obligatoires";
+
+"kEmailLblText" = "Email*";
+
+"kFirstNameLblText" = "Prénom*";
+
+"kMessageLblText" = "Message";
+
+"kSendInviteButtonText" = "Envoyer une invitation";
+
+"kViewInvitesButtonText" = "Voir les invitations";
+
+"kShowInRosterButtonText" = "Ajouter cette personne à ma liste de contacts";
+
+"kBugReportPlaceholders" = "Crash de l'application";
+
+"kAlreadyInACallMessage" = "Vous êtes déjà en train d'appeler";
+
+"kAlreadyInAGSMCallMessage" = "Impossible de placer un appel Wow pendant un appel GSM en cours. Pour placer un appel en utilisant Wow, vous devez d'abord terminer votre appel GSM en cours.";
+
+"kNullJid" = "NULL logged in jid";
+
+"kInvalidFirstNameMessage" = "Le prénom doit avoir entre 1 et 40 caractères";
+
+"kInvalidEmailMessage" = "Veuillez entrer une adresse email valide";
+
+"kPleaseSelectCountry" = "Veuillez d'abord sélectionner un pays";
+
+"kSelectCountryFromList" = "Sélectionnez dans la liste";
+
+"kCountryCodePhoneNumber" = "Code pays";
+
+"kLabelInfo" = "Info";
+
+"kNoInvitesLeftMessage" = "Aucune invitation restante";
+
+"kInviteScreenViewTitle" = "Inviter maintenant";
+
+"kValidationViewTitle" = "Votre numéro de téléphone";
+
+"kTabbarDialpadString" = "Clavier";
+
+"kPeerVersionLower" = "Votre ami utilise une ancienne version de WowApp. Merci de lui demander de la mettre à jour!";
+
+"kPeerVersionHigher" = "Votre ami utilise une version plus récente de WowApp. Veuillez faire la mise à jour!";
+
+"kPhoneValidationScreenTitle" = "Veuillez confirmer votre code pays et entrer votre numéro de téléphone";
+
+"kPhoneValidationScreenCountry" = "Votre code pays et votre numéro de téléphone";
+
+"kPhoneValidationScreenSelectCountryFirstMessage" = "Veuillez d'abord sélectionner votre code pays";
+
+"kMessagesLabel" = "Messages";
+
+"kEnterSMSCodeLabel" = "Nous avons envoyé un SMS avec un code de validation au numéro de téléphone ci-dessus.";
+
+"kEnterIVRCodeLabel" = "Nous appellerons le numéro de téléphone ci-dessus et vous donnerons un code de validation.";
+
+"kEditPhoneNumberLabel" = "Modifier le numéro de téléphone";
+
+"kEditResendSMSCodeLabel" = "Renvoyer le code SMS";
+
+"kEditCallMeAgainLabel" = "Appelez-moi à nouveau";
+
+"kEditPhoneNumberInLabel" = "Modifier le numéro de téléphone pour %@";
+
+"kEditResendSMSCodeInLabel" = "Envoyer à nouveau le code au %@";
+
+"kEditCallMeInLabel" = "Appelez-moi dans %@";
+
+"kEditCallMeLabel" = "Appelle-moi";
+
+"kEditCallMeAgainInLabel" = "Appelez-moi à nouveau dans %@";
+
+"kNotifySupportLabel" = "Informer notre assistance clients";
+
+"kPhoneValidationNotifySupportSuccess" = "Merci de nous avoir informé, quelqu'un vous contactera sous peu par email.";
+
+"kPhoneValidationNotifySupportFailed" = "Impossible de contacter l'assistance clients, veuillez réessayer plus tard.";
+
+"kMaxNumberOfRequestsReachedMessage" = "Vous avez atteint le nombre maximum de demandes de SMS/appel.  \n Si vous ne recevez pas le code d'activation, veuillez appuyer sur le bouton Contact de l'assistance.";
+
+"kNotifySupportBugText" = "Vérification de téléphone";
+
+"kValidationError400Message" = "Veuillez vérifier votre numéro de téléphone et réessayer.";
+
+"kValidationError418Message" = "Ce numéro est en cours de validation, veuillez attendre nos SMS ou réessayer dans quelques minutes.";
+
+"kValidationError404Message" = "Service indisponible. Veuillez réessayer ultérieurement.";
+
+"kSMSValidationError409Message" = "La demande de SMS n'a pas pu aboutir. Veuillez vérifier votre numéro de téléphone et réessayer.";
+
+"kIVRValidationError409Message" = "Ce numéro est en cours de validation, veuillez attendre nos SMS ou réessayer dans quelques minutes.";
+
+"kCodeValidationError409Message" = "Le code de vérification que vous avez entré est incorrect. Veuillez réessayer.";
+
+"kCodeValidationSuccessMessage" = "Votre numéro a été validé et a été assigné comme votre identification d'appelant";
+
+"kCrashReportTitle" = "Rapport d'incidents";
+
+"kCrashReportMessage" = "L'application s'est arrêtée inopinément. Vous voulez envoyer un rapport d'incident?";
+
+"kUpdateAvailableTitle" = "Nouvelle mise à jour disponible";
+
+"kUpdateAvailableMessage" = "Il est fortement recommandé d'installer cette version.";
+
+"kLabelInstall" = "Installer";
+
+"kFeatherText_LEVEL_BEGIN" = "Félicitations!";
+
+"kFeatherText_LEVEL_Awarded" = "Récompense décernée!";
+
+"kNewUnknownNotification" = "Type de notification inconnu";
+
+"kNewUnknownNotificationContent" = "Contenu de notification inconnu";
+
+"kNewUnknownNotificationTitle" = "Titre de notification inconnu";
+
+"kNumberTooLong" = "Le numéro %@ est trop long";
+
+"kNumberTooShort" = "Le numéro %@ est trop court";
+
+"kNumberInvalidCountryCode" = "Le numéro %@ contient un code pays invalide";
+
+"kNumberInvalid" = "Le numéro %@ n'est pas valide";
+
+"kNumberCannotBeParsed" = "Le numéro %@ ne peut pas être analysé";
+
+"kNumberIsNotMobile" = "Le numéro %@ n'est celui d'un portable";
+
+"kGroupChat" = "Discussion de groupe";
+
+"kGroupChatNewGroup" = "Nouveau groupe";
+
+"kGroupChatEditGroup" = "Modifier un groupe";
+
+"kGroupChatTopicMaxLengthExceeded" = "La sujet a dépassé la longueur maximale de %i caractères";
+
+"kGroupChatCantAddMoreParticipants" = "Vous avez atteint le nombre maximum de participants";
+
+"kGroupChatCantYouLeftConversation" = "Vous avez été supprimé de la conversation ou vous l'avez quitté vous-même sur un autre périphérique";
+
+"kGroupChatNameCannotBeEmpty" = "Le nom de la discussion de groupe ne peut pas être vide!";
+
+"kGroupChatShouldAddAtLeastOneParticipant" = "Vous devez ajouter au moins un participant";
+
+"kGroupChatEmptyGroup" = "Groupe vide";
+
+"kGroupChatXAddedYToTheGroup" = "%1$@ a ajouté %2$@ au groupe";
+
+"kGroupChatXAddedYAndZOtherPeopleToTheGroup" = "%1$@ a ajouté %2$@ et %3$d autres personnes au groupe";
+
+"kGroupChatXAddedYPeopleToTheGroup" = "%1$@ a jouté %2$d personnes au groupe";
+
+"kGroupChatXRemovedYFromTheGroup" = "%1$@ a supprimé %2$@ du groupe";
+
+"kGroupChatXRemovedYAndZOtherPeopleFromTheGroup" = "%1$@ a supprimé %2$@ et %3$d autres personnes du groupe";
+
+"kGroupChatXRemovedYPeopleFromTheGroup" = "%1$@ a supprimé %2$d personnes du groupe";
+
+"kGroupChatXHaveBeenRemovedFromTheGroup" = "%@ a été supprimé du groupe";
+
+"kGroupChatXAndYOtherPeopleHaveBeenRemovedFromTheGroup" = "%1$@ et %2$d autres personnes ont été supprimés du groupe";
+
+"kGroupChatXPeopleHaveBeenRemovedFromTheGroup" = "%d personnes ont été supprimées du groupe";
+
+"kGroupChatSeenByX" = "Vu par %@";
+
+"kGroupChatSeenByXAndYOtherPeople" = "Vu par %1$@ et %2$d autres personnes";
+
+"kGroupChatSeenByXPeople" = "Vu par %d personnes";
+
+"kGroupChatUserLeftConversation" = "Vous avez quitté le groupe. Vous devez être réinvité pour continuer.";
+
+"kGroupChatSelfRemovedFromConversation" = "Vous avez été supprimé du groupe. Vous devez être réinvité pour continuer.";
+
+"kGroupChatPeerLeftConversation" = "%@ a quitté le groupe";
+
+"kGroupChatSingleUserRemovedByPeerSuffix" = "%@ a été supprimé du groupe";
+
+"kGroupChatTopicCleared" = "Le sujet de groupe a été annulé";
+
+"kSingleChatLastSeenMessagePrefix" = "Vu";
+
+"kSingleChatSeenMessagePrefix" = "Vu";
+
+"kGroupChatSeenByEveryone" = "Vu par tout le monde";
+
+"kSingleChatUnknownEventMessage" = "%@ a utilisé une fonctionnalité qui est disponible sur une version plus récente, veuillez faire la mise à jour.";
+
+"kDeleteSendingErrorMessage" = "Vous ne pouvez pas supprimer un message qui est en train d'être envoyé.";
+
+"kDeleteOngoingCallErrorMessage" = "Vous ne pouvez pas supprimer un appel en cours.";
+
+"kDeleteOngoingFileTransferErrorMessage" = "Vous ne pouvez pas supprimer un fichier en cours de transfert.";
+
+"kLabelContinue" = "Continuer";
+
+"kDeleteConversationConfirmation" = "Cette conversation va disparaître pour toujours de l'historique de votre activité.";
+
+"kContactsScreenFriendInvitesGroupName" = "DEMANDES DE CONTACT";
+
+"kContactsScreenFavoritesGroupName" = "FAVORIS";
+
+"kContactsScreenFriendsGroupName" = "AMIS";
+
+"kContactsScreenGroupChatsGroupName" = "GROUPES";
+
+"kContactsScreenAddressbookGroupName" = "Numéros de téléphone";
+
+"kContactsScreenAutopopulateGroupName" = "Contacts du téléphone portable";
+
+"kContactsScreenFriendRequestSent" = "Demande de contact envoyée - En attente d'approbation";
+
+"kLoadingScreenSubtitle" = "Merci d'utiliser WowApp!";
+
+"kResumeCallLabel" = "Touchez pour revenir à l'appel";
+
+"kSwitchCamera" = "Changer de caméra";
+
+"kTurnOffCamera" = "Pas de caméra appareil photo";
+
+"kVideoToggleAnnotation" = "Vidéo";
+
+"kMicrophoneToggleAnnotation" = "Muet";
+
+"kSpeakerToggleAnnotation" = "Haut-parleur";
+
+"kMenuAnnotation" = "Plus";
+
+// Cannot test
+"kAddressBookUpdateItemSucceeded" = "Le profil a été mis à jour";
+
+"kAddressBookUpdateItemFailed" = "Échec de la mise à jour du carnet d'adresses. Veuillez réessayer.";
+
+"kCameraNotAvailableMessage" = "WowApp ne peut exécuter la demande sans l'accès à l'appareil photo. Pour ça allez dans paramètres-> confidentialité-> appareil photo";
+
+"kConnectionUnavailableTitle" = "Connexion non disponible";
+
+"kInternalServerErrorMessage" = "WowApp est actuellement indisponible. Veuillez réessayer ultérieurement. Nous sommes conscients du problème et nous travaillons à le résoudre. Si le problème persiste, veuillez nous contacter à support@wowapp.com.";
+
+"kIgnoreWowCallWhileGSMCall" = "Vous ne pouvez pas prendre d'appel Wow avec un appel GSM en cours.";
+
+"kUnknownCallerID" = "ID d'appelant inconnu";
+
+"kInsufficientFunds" = "Le crédit dont vous disposez est insuffisant pour appeler cette destination.";

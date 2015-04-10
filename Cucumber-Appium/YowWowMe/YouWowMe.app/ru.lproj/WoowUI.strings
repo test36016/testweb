@@ -1,0 +1,1728 @@
+/* 
+ woow_ui.strings
+ WoowUI
+ 
+ Created by Mihai Babusca on 09/09/14.
+ Copyright (c) 2014 Mihai Babusca. All rights reserved.
+*********
+ * Common *
+ *********
+*/
+"kLabelSave" = "Сохранить";
+
+"kLabelSend" = "Отправить";
+
+"kLabelSearching" = "Поиск...";
+
+"kButtonCancel" = "Отмена";
+
+"kLabelOk" = "ОК";
+
+"kLabelSending" = "Отправка...";
+
+"kButtonEdit" = "Редактировать";
+
+"kButtonNext" = "Далее";
+
+"kAccept" = "Принять";
+
+"kDecline" = "Отклонить";
+
+"kYes" = "Да";
+
+"kNo" = "Нет";
+
+"kMale" = "Мужской";
+
+"kFemale" = "Женский";
+
+"kNotSpecified" = "Не указан";
+
+"kSaving" = "Сохранение...";
+
+"kAddedToFavorites" = "Добавлено в избранное";
+
+"kRemovedFromFavorites" = "Удалено из избранного";
+
+/* ***********
+ * Defaults *
+ ***********
+*/
+"kAlertViewDefaultTitle" = "";
+
+"kActionSheetDefaultTitle" = "WowApp";
+
+"kCouldNotCompleteAction" = "Не удалось выполнить действие";
+
+"kListPickerDefaultTitle" = "WowApp";
+
+/* ******************************
+ * Roster Groups *
+ ******************************
+*/
+"kRosterGroupFriends" = "Друзья";
+
+"kRosterGroupFavorites" = "Избранное";
+
+/* ******************************
+ * SearchAccountViewController *
+ ******************************
+*/
+"kSearchAccountViewControllerTitle" = "Пользователи WowApp";
+
+"kSearchAccountViewControllerSearchBarPlaceholder" = "Поиск";
+
+"kSearchAccountViewControllerFooterExplanation" = "Результаты поиска\nбудут отображаться здесь";
+
+"kSearchAccountViewControllerFooterNoResults" = "Нет результатов";
+
+/* ******************************
+ * GroupChatEditViewController *
+ ******************************
+*/
+"kGroupChatEditViewControllerTitle" = "Информация о группе";
+
+"kGroupChatEditViewControllerAddToContacts" = "Сохранить группу в списке контактов";
+
+"kGroupChatEditViewControllerRemoveFromContacts" = "Удалить группу из списка контактов";
+
+"kGroupChatEditViewControllerAddToFavorites" = "Добавить группу в избранное";
+
+"kGroupChatEditViewControllerRemoveFromFavorites" = "Удалить группу из избранного";
+
+"kGroupChatEditViewControllerParticipants" = "Участники";
+
+"kGroupChatEditViewControllerAddMoreParticipants" = "Добавить участников";
+
+"kGroupChatEditViewControllerGroupNameHeader" = "Название";
+
+"kGroupChatEditViewControllerGroupNamePlaceholder" = "Введите название группы";
+
+"kGroupChatEditViewControllerGroupSubjectHeader" = "Тема группового чата";
+
+"kGroupChatEditViewControllerGroupSubjectPlaceholder" = "Введите тему группового чата";
+
+"kGroupChatEditViewControllerLeaveGroupChat" = "Выйти из группового чата";
+
+/* ********************************
+ * GroupChatCreateViewController *
+ ********************************
+*/
+"kGroupChatCreateViewControllerTitle" = "Новая группа";
+
+"kGroupChatSubjectTitle" = "Тема группы";
+
+"kGroupChatSubjectPlaceholder" = "Введите тему группового чата...";
+
+"kGroupChatParticipants" = "Участники";
+
+"kGroupChatContactNamePlaceholder" = "Введите имя контакта...";
+
+/* ********************
+ * Group chat common *
+ ********************
+*/
+"kGroupChat" = "Групповой чат";
+
+"kGroupChatCantAddMoreParticipants" = "Достигнуто максимальное число участников";
+
+"kGroupChatTopicMaxLengthExceeded" = "Название темы превышает максимальную длину (%i зн.)";
+
+"kGroupChatEditGroup" = "Изменить группу";
+
+"kGroupChatCantYouLeftConversation" = "Вас удалили из разговора или вы сами вышли из него на другом устройстве";
+
+"kGroupChatNameCannotBeEmpty" = "Название группового чата не может быть пустым!";
+
+"kGroupChatShouldAddAtLeastOneParticipant" = "Необходимо добавить минимум одного участника";
+
+"kGroupChatTopicCleared" = "Тема группового чата удалена";
+
+"kGroupChatEmptyGroup" = "Пустая группа";
+
+/* ********************
+ * Single chat view *
+ ********************
+*/
+"kSingleChatActionSheetAudioCall" = "Аудиозвонок";
+
+"kSingleChatActionSheetVideoCall" = "Видеозвонок";
+
+"kSingleChatActionSheetProfile" = "Профиль";
+
+/* *************************
+ * SettingsViewController *
+ *************************
+*/
+"kSettingsViewControllerTitle" = "Настройки";
+
+/* *******************************
+ * SettingsSoundsViewController *
+ *******************************
+*/
+"kSettingsSoundsViewControllerTitle" = "Аудио";
+
+/* ********************************
+ * SettingsCountryViewController *
+ ********************************
+*/
+"kSettingsCountryViewControllerTitle" = "Ваша страна";
+
+/* ****************************************
+ * SettingsBlockedContactsViewController *
+ ***************************************
+*/
+"kSettingsBlockedContactsViewControllerTitle" = "Заблокированные контакты";
+
+"kSettingsBlockedContactsViewControllerUnblockButton" = "Разблокировать";
+
+/* *******************************
+ * ContactRequestViewController *
+ *******************************
+*/
+"kContactRequestViewControllerTitle" = "Запрос на обмен контактными данными";
+
+"kContactRequestViewControllerGroupsHeader" = "ДОБАВИТЬ В ГРУППУ";
+
+"kContactRequestViewControllerGroups" = "Группы";
+
+"kContactRequestViewControllerPersonalMessageHeader" = "ЛИЧНОЕ СООБЩЕНИЕ";
+
+"kContactRequestViewControllerPersonalMessage" = "Я хочу тебя пригласить";
+
+"kContactRequestViewControllerSendContactRequest" = "Отправить запрос на добавление в контакты";
+
+"kContactRequestViewControllerViewFullProfile" = "Просмотреть профиль полностью";
+
+"kContactRequestSent" = "Запрос на обмен контактными данными отправлен";
+
+"kContactRequestSentFailed" = "Не удалось отправить запрос на обмен контактными данными. Повторите попытку.";
+
+"kContactRequestDefaultMessage" = "Здравствуйте! Пожалуйста, добавьте меня в список контактов.";
+
+/* ******************************************
+ * ContactRequestSelectGroupViewController *
+ ******************************************
+*/
+"kContactRequestSelectGroupViewControllerTitle" = "Выбрать группу";
+
+/* ******************************************
+ * ContactRequestSelectGroupViewController *
+ ******************************************
+*/
+"kContactRequestMessageViewControllerTitle" = "Сообщение";
+
+/* ************************
+ * Privacy Common Strings *
+ ************************
+*/
+"kPrivacyTypePublic" = "Видно всем";
+
+"kPrivacyTypePrivate" = "Видно только мне";
+
+"kPrivacyTypeFriends" = "Видно друзьям";
+
+/* ************************
+ * PrivacyViewController *
+ ************************
+*/
+"kPrivacyViewControllerTitle" = "Конфиденциальность";
+
+/* ************************
+ * PrivacySelectionViewController *
+ ************************
+*/
+"kPrivacySelectionViewControllerTitle" = "Конфиденциальность";
+
+/* ************************
+ * SendInviteViewController *
+ ************************
+*/
+"kSendInviteViewControllerTitle" = "Пригласить";
+
+"kSendInviteViewControllerHeaderName" = "ИМЯ:";
+
+"kSendInviteViewControllerHeaderEmail" = "EMAIL:";
+
+"kSendInviteViewControllerHeaderMessage" = "СООБЩЕНИЕ:";
+
+"kSendInviteViewControllerCheckAddToContactList" = "Добавить в список контактов";
+
+"kSendInviteViewControllerButtonViewInvites" = "Просмотреть страницу приглашений";
+
+"kInviteInfoInviteeName_minlength" = "Введите имя своего друга.";
+
+"kInviteInfoInviteeName_maxlength" = "Имя должно содержать от 1 до 40 знаков.";
+
+"kInviteInfoInviteeEmail_notSpecified" = "Введите адрес электронной почты своего друга.";
+
+"kInviteInfoInviteeEmail_invalidFormat" = "Введите допустимый адрес электронной почты.";
+
+"kSendInviteInvalidData" = "Недопустимые данные. Пожалуйста, проверьте данные, содержащиеся в приглашении.";
+
+"kSendInviteSucces" = "Поздравляем! Ваше приглашение отправлено.";
+
+"kSendInviteAlreadyUser" = "Этот человек уже использует WowApp.";
+
+"kSendInviteAlreadyInvitedFriend" = "У этого пользователя уже есть приглашение от вас, которое он пока не подтвердил.";
+
+"kSendInviteDuplicateEmail" = "В приглашении повторяется адрес электронной почты.";
+
+"kSendInviteAlreadySent" = "Вы уже пригласили этого пользователя в WowApp.";
+
+"kSendInviteFailed" = "К сожалению, мы не можем отправить ваше приглашение на данный момент. Пожалуйста, проверьте подключение к интернету и повторите попытку позже.";
+
+"kNoInvitesLeftMessage" = "Не осталось приглашений";
+
+/* ********************************
+ * PhoneValidationViewController *
+ ********************************
+*/
+"kPhoneValidationViewControllerTitle" = "Проверка телефона";
+
+"kPhoneValidationViewControllerHeaderMessage" = "Подтвердите код страны и введите свой номер телефона";
+
+"kPhoneValidationViewControllerCountryPlaceHolder" = "Выберите страну";
+
+"kPhoneValidationViewControllerPhoneNumberPlaceHolder" = "Номер телефона";
+
+"kPhoneValidationViewControllerAlert" = "Мы проверим следующий номер:\n%@ %@\nНомер верен, или вы хотите изменить его?";
+
+/* ********************************
+ * PhoneValidationCodeViewController *
+ ********************************
+*/
+"kPhoneValidationCodeViewControllerHeaderMessage" = "Чтобы подтвердить свой номер телефона, введите 4-значный код из SMS-сообщения, которое мы только что вам отправили";
+
+"kPhoneValidationCodeViewControllerResendCode" = "Отправить SMS-код через:";
+
+"kPhoneValidationCodeViewControllerEditPhoneNumber" = "Изменить номер телефона через:";
+
+"kPhoneValidationCodeViewControllerValidateCode" = "Ваш номер подтвержден и установлен в качестве Caller ID";
+
+/* **********************************
+ * ProfileCompletionViewController *
+ **********************************
+*/
+"kProfileCompletionViewControllerTitle" = "Создать учетную запись";
+
+"kProfileCompletionViewControllerHeader" = "Мы рады видеть вас здесь.\nДавайте настроим вашу учетную запись.";
+
+"kProfileCompletionViewControllerPersonalInfo" = "ЛИЧНЫЕ ДАННЫЕ";
+
+"kProfileCompletionViewControllerFirstName" = "Имя";
+
+"kProfileCompletionViewControllerLastName" = "Фамилия";
+
+"kProfileCompletionViewControllerGender" = "ПОЛ";
+
+"kProfileCompletionViewControllerBirthday" = "ДАТА РОЖДЕНИЯ";
+
+"kProfileCompletionViewControllerGenderPlaceholder" = "Выберите пол";
+
+"kProfileCompletionViewControllerBirthdayPlaceholder" = "Выберите дату рождения";
+
+"kMandatoryFieldsMessage" = "Все поля обязательны для заполнения";
+
+"kProfileCompletionViewControllerNameError" = "Недопустимое имя";
+
+"kProfileCompletionViewControllerBirthdayError" = "Недопустимая дата рождения";
+
+/* **********************************
+ * ProfileCompletionStepTwoViewController *
+ **********************************
+*/
+"kProfileCompletionStepTwoViewControllerTitle" = "Добро пожаловать";
+
+"kProfileCompletionStepTwoViewControllerChooseAvatar" = "Выберите фотографию профиля";
+
+"kProfileCompletionStepTwoViewControllerTakePhoto" = "Снять фото";
+
+"kProfileCompletionStepTwoViewControllerChooseFromGallery" = "Выбрать из галереи";
+
+/* ***************************
+ * EditStatusViewController *
+ ***************************
+*/
+"kEditStatusViewControllerTitle" = "Изменить статус";
+
+"kEditStatusViewControllerAlertMessage" = "Статус сохранен";
+
+/* ************************
+ * Report a Problem *
+ ************************
+*/
+"kReportProblemTitle" = "Сообщить о проблеме";
+
+"kReportProblemSummary" = "Тема:";
+
+"kReportProblemDescription" = "Расскажите, в чем проблема:";
+
+"kReportProblemFailedToSendBugReport" = "Не удалось сообщить об ошибке. Повторите попытку позже.";
+
+/* ************************
+ * Send General Feedback *
+ ************************
+*/
+"kSendGeneralFeedbackTitle" = "Отправить отзыв";
+
+"kSendGeneralFeedbackSummary" = "Тема:";
+
+"kSendGeneralFeedbackDescription" = "Описание:";
+
+"kSendGeneralFeedbackFailedToSendFeedback" = "Не удалось отправить отзыв. Повторите попытку позже.";
+
+/* **************************
+ * Feedback error messages *
+ **************************
+*/
+"kFeedbackInfoInvalidSummary_minlength" = "Добавьте тему.";
+
+"kFeedbackInfoInvalidSummary_maxlength" = "Тема не может превышать 256 знаком";
+
+"kFeedbackInfoInvalidMessage_minlength" = "Введите краткое описание.";
+
+/* ******************************
+ *     My Profile Screen       *
+ ******************************
+*/
+"kMyProfileStatus" = "СТАТУС";
+
+/* ******************************
+ *       Profile Screen        *
+ ******************************
+*/
+"kFriendProfileButtonAudioCall" = "Аудиозвонок";
+
+"kFriendProfileButtonVideoCall" = "Видеозвонок";
+
+"kFriendProfileButtonMessage" = "Сообщение";
+
+"kFriendProfileButtonMore" = "Еще";
+
+"kAddContact" = "Добавить в контакты";
+
+"kAddContactSent" = "Запрос на обмен контактными данными отправлен";
+
+"kFriendProfileActionEditProfile" = "Редактировать профиль";
+
+"kFriendProfileActionFavorite" = "Добавить в избранное";
+
+"kFriendProfileActionRemoveFavorite" = "Удалено из избранного";
+
+"kFriendProfileActionBlockContact" = "Блокировать контакт";
+
+"kFriendProfileActionUnBlockContact" = "Разблокировать контакт";
+
+"kFriendProfileActionDelete" = "Удалить из списка контактов";
+
+"KAlertAreYouSureMessage" = "Вы уверены, что хотите удалить этот контакт? \n Вы не сможете обмениваться сообщениями и звонить друг другу, пока не добавите этот контакт обратно.";
+
+"kADBProfileButtonPaidCall" = "Платный звонок";
+
+"kADBProfileButtonInvite" = "Пригласить";
+
+"kADBSaveProfileConfirmationMessage" = "Вы уверены, что хотите сохранить изменения?";
+
+/* ******************************
+ *         Menu Screen         *
+ ******************************
+*/
+"kMenuNetwork" = "СЕТЬ";
+
+"kMenuSendInvites" = "ПРИГЛАСИТЬ";
+
+"kMenuEarnings" = "ДОХОДЫ";
+
+"kMenuMyWow" = "My Wow";
+
+"kMenuGeneralFeedbackButtonTitle" = "Отправить отзыв общего характера";
+
+"kMenuReportAProblemButtonTitle" = "Сообщить о проблеме";
+
+"kSendFeedbackTitle" = "Отправить отзыв";
+
+"kSendFeedbackSummary" = "Тема";
+
+"kSendFeedbackDescription" = "Описание";
+
+"kSendFeedbackAlert" = "Отправка отзыва...";
+
+"kSendFeedbackMessage" = "Сообщение";
+
+"kMenuViewProfile" = "Просмотреть профиль";
+
+"kMenuEditPrivacy" = "Редактировать личные данные";
+
+"kMenuChangeStatus" = "Изменить статус";
+
+/* ******************************
+ *      Contacts Screen        *
+ ******************************
+*/
+"kContactsScreenMakeCalls" = "Звонить";
+
+"kContactsScreenSearchYouWowMe" = "Поиск в WowApp";
+
+"kContactsTitle" = "Контакты";
+
+/* ******************************
+ *     Awards Legend Screen    *
+ ******************************
+*/
+"KAwardsLegendTitle" = "Виды вознаграждений";
+
+"kWhiteFeatherDescription" = "2 и более успешных приглашения";
+
+"kBlueFeatherDescription" = "10 и более успешных приглашений";
+
+"kGreenFeatherDescription" = "20 и более успешных приглашений";
+
+"kRedFeatherDescription" = "50 и более успешных приглашений";
+
+"kPinkFeatherDescription" = "100 и более успешных приглашений";
+
+"kOrangeFeatherDescription" = "200 и более успешных приглашений";
+
+"kDoubleOrangeFeatherDescription" = "500 и более успешных приглашений";
+
+"kSuperFeatherDescription" = "1000 и более успешных приглашений";
+
+"kAwardsLegendNote" = "Обратите внимание, что данное число не включает в себя приглашения, отправленные пользователями, входящими в вашу сеть";
+
+/* ******************************
+ *       Common - Share -      *
+ ******************************
+*/
+"kCancel" = "Отмена";
+
+"kSendLocation" = "Отправить местоположение";
+
+"kSendContact" = "Отправить контакт";
+
+"kSendFromCamera" = "Снять фото";
+
+"kSendFromVideo" = "Снять видео";
+
+"kSendFromGallery" = "Галерея";
+
+/* ******************************
+ *      IncomingFriendRequest  *
+ ******************************
+*/
+"kIncomingFriendRequestTitle" = "Запрос на добавление в друзья";
+
+/* ******************************
+ *      Upgrade                 *
+ ******************************
+*/
+"kUpgradeTitle" = "Обновите приложение прямо сейчас";
+
+"kUpgradeSubtitle" = "Требуется немедленное обновление.";
+
+/* ******************************
+ * FriendProfileEdit Screen    *
+ ******************************
+*/
+"kFriendProfileEditViewControllerTitle" = "Редактировать профиль";
+
+"kFriendProfileEditViewControllerNameHeader" = "Ник";
+
+"kFriendProfileEditViewControllerEmailHeader" = "Электронная почта";
+
+"kFriendProfileEditViewControllerPhoneHeader" = "Телефон";
+
+"kFriendProfileEditViewControllerNotesHeader" = "Примечания";
+
+"kFriendProfileEditViewControllerAddEmail" = "Добавить адрес электронной почты";
+
+"kFriendProfileEditViewControllerAddPhone" = "Добавить телефон";
+
+"kFriendProfileEditViewControllerNamePlaceholder" = "Введите имя";
+
+"kFriendProfileEditListPickerTitle" = "Выберите тип";
+
+"kFriendProfileEditPlaceholderEmail" = "Введите адрес электронной почты";
+
+"kFriendProfileEditPlaceholderPhone" = "Введите номер телефона";
+
+"kCategoryHome" = "домашний";
+
+"kCategoryOffice" = "рабочий";
+
+"kCategoryMobile" = "мобильный";
+
+"kCategoryOther" = "другое";
+
+"kPhoneNumberInvalid" = "Как минимум один из введенных телефонных номеров неверен. Проверьте правильность веденных номеров";
+
+/* ******************************
+ * PhoneContactsViewController *
+ ******************************
+*/
+"kPhoneContactsAccessContactsMessage" = "Это приложение запрашивает доступ к вашим контактам";
+
+"kPhoneContactsMakeCalls" = "Звонить";
+
+"kPhoneContactsMyNumber" = "Мой номер:";
+
+/* ****************************
+ * ContactInfoViewController *
+ ****************************
+*/
+"kContactInfoPaidCall" = "Платный звонок";
+
+"kContactInfoInvite" = "Пригласить";
+
+"kContactInfoContactInfo" = "Контактная информация";
+
+"kContactInfoEmail" = "Электронная почта:";
+
+"kContactInfoPhone" = "Телефон:";
+
+"kContactInfoWeb" = "Сайт:";
+
+/* ******************************
+ * TextInputBar				   *
+ ******************************
+*/
+"kChatTextFieldPlaceholder" = " Введите сообщение";
+
+/* ******************************
+ * Chat menu				   *
+ ******************************
+*/
+"kMenuCallLabel" = "Аудиозвонок";
+
+"kMenuVideoLabel" = "Видеозвонок";
+
+"kMenuSendPhotoLabel" = "Снять фото";
+
+"kMenuSendVideoLabel" = "Снять видео";
+
+"kMenuGallery" = "Галерея";
+
+"kMenuSendContactLabel" = "Отправить контакт";
+
+"kMenuSendLocationLabel" = "Отправить местоположение";
+
+"kMenuGroupChat" = "Добавить участников";
+
+/* ******************************
+ * PrivacyScreen               *
+ ******************************
+*/
+"kUnableToUpdatePrivacySetting" = "Не удалось сохранить личные данные ' %@'.";
+
+"kPrivacySettingsGenderTitle" = "Пол";
+
+"kPrivacySettingsLanguageTitle" = "Язык";
+
+"kPrivacySettingsAwardsTitle" = "Награды";
+
+"kPrivacySettingsNetworkTitle" = "Сеть";
+
+"kPrivacySettingsPhoneNumberTitle" = "Номер телефона";
+
+"kPrivacySettingsEmailTitle" = "Электронная почта";
+
+"kPrivacySettingsBirthdayDayMonthTitle" = "ДАТА РОЖДЕНИЯ";
+
+"kPrivacySettingsBirthdayYearTitle" = "Показывать год рождения";
+
+/* ******************************
+ * About Screen                *
+ ******************************
+*/
+"kAboutWowTermsAndConditionsButtonTitle" = "Правила и условия";
+
+"kAboutWowPoliciesButtonTitle" = "Политика";
+
+"kWowAppVersion" = "Версия %@";
+
+"kAboutViewControllerTitle" = "О приложении";
+
+/* ******************************
+ * AdvertiseMe Screen          *
+ ******************************
+*/
+"kAdvertiseMeScreenTitle" = "Advertise Me";
+
+"kAdvertiseMeSettingLabelText" = "Advertise Me";
+
+"kAdvertiseMeReadMoreLabelText" = "Подробнее об опции Advertise Me";
+
+"kAdvertiseMeFailedToChangeStatus" = "Не удалось сохранить статус. Повторите попытку позже.";
+
+/* ******************************
+ * Settings                    *
+ ******************************
+*/
+"kSettingsTitle" = "Настройки";
+
+"kSettingsAutoSaveContentToGallery" = "Сохранить входящие медиа-файлы";
+
+"kSettingsAutoDownloadContentOn3G" = "Скачать фото автоматически";
+
+"kSettingsVibrationsAndSounds" = "Вибрация и звуки";
+
+"kSettingsBlockedContacts" = "Заблокированные контакты";
+
+/* ******************************
+ * Sounds and vibration        *
+ ******************************
+*/
+"kSettingsSoundsTitle" = "Вибрация и звуки";
+
+"kSettingsMessagesSectionTitle" = "Сообщения";
+
+"kSettingsCallsSectionTitle" = "Звонки";
+
+"kSettingsLoginSectionTitle" = "Войти";
+
+"kSettingsNetworkSectionTitle" = "Сеть";
+
+"kSettingsEarningsSectionTitle" = "Доходы";
+
+"kSettingsVibrateLabel" = "Настройки вибрации для приложения";
+
+"kSettingsSoundLabel" = "Аудионастройки приложения";
+
+"kCountriesViewTitle" = "Ваша страна";
+
+"kBlockedContactsViewTitle" = "Заблокированные контакты";
+
+/* ******************************
+ * My Profile Edit             *
+ ******************************
+*/
+"kMyProfileEditViewControllerTitle" = "Редактировать профиль";
+
+"kMyProfileGenderDisplayStringMale" = "Мужской";
+
+"kMyProfileGenderDisplayStringFemale" = "Женский";
+
+"kMyProfileEditAvatar" = "Аватар";
+
+"kMyProfileEditBirthday" = "ДАТА РОЖДЕНИЯ";
+
+"kMyProfileEditGender" = "ПОЛ";
+
+"kMyProfileEditCityCountry" = "ГОРОД/СТРАНА";
+
+"kMyProfileEditPhone" = "ТЕЛЕФОН";
+
+"kMyProfileEditWebsite" = "САЙТ";
+
+"kMyProfileFirstNamePlaceholder" = "Имя";
+
+"kMyProfileLastNamePlaceholder" = "Фамилия";
+
+"kMyProfileCityPlaceholder" = "Введите город";
+
+"kMyProfileWebsitePlaceholder" = "Сайт";
+
+"kOneNameIsEmpty" = "Поля имени и фамилии не могут быть пустыми";
+
+"kNameMustHaveALetter" = "В имени и фамилии должна быть как минимум одна буква";
+
+"kAvatarPickerTitle" = "Выбор аватара";
+
+"kInvalidatingNumberAlert" = "Данный номер телефона подтвержден WowApp. Если вы измените или удалите его, вам нужно будет подтверждать номер заново. Вы уверены, что хотите продолжить ?";
+
+/* ******************************
+ * Intro Screen               *
+ ******************************
+*/
+"kIntroSignInButton" = "Войти";
+
+"kIntroCreateAccountButton" = "Создать учетную запись";
+
+"kIntroBottomText" = "Текст внизу";
+
+/* ******************************
+ * SignIn Screen               *
+ ******************************
+*/
+"kSignInButton" = "Войти";
+
+"kSignInPlaceholderUsername" = "Имя пользователя";
+
+"kSignInPlaceholderPassword" = "Пароль";
+
+"kSignInLabelShowPassword" = "Показать пароль";
+
+"kSignInButtonForgotPassword" = "Забыли пароль?";
+
+/* ******************************
+ * Tutorial Screen               *
+ ******************************
+*/
+"kTutorialCongrats" = "Поздравляем!";
+
+"kTutorialReceived" = "Вы получили свою первую Wow-монету";
+
+"kTutorialWowCoin" = "1 Wow-монета = $0.01";
+
+"kTutorialEarnMoney" = "Давайте заработаем еще!";
+
+"kTutorialSkip" = "Пропустить";
+
+"kTutorialSwipe" = "Проведите по экрану влево";
+
+"kTutorialHowItWorks" = "КАК ЭТО РАБОТАЕТ";
+
+"kTutorialIncreaseNetwork" = "увеличивайте\nсвою сеть,";
+
+"kTutorialSendInvites" = "отправляя приглашения";
+
+"kTutorialTellFriends" = "и рассказывая друзьям о приложении";
+
+"kTutorialAdMe" = "включив функцию Advertise Me,\nвы будете зарабатывать\nкаждый день!";
+
+"kTutorialChooseAds" = "Включите рекламные сообщения в WowApp,\nчтобы каждый день получать Wow-монеты\nза себя и за пользователей из вашей сети.";
+
+"kTutorialGetStarted" = "Начать";
+
+"kTutorialChatButtonTop" = "Общайтесь и зарабатывайте деньги!";
+
+"kTutorialChatButtonBottom" = "Данное действие включит функцию AD ME для вашей учетной записи";
+
+"kTutorialUseMessengerButtonTop" = "Не хочу денег задаром!";
+
+"kTutorialUseMessengerButtonBottom" = "Я просто хочу использовать самый лучший мессенджер без рекламы";
+
+/* ******************************
+ * Mass invite                 *
+ ******************************
+*/
+"kMassInviteSelectionScreenTitle" = "Рассказать друзьям";
+
+"kMassInviteSelectionScreenSelectButtonTitle" = "Выделить все";
+
+"kMassInviteSelectionScreenDeselectButtonTitle" = "Снять выделение";
+
+"kMassInviteSelectionScreenSendInvitesButtonTitle" = "Отправить %@ приглашен.";
+
+"kMassInviteSelectionScreenMailActionSheetOptionTitle" = "Почта";
+
+"kMassInviteSelectionScreenMessageActionSheetOptionTitle" = "Сообщение";
+
+"kMassInviteSelectionScreenSendInvitesButtonText" = "Отправить %d приглашен.";
+
+"kMassInviteSelectionScreenCanNotSendEmail" = "Чтобы приглашать друзей, необходимо настроить почту на данном устройстве";
+
+"kMassInviteSelectionScreenCanNotSendSMS" = "Отправлять сообщения на этом устройстве нельзя. Убедитесь, что у вас установлена SIM-карта.";
+
+/* ******************************
+ * Stickers                    *
+ ******************************
+*/
+"kStickerSent" = "Стикер отправлен";
+
+"kStickerReceived" = "Стикер получен";
+
+// Needs translation, do not remove
+"kStickerUnknownSticker" = "Обновите приложение, чтобы увидеть стикер";
+
+/* ******************************
+ * Account notifications       *
+ ******************************
+*/
+"kAccountNotificationsAdMeDailyTitle" = "Ежедневный отчет о доходах Advertise Me:";
+
+"kAccountNotificationsAdMeWeeklyTitle" = "Еженедельный отчет Advertise Me:";
+
+"kAccountNotificationsAdMeMonthlyTitle" = "Ежемесячный отчет Advertise Me:";
+
+"kAccountNotificationsAdMeEarn" = "Заработано Wow-монет:";
+
+"kAccountNotificationsAdMeLoss" = "Потрачено Wow-монет:";
+
+"kAccountNotificationsAdMeActionEarnMore" = "Хотите зарабатывать больше? Нажмите здесь и узнайте, как это сделать";
+
+"kAccountNotificationsAdMeActionImproveEarnings" = "Нажмите здесь, чтобы увеличить доход";
+
+"kAccountNotificationsAdMeActionGrowEarnings" = "Узнайте, как заработать с помощью WowApp";
+
+"kAccountNotificationsAdMeEnableTitle" = "Включить Advertise Me";
+
+"kAccountNotificationsAdMeEnableSubtitle" = "Зарабатывайте Wow-монеты за рекламу в WowApp, которая будет показана вам и вашей сети контактов.\nВключите опцию Advertise Me прямо сейчас!";
+
+"kAccountNotificationsAdMeEnableAction" = "Нажмите здесь, чтобы включить опцию";
+
+"kAccountNotificationsAdMeEnableReminderTitle" = "Зарабатывайте еще больше с WowApp!";
+
+"kAccountNotificationsAdMeEnableReminderSubtitle" = "Включите опцию Advertise Me для мобильных устройств и зарабатывайте Wow-монеты за показ рекламы.";
+
+"kAccountNotificationsAdMeEnableReminderLoss" = "Упущенный доход: %@ Wow-монет(ы).";
+
+"kAccountNotificationsAdMeEnableReminderAction" = "Нажмите здесь, чтобы включить опцию";
+
+"kAccountNotificationsAdMeDisabledTitle" = "Опция Advertise Me выключена";
+
+"kAccountNotificationsAdMeDisabledSubtitle" = "Вы только что отключили опцию Advertise Me для своей учетной записи.";
+
+"kAccountNotificationsAdMeDisabledAction" = "Включите ее, чтобы снова начать зарабатывать";
+
+"kAccountNotificationsAdMeDisabledReminderTitle" = "Зарабатывайте еще больше с WowApp!";
+
+"kAccountNotificationsAdMeDisabledReminderSubtitle" = "Включите опцию Advertise Me для мобильных устройств и зарабатывайте Wow-монеты за показ рекламы.";
+
+"kAccountNotificationsAdMeDisabledReminderLoss" = "Вы могли бы заработать %@ Wow-монет(ы).";
+
+"kAccountNotificationsAdMeDisabledReminderAction" = "Включите опцию Advertise Me, чтобы продолжить зарабатывать";
+
+"kAccountNotificationsTalkNewFriendsTitle" = "%d нов. др.";
+
+"kAccountNotificationsTalkNewFriendsSubtitle" = "добавлены в вашу сеть";
+
+"kAccountNotificationsTalkNewFriendsAction" = "Нажмите здесь , чтобы просмотреть данные новых друзей";
+
+"kAccountNotificationsTalkNewFriendSubtitleFriendRequest" = "Новый друг";
+
+"kAccountNotificationsRegistrationAcceptedTitle" = "%@ ваш контакт 1-ГО УРОВНЯ";
+
+"kAccountNotificationsSubtitleContactAddedToRoster" = "Добавлен(а) в ваш список контактов";
+
+"kAccountNotificationsSubtitleContactPendingPeerAcceptance" = "Запросы на добавление в контакты, ожидающие подтверждения";
+
+"kAccountNotificationsSubtitleContactPendingMyAcceptance" = "Ожидает вашего подтверждения";
+
+"kAccountNotificationsSubtitleContactBlockedByMe" = "Этот пользователь находится в списке заблокированных контактов";
+
+"kAccountNotificationsActionSendContactRequest" = "Отправить запрос на добавление в список друзей";
+
+"kAccountNotificationsActionAcceptContactRequest" = "Отправить запрос на добавление в список друзей";
+
+"kFeatherLevel1" = "The Silver Feather";
+
+"kFeatherLevel2" = "синее перо";
+
+"kFeatherLevel3" = "зеленое перо";
+
+"kFeatherLevel4" = "красное перо";
+
+"kFeatherLevel5" = "The Pink Feather";
+
+"kFeatherLevel6" = "золотое перо";
+
+"kFeatherLevel7" = "два золотых пера";
+
+"kFeatherLevel8" = "шляпа Wow";
+
+"kOwnFeatherLevel1" = "Вы получили %@ и 2 новых приглашения.";
+
+"kOwnFeatherLevel2" = "Вы получили %@ и 3 новых приглашения.";
+
+"kOwnFeatherLevel3" = "Вы получили %@ и 5 новых приглашений.";
+
+"kOwnFeatherLevel4" = "Вы получили %@ и 5 новых приглашений.";
+
+"kOwnFeatherLevel5" = "Вы получили %@ и 5 новых приглашений.";
+
+"kOwnFeatherLevel6" = "Вы получили %@ и 5 новых приглашений.";
+
+"kOwnFeatherLevel7" = "Вы получили %@ и 5 новых приглашений.";
+
+"kOwnFeatherLevel8" = "Вы получили %@ и 10 новых приглашений.";
+
+"kContactsFeatherLevel1" = "%@ успешно пригласил(а) 2 пользователей WowApp и получил(а) %@";
+
+"kContactsFeatherLevel2" = "%@ успешно пригласил(а) 10 пользователей WowApp и получил(а) %@";
+
+"kContactsFeatherLevel3" = "%@ успешно пригласил(а) 20 пользователей WowApp и получил(а) %@";
+
+"kContactsFeatherLevel4" = "%@ успешно пригласил(а) 50 пользователей WowApp и получил(а) %@";
+
+"kContactsFeatherLevel5" = "%@ успешно пригласил(а) 100 пользователей WowApp и получил(а) %@";
+
+"kContactsFeatherLevel6" = "%@ успешно пригласил(а) 200 пользователей WowApp и получил(а) %@";
+
+"kContactsFeatherLevel7" = "%@ успешно пригласил(а) 500 пользователей WowApp и получил(а) %@";
+
+"kContactsFeatherLevel8" = "%@ успешно пригласил(а) 1000 пользователей WowApp и получил(а) %@";
+
+"kAwardsDescriptionLevel1" = "2 и более успешных приглашения";
+
+"kAwardsDescriptionLevel2" = "10 и более успешных приглашений";
+
+"kAwardsDescriptionLevel3" = "20 и более успешных приглашений";
+
+"kAwardsDescriptionLevel4" = "50 и более успешных приглашений";
+
+"kAwardsDescriptionLevel5" = "100 и более успешных приглашений";
+
+"kAwardsDescriptionLevel6" = "200 и более успешных приглашений";
+
+"kAwardsDescriptionLevel7" = "500 и более успешных приглашений";
+
+"kAwardsDescriptionLevel8" = "1000 и более успешных приглашений";
+
+"kAccountNotificationsScreenTitle" = "Уведомления об учетной записи";
+
+/* ******************************
+ * Email Validation            *
+ ******************************
+*/
+"kValidateYourEmailMessage" = "Проверка электронной почты";
+
+"kChangeEmailAction" = "Изменить адрес электронной почты";
+
+"kResendEmailAction" = "Переотправить";
+
+"kEmailValidationResendRequestSuccessful" = "Ваш запрос отправлен! Мы вышлем вам электронное письмо в ближайшее время.";
+
+/* ********************************
+ * My Profile Avatar Action Sheet*
+ *******************************
+*/
+"kMyProfileAvatarActionSheetTakePhoto" = "Снять фото";
+
+"kMyProfileAvatarActionSheetChooseExisting" = "Выбрать из имеющихся";
+
+"kMyProfileAvatarActionSheetViewPhoto" = "Просмотреть фото";
+
+"kMyProfileAvatarActionSheetDeletePhoto" = "Удалить фото";
+
+/* ******************************
+ * Notifications Screen        *
+ ******************************
+*/
+"kNotificationsTitle" = "Включить уведомления";
+
+"kNotificationsSubtitle" = "Просматривайте сообщения мгновенно на своем телефоне.";
+
+"kOpenSettings" = "Открыть настройки iPhone";
+
+"kTapNotificationCenter" = "Выберите \"Центр уведомлений\"";
+
+"kSelectWOWApp" = "Выберите WowApp";
+
+"kSelectBanners" = "Выберите \"Баннеры\"";
+
+"kTurnViewInLockScreen" = "Включить просмотр на заблокированном экране";
+
+"kShowOnLockScreen" = "Показывать на заблокированном экране";
+
+"kButtonNone" = "Нет";
+
+"kButtonBanners" = "Баннеры";
+
+"kButtonAlerts" = "Оповещения";
+
+/* ******************************
+ * Disconnect Bar              *
+ ******************************
+*/
+"kLabelConnected" = "Подключено";
+
+"kLabelConnecting" = "Подключение ...";
+
+"kLabelDisconnected" = "Нет подключения к интернету";
+
+/* ******************************
+ * Call Forwarding             *
+ ******************************
+*/
+"kMyProfileCallForwarding" = "Переадресация звонков";
+
+/* ******************************
+ * Share Location              *
+ ******************************
+*/
+"kShareLocationCenterButton" = "Выровнять по центру";
+
+"kShareLocationSendLocationButton" = "Отправить местоположение";
+
+"kMapOpenPrompt" = "Открыть в";
+
+"kMapApple" = "Карты";
+
+"kMapSafari" = "Safari";
+
+/* ****************************************
+ * Plist Localization                    *
+ * Don't delete, if you add announce PM  *
+ ***************************************
+*/
+"Privacy Camera" = "Необходим доступ к камере, чтобы делать снимки и совершать видеозвонки через WowApp";
+
+"Privacy Contacts" = "WowApp обеспечивает полную конфиденциальность вашего списка контактов. Нам необходим доступ к контактам только для того, чтобы вы могли отправлять им бесплатные сообщения и совершать бесплатные звонки.";
+
+"Privacy Location" = "Необходим доступ для возможности обмениваться информацией о местоположении с друзьями";
+
+"Privacy Microphone" = "Чтобы совершать звонки через WowApp, необходим доступ к микрофону.";
+
+"Privacy Photos" = "Чтобы отправлять и получать фотографии через WowApp, необходим доступ к папке \"Фотографии\".";
+
+/* ****************************************
+ * Video Sharing                         *
+ ****************************************
+*/
+"kVideoPlayNotAllowedDueToCallInProgress" = "Нельзя проигрывать видео и музыку во время звонка. Завершите звонок и повторите попытку.";
+
+/* ****************************************
+ * Login Screen                         *
+ ****************************************
+*/
+"kLoginScreenUserNamePlaceholder" = "Имя пользователя";
+
+"kLoginScreenPasswordPlaceholder" = "Пароль";
+
+"kLoginScreenLoginButtonTittle" = "Войти";
+
+"kLoginScreenShowPasswordButtonTitle" = "Показать";
+
+"kLoginScreenHidePasswordButtonTitle" = "Скрыть";
+
+"kLoginScreenForgotPasswordButtonTitle" = "Забыли имя пользователя или пароль?";
+
+"kLoginScreenIndicatorLbl" = "Выполняется вход...";
+
+/* ******************************
+ * OLD STRINGS                 *
+ ******************************
+*/
+// Working
+"kContactStatusOfflineString" = "Не в сети";
+
+"kContactStatusOnlineString" = "В сети";
+
+"kContactStatusBusyString" = "Занят(а)";
+
+"kContactStatusAwayString" = "Нет на месте";
+
+"kShareLocationFailedTitle" = "Не удается получить местоположение";
+
+"kLocationLoading" = "Получение местоположения...";
+
+"kActivitySubtitleCallMissed" = "Пропущенный вызов ";
+
+"kActivitySubtitleCallReceived" = "Входящий вызов ";
+
+"kActivitySubtitleCallMade" = "Исходящий вызов ";
+
+"kActivitySubtitleSharedLocation" = "Общее местоположение ";
+
+"kActivitySubtitleSharedContact" = "Общий контакт ";
+
+"kActivitySubtitleParticipantInteraction" = "%@ %@ разговор";
+
+"kActivitySubtitleParticipantEntered" = "вошел (вошла)";
+
+"kActivitySubtitleParticipantExited" = "покинул(а)";
+
+"kActivitySubtitleGroupchatRenamedNotification" = "Тема группового чата изменена. Новая тема: %@";
+
+"kAcceptedFriendRequestMessage" = "Добавлен(а) в контакты";
+
+"kInvitationJoinMessage" = "%@ присоединился к разговору";
+
+"kDoneLabel" = "Готово";
+
+"kAddedText" = "Уже в списке";
+
+"kRequestFailTimeout" = "Время ожидания запроса истекло. Пожалуйста, повторите попытку.";
+
+"kRequestFailForbidden" = "Неверное имя пользователя или пароль. Пожалуйста, повторите попытку.";
+
+"kRequestFailInvalidEmail" = "Ваша учетная запись заблокирована. Чтобы разблокировать ее, перейдите в ваш почтовый ящик.";
+
+"kRequestFailConectivityIssues" = "Проблемы с интернет-соединением. Пожалуйста, повторите попытку.";
+
+"kRequestCanceled" = "Отменено";
+
+"kLoginErrorTitle" = "Ошибка входа";
+
+"kLoginInvalidUsernameOrPassword" = "Неверное имя пользователя или пароль";
+
+"kServiceUnavailable" = "В настоящий момент сервис недоступен. Пожалуйста, повторите попытку позже.";
+
+"kTokenRequestAuthenticationFailed" = "В настоящий момент сервис недоступен. Пожалуйста, повторите попытку позже.";
+
+"kTokenRequestAuthenticationForbidden" = "Вход недоступен. Пожалуйста, повторите попытку позже.";
+
+"kBugReportAttachmentRequestTooLarge" = "Вложение слишком велико";
+
+// Need to test this 2 strings on all screens they appear
+"kInternetStatusNotAvailable" = "Нет интернета! Не найдено ни одного работающего интернет-подключения. Если на вашем устройстве включен WiFi, отключите его или подключитесь к другой WiFi-точке.";
+
+"kInternetStatusTitle" = "Ошибка соединения";
+
+"kErrorTitle" = "Ошибка";
+
+"kNewFriends" = "Новые друзья";
+
+"kMicrophoneAccessNote" = "Go to Settings on your device and grant WowApp access to the Microphone in order to be able to talk during your audio call.";
+
+"kCameraAccessNote" = "Если вы хотите совершить видеозвонок, вам необходимо перейти в настройки своего устройства и предоставить WowApp доступ к камере.";
+
+// Need to test this on the device
+"kCameraNotAvailable" = "На вашем устройстве не обнаружено камеры. Возможно, доступ к камере ограничен";
+
+"kCameraNotAvailableTitle" = "Отсутствует доступ к камере";
+
+"kCameraAlreadyInUse" = "Камера уже используется";
+
+"kNumberOfPhotosSelected" = "Выбрано %d фото";
+
+// Not sure where this appears
+"kFileSavedSuccesInPhotos" = "Файл был успешно сохранен в папке \"Фото\".";
+
+// Same
+"kFileSavedErrorInPhotos" = "Произошла ошибка при сохранении файла";
+
+// Same
+"kFileSizeTooLarge" = "Файл слишком велик.";
+
+// Don't know how these appear
+"kFileTransferStatusOutgoing" = "Вы отправили файл с настольного устройства.";
+
+"kFileTransferStatusIncoming" = "Вы получили файл на настольном устройстве.";
+
+"kRetryLabel" = "Повторить";
+
+"kNotOnRosterUserMessage" = "Этого пользователя нет в вашем списке контактов";
+
+// To be removed from the project
+"kDefaultGreetingMessage" = "Здравствуйте! Пожалуйста, добавьте меня в список контактов";
+
+// Don't know if this is used, I moved it anyway but I can't test it
+"kInvitationJoinMessage" = "%@ присоединился к разговору";
+
+// Cannot test this
+"kAddedText" = "Уже в списке";
+
+// Don't know where to test this
+"kRequestFailTimeout" = "Время ожидания запроса истекло. Пожалуйста, повторите попытку.";
+
+"kRequestFailForbidden" = "Неверное имя пользователя или пароль. Пожалуйста, повторите попытку.";
+
+"kRequestFailInvalidEmail" = "Ваша учетная запись заблокирована. Чтобы разблокировать ее, перейдите в ваш почтовый ящик.";
+
+"kRequestFailConectivityIssues" = "Проблемы с интернет-соединением. Пожалуйста, повторите попытку.";
+
+"kRequestCanceled" = "Отменено";
+
+"kServiceUnavailable" = "В настоящий момент сервис недоступен. Пожалуйста, повторите попытку позже.";
+
+"kTokenRequestAuthenticationFailed" = "В настоящий момент сервис недоступен. Пожалуйста, повторите попытку позже.";
+
+"kTokenRequestAuthenticationForbidden" = "Вход недоступен. Пожалуйста, повторите попытку позже.";
+
+"kBugReportAttachmentRequestTooLarge" = "Вложение слишком велико";
+
+"kContactActionCanceledReasonNotFriend" = "Для выполнения этого действия необходимо добавить этого человека в список контактов";
+
+"kContactActionCanceledReasonBlocked" = "Для выполнения этого действия необходимо сначала разблокировать этот контакт (Настройки-> Заблокированные контакты)";
+
+"kContactActionCanceledReasonPending" = "Для выполнения этого действия пользователь должен сначала добавить вас в свой список контактов";
+
+"kContactActionHasNoSharedDetails" = "Этот контакт еще не предоставил вам своих данных.";
+
+"kNotAvailableLocation" = "Местоположение недоступно";
+
+"kContactDetailUpdateItemSucceeded" = "Профиль контакта обновлен";
+
+"kContactDetailUpdateItemFailed" = "Не удалось обновить профиль контакта. Пожалуйста, повторите попытку.";
+
+"kSaveAccountSucceded" = "Данные учетной записи сохранены";
+
+"kSaveAccountError" = "Не удалось сохранить данные учетной записи";
+
+"kUnknownError" = "Неизвестная ошибка.";
+
+"kSearchAccounts" = "Поиск учетных записей";
+
+"kShareLocationFailedReasonNetwork" = "Сетевая ошибка, повторите попытку позже.";
+
+"kShareLocationFailedReasonTimeout" = "Слишком долго. Повторите попытку позже.";
+
+"kContactPendingRequest" = "Ожидание...";
+
+"kActivitySubtitleFriendRequest" = "Запрос на обмен контактными данными";
+
+"kActivitySubtitleFriendRequestAccept" = "Добавлен(а) в контакты";
+
+"kActivitySubtitleFriendRequestDecline" = "Запрос на обмен контактными данными отклонен";
+
+"kActivityTitleText" = "Передача файлов";
+
+"kActivitySubtitleText" = "Передача файлов";
+
+"kDisplayedStatusMessage" = "Передача файлов";
+
+"kUserMightNotSupportCloudTransfer" = "Скорее всего, %@ использует устаревшую версию приложения как минимум на одном устройстве. Таким образом, %@ не сможет принять отправляемый вами файл на этом устройстве, пока не обновит приложение до последней версии.";
+
+"kRetrieveActivitiesFailed" = "К сожалению, разговоры в данный момент недоступны. Пожалуйста, повторите попытку позже.";
+
+"kCallStatusConnectingString" = "Вызов...";
+
+"kCallTypeIncomingString" = "Входящий %@вызов";
+
+"kCallTypeIncomingConferenceString" = "Входящий конференц-звонок";
+
+"kCallTypeAudio" = "аудио";
+
+"kCallTypeVideo" = "видео";
+
+"kCallWoow" = "Бесплатный звонок";
+
+"kMicrophoneAccessTitle" = "Отсутствует доступ к микрофону";
+
+"kMicrophoneAccessAlertMessage" = "%1$@ не сможет выполнить ваш запрос, если вы не предоставите доступ к микрофону. Для этого перейдите в настройки iPhone > Конфиденциальность > Микрофон > %1$@ >и установите состояние ВКЛ";
+
+"kShareLocationFailedReasonDenied" = "Перейдите в меню настроек и включите службу определения местоположения для WowApp.";
+
+"kNoAddressbookAccess" = "WowApp не сможет выполнить ваш запрос, если вы не предоставите доступ к контактам. Для этого перейдите в Настройки > Конфиденциальность > Контакты и убедитесь, что для WowApp установлено состояние ВКЛ";
+
+"kNoAddressbookAccessTitle" = "Отсутствует доступ к контактам";
+
+"kGalleryNotAvailableTitle" = "Отсутствует доступ к фотографиям";
+
+"kGalleryNotAvailableMessage" = "WowApp не сможет отправлять и получать фотографии, если вы не предоставите доступ к фотографиям. Для этого перейдите в Настройки > Конфиденциальность > Фото";
+
+"kPrivacyPhotoAlbumPermissionRequired" = "Предоставьте доступ к фотографиям, чтобы обмениваться фотографиями с вашими контактами WowApp.";
+
+"kNotificationsAddressBookAccessTitle" = "Предоставьте доступ WowApp к списку контактов";
+
+"kNotificationsAddressBookAccessMessage" = "Это позволит вам бесплатно звонить и отправлять сообщения вашим контактам WowApp, когда они будут находиться в сети.";
+
+"kLabelEdit" = "Редактировать";
+
+"kLabelSave" = "Сохранить";
+
+"kLabelCancel" = "Отмена";
+
+"kLabelOk" = "ОК";
+
+"kLabelYes" = "Да";
+
+"kLabelDeleteAll" = "Удалить все";
+
+"kLabelLoadingDots" = "Загрузка...";
+
+"kLabelMaybeLater" = "Возможно, позже";
+
+"kLabelWarning" = "Внимание";
+
+"kLabelWhy" = "Почему";
+
+"kLabelAgree" = "Соглашаюсь";
+
+"kMenuOptionEdit" = "Редактировать";
+
+"kDialpadAddPhoneTitle" = "Добавить номер телефона";
+
+"kDialpadAddPhoneNewContact" = "Создать новый контакт";
+
+"kDialpadAddPhoneAddToExisting" = "Добавить в уже имеющиеся контакты";
+
+"kDialpadAddressbookContactsPickerTitle" = "Контакт из адресной книги";
+
+"kDialpadSMSNotVailableMessage" = "Функция отправки SMS будет доступна в ближайшее время";
+
+"kAccountNotificationsViewTitle" = "Уведомления";
+
+"kAccountNewNotificationsText" = "Новых уведомлений: %i";
+
+"kAccountNotificationsDeleteActionText" = "Удалить уведомление";
+
+"kRegistrationAcceptedInvitationNameToDisplay" = "Приглашение принято";
+
+"kRegistrationOwnFeatherNameToDisplay" = "Повышен уровень";
+
+"kRegistrationContactsFeatherNameToDisplay" = "Повышен уровень друга";
+
+"kSystemCriticalMessageNameToDisplay" = "Системное сообщение";
+
+"kSystemInfoMessageNameToDisplay" = "Информационное сообщение";
+
+"kCallHangUpDeclined" = "Вызываемый абонент отклонил вызов";
+
+"kCallHangUpBusy" = "Вызываемый абонент занят";
+
+"kCallHangUpNotFound" = "Ошибка сети";
+
+"kCallHangUpUnreachable" = "Ошибка сети";
+
+"kCallHangUpTimeout" = "Нет ответа";
+
+"kCallHangUpForbidden" = "Баланс вашего счета составляет $0.00. Для совершения звонков на телефонные номера необходим  положительный баланс. Пополнить счет можно на сайте WowApp.";
+
+"kCallHangUpSendToVoicemail" = "Вызов отправлен на голосовую почту";
+
+"kCallHangUpInvalidNumber" = "Вызываемый номер недействителен";
+
+"kCallHangUpUnknown" = "Неизвестная ошибка";
+
+"kCallHangUpRemotelyAnswered" = "На вызов ответили с другого устройства";
+
+"kCallHangUpForwarded" = "Вызов переадресован";
+
+"kCallAttemptOfflineContact" = "The contact is currently offline.";
+
+"kContactsSearchButtonTitle" = "Искать контакт в WowApp";
+
+"kContactsSaveNumberButtonTitle" = "Сохранить номер телефона";
+
+"kContactsSearchInfoLbl" = "отсутствует в вашем списке контактов.";
+
+"kContactsSegmentedControlPhone" = "Телефон";
+
+"kProfileAddContactViewTitle" = "Добавить контакт";
+
+"kProfileAddContactConnectionsLblText" = "Сеть";
+
+"kProfileAddContactContactsLblText" = "Контакты";
+
+"kProfileAddContactAddContactButtonText" = "Добавить в список контактов";
+
+"kProfileAddContactViewProfileButtonText" = "Просмотреть профиль полностью";
+
+"kProfileAddContactGreetingMessageLblText" = "Написать приветственное сообщение";
+
+"kProfileAddContactSendRequestButtonText" = "Отправить запрос на добавление в контакты";
+
+"kProfileAddContactResendRequestButtonText" = "Переотправить запрос на добавление в контакты";
+
+"kProfileAddContactInListRequestButtonText" = "Добавлен(а) в контакты";
+
+"kProfileAddContactNoGreetingMessageInfo" = "Пожалуйста, напишите приветственное сообщение";
+
+"kProfileAddContactCantAddYourselfErrorMessage" = "Нельзя добавить самого себя";
+
+"kProfileAddContactUserInYourListErrorMessage" = "Данный пользователь уже находится в вашем списке контактов";
+
+"kProfileAddContactsFriendRequestSentMessage" = "Друг добавлен";
+
+"kMenuItemNew" = "NEW";
+
+"kMenuCellSettings" = "Настройки";
+
+"kMenuCellAdMe" = "Advertise Me";
+
+"kMenuCellKeypad" = "Клавиатура";
+
+"kMenuCellInvites" = "Рассказать друзьям";
+
+"kMenuCellFeedback" = "Отправить отзыв";
+
+"kMenuCellAbout" = "О приложении";
+
+"kChatsDeleteConversation" = "Удалить разговор";
+
+"kLoadEarlierMessages" = "Загрузить более ранние сообщения";
+
+"kThisMessageWasRemoved" = "Это сообщение было удалено";
+
+"kChatBackButtonTitle" = "Разговоры";
+
+"kChatRightNavButtonTitle" = "Контакт";
+
+"kChatTypingMessage" = "набирает сообщение...";
+
+"kActionSheetOptionSendVideoFromCamera" = "Отправить видео";
+
+"kActionSheetOptionSendPhotoFromCamera" = "Отправить фото";
+
+"kCompressingVideoText" = "Выполняется сжатие видео...";
+
+"kButtonAcceptMessage" = "Вы и %@ теперь друзья";
+
+"kButtonBlockedMessage" = "%@ добавлен(а) в список заблокированных контактов";
+
+"kButtonDeclinedMessage" = "Запрос отклонен";
+
+"kBlockPopUpQuestion" = "Хотите также заблокировать этого пользователя?";
+
+"kValidPhoneNumberMessage" = "Пожалуйста, введите допустимый номер телефона";
+
+"kNumberValidationMessage" = "ПОДТВЕРДИТЕ НОМЕР: \n %@ \nЭтот номер верен?";
+
+"kMyProfileSectionTitleInfo" = "ЛИЧНЫЕ ДАННЫЕ";
+
+"kMyProfileSectionTitleContact" = "КОНТАКТНАЯ ИНФОРМАЦИЯ";
+
+"kMyProfileAward" = "Награда:";
+
+"kMyProfileWoowUsername" = "Имя пользователя:";
+
+"kMyProfileNetwork" = "Сеть:";
+
+"kMyProfileBirthday" = "Дата рождения:";
+
+"kMyProfileGender" = "Пол:";
+
+"kMyProfileCityCountry" = "Город/страна:";
+
+"kMyProfileLanguage" = "Язык:";
+
+"kMyProfileEmail" = "Электронная почта:";
+
+"kMyProfilePhone" = "Телефон:";
+
+"kMyProfileWebsite" = "Сайт:";
+
+"kQBImagePickerControllerTitle" = "Альбомы";
+
+"kFormatNumberOfPhotosAndVideos" = "%ld фото, %ld видео";
+
+"kFormatNumberOfPhotos" = "%ld фото";
+
+"kFileNotAvailable" = "Недоступно";
+
+"kFileTooLarge" = "Большой файл отправлен с настольного компьютера";
+
+"kMyProfileInviteFriends" = "Отправить приглашение";
+
+"kRemoveFromBlockedContactsMessage" = "%@ удален(а) из списка заблокированных контактов";
+
+"kMandatoryFieldsText" = "* обязательные поля";
+
+"kEmailLblText" = "Электронная почта*";
+
+"kFirstNameLblText" = "Имя*";
+
+"kMessageLblText" = "Сообщение";
+
+"kSendInviteButtonText" = "Отправить приглашение";
+
+"kViewInvitesButtonText" = "Просмотреть приглашения";
+
+"kShowInRosterButtonText" = "Добавить в список контактов";
+
+"kBugReportPlaceholders" = "Сбой приложения";
+
+"kAlreadyInACallMessage" = "Вызов уже выполняется";
+
+"kAlreadyInAGSMCallMessage" = "Нельзя совершить звонок в Wow во время активного GSM-вызова. Чтобы позвонить через Wow, завершите GSM-вызов.";
+
+"kNullJid" = "NULL logged in jid";
+
+"kInvalidFirstNameMessage" = "Имя должно содержать от 1 до 40 знаков";
+
+"kInvalidEmailMessage" = "Введите допустимый адрес электронной почты";
+
+"kPleaseSelectCountry" = "Вначале необходимо выбрать страну";
+
+"kSelectCountryFromList" = "Выбрать из списка";
+
+"kCountryCodePhoneNumber" = "Код страны";
+
+"kLabelInfo" = "Информация";
+
+"kNoInvitesLeftMessage" = "Не осталось приглашений";
+
+"kInviteScreenViewTitle" = "Пригласить сейчас";
+
+"kValidationViewTitle" = "Ваш номер телефона";
+
+"kTabbarDialpadString" = "Клавиатура";
+
+"kPeerVersionLower" = "Ваш друг использует устаревшую версию WowApp. Пожалуйста, попросите его/ее обновить приложение до текущей версии!";
+
+"kPeerVersionHigher" = "Ваш друг использует более новую версию WowApp. Обновите приложение!";
+
+"kPhoneValidationScreenTitle" = "Подтвердите код страны и введите свой номер телефона";
+
+"kPhoneValidationScreenCountry" = "Код вашей страны и номер телефона";
+
+"kPhoneValidationScreenSelectCountryFirstMessage" = "Вначале необходимо выбрать код страны";
+
+"kMessagesLabel" = "Сообщения";
+
+"kEnterSMSCodeLabel" = "Мы отправили SMS-сообщение с кодом подтверждения на указанный телефонный номер.";
+
+"kEnterIVRCodeLabel" = "Мы позвоним на указанный номер и сообщим код подтверждения.";
+
+"kEditPhoneNumberLabel" = "Изменить номер телефона";
+
+"kEditResendSMSCodeLabel" = "Переотправить SMS-код";
+
+"kEditCallMeAgainLabel" = "Позвоните мне еще раз";
+
+"kEditPhoneNumberInLabel" = "Изменить номер телефона через %@";
+
+"kEditResendSMSCodeInLabel" = "Отправить SMS-код через %@";
+
+"kEditCallMeInLabel" = "Позвоните мне через %@";
+
+"kEditCallMeLabel" = "Позвоните мне";
+
+"kEditCallMeAgainInLabel" = "Позвоните мне еще раз через %@";
+
+"kNotifySupportLabel" = "Сообщить в службу поддержки";
+
+"kPhoneValidationNotifySupportSuccess" = "Спасибо, что сообщили нам об этом. Мы вскоре свяжемся с вами.";
+
+"kPhoneValidationNotifySupportFailed" = "Не удалось связаться со службой поддержки. Повторите попытку позже.";
+
+"kMaxNumberOfRequestsReachedMessage" = "Превышено максимальное число запросов звонов/SMS-сообщений.\n Если вы так и не получили код, нажмите кнопку \"Сообщить в службу поддержки\".";
+
+"kNotifySupportBugText" = "Проверка номера телефона";
+
+"kValidationError400Message" = "Пожалуйста, проверьте ваш номер телефона и повторите попытку.";
+
+"kValidationError418Message" = "Ваш номер телефона проверяется. Дождитесь нашего SMS-сообщения или повторите попытку через несколько минут.";
+
+"kValidationError404Message" = "Служба недоступна. Пожалуйста, повторите попытку позже.";
+
+"kSMSValidationError409Message" = "Не удалось обработать SMS-запрос. Пожалуйста, проверьте ваш номер телефона и повторите попытку.";
+
+"kIVRValidationError409Message" = "Ваш номер телефона проверяется. Дождитесь нашего SMS-сообщения или повторите попытку через несколько минут.";
+
+"kCodeValidationError409Message" = "Неверный код подтверждения. Пожалуйста, повторите попытку.";
+
+"kCodeValidationSuccessMessage" = "Ваш номер подтвержден и установлен в качестве Caller ID";
+
+"kCrashReportTitle" = "Отчет об ошибке";
+
+"kCrashReportMessage" = "Неожиданный сбой приложения. Хотите отправить отчет об ошибке?";
+
+"kUpdateAvailableTitle" = "Доступно новое обновление";
+
+"kUpdateAvailableMessage" = "Настоятельно рекомендуется установить эту версию.";
+
+"kLabelInstall" = "Установить";
+
+"kFeatherText_LEVEL_BEGIN" = "Поздравляем!";
+
+"kFeatherText_LEVEL_Awarded" = "Награда!";
+
+"kNewUnknownNotification" = "Неизвестный тип уведомления";
+
+"kNewUnknownNotificationContent" = "Неизвестное содержимое уведомления";
+
+"kNewUnknownNotificationTitle" = "Неизвестный заголовок уведомления";
+
+"kNumberTooLong" = "Слишком длинный номер: %@";
+
+"kNumberTooShort" = "Слишком короткий номер: %@";
+
+"kNumberInvalidCountryCode" = "Для номера %@ указан неверный код страны";
+
+"kNumberInvalid" = "Недопустимый номер: %@";
+
+"kNumberCannotBeParsed" = "Не удалось проанализировать номер %@";
+
+"kNumberIsNotMobile" = "Номер %@ не является номером мобильного телефона";
+
+"kGroupChat" = "Групповой чат";
+
+"kGroupChatNewGroup" = "Новая группа";
+
+"kGroupChatEditGroup" = "Изменить группу";
+
+"kGroupChatTopicMaxLengthExceeded" = "Название темы превышает максимальную длину (%i зн.)";
+
+"kGroupChatCantAddMoreParticipants" = "Достигнуто максимальное число участников";
+
+"kGroupChatCantYouLeftConversation" = "Вас удалили из разговора или вы сами вышли из него на другом устройстве";
+
+"kGroupChatNameCannotBeEmpty" = "Название группового чата не может быть пустым!";
+
+"kGroupChatShouldAddAtLeastOneParticipant" = "Необходимо добавить минимум одного участника";
+
+"kGroupChatEmptyGroup" = "Пустая группа";
+
+"kGroupChatXAddedYToTheGroup" = "%1$@ добавил(а) в группу %2$@";
+
+"kGroupChatXAddedYAndZOtherPeopleToTheGroup" = "%1$@ добавил(а) в группу %2$@ и еще нескольких пользователей (%3$d)";
+
+"kGroupChatXAddedYPeopleToTheGroup" = "%1$@ добавил(а) в группу нескольких пользователей (%2$d)";
+
+"kGroupChatXRemovedYFromTheGroup" = "%1$@ удалил(а) из группы %2$@";
+
+"kGroupChatXRemovedYAndZOtherPeopleFromTheGroup" = "%1$@ удалил(а) из группы %2$@ и еще нескольких пользователей (%3$d)";
+
+"kGroupChatXRemovedYPeopleFromTheGroup" = "%1$@ удалил(а) из группы нескольких пользователей (%2$d)";
+
+"kGroupChatXHaveBeenRemovedFromTheGroup" = "%@ удалены из группы";
+
+"kGroupChatXAndYOtherPeopleHaveBeenRemovedFromTheGroup" = "%1$@ и несколько других пользователей (%2$d) удалены из группы";
+
+"kGroupChatXPeopleHaveBeenRemovedFromTheGroup" = "Удалено пользователей из группы: %d";
+
+"kGroupChatSeenByX" = "Просмотрено %@";
+
+"kGroupChatSeenByXAndYOtherPeople" = "Просмотрено %1$@ и еще несколькими пользователями (%2$d)";
+
+"kGroupChatSeenByXPeople" = "Число просмотревших пользователей: %d";
+
+"kGroupChatUserLeftConversation" = "ВЫ вышли из группы. Чтобы снова вернуться в нее, необходимо приглашение.";
+
+"kGroupChatSelfRemovedFromConversation" = "Вас удалили из группы. Чтобы снова войти в нее, необходимо приглашение.";
+
+"kGroupChatPeerLeftConversation" = "%@ вышел (вышла) из группы";
+
+"kGroupChatSingleUserRemovedByPeerSuffix" = "%@ удален(а) из группы";
+
+"kGroupChatTopicCleared" = "Тема группового чата удалена";
+
+"kSingleChatLastSeenMessagePrefix" = "Последний раз был(а) в сети";
+
+"kSingleChatSeenMessagePrefix" = "Просмотрено";
+
+"kGroupChatSeenByEveryone" = "Просмотрено всеми";
+
+"kSingleChatUnknownEventMessage" = "%@ использует функцию, которая доступна только в новой версии. Пожалуйста, обновите приложение.";
+
+"kDeleteSendingErrorMessage" = "Нельзя удалить сообщение, которое находится в процессе отправки.";
+
+"kDeleteOngoingCallErrorMessage" = "Нельзя удалить вызов, который еще продолжается.";
+
+"kDeleteOngoingFileTransferErrorMessage" = "Нельзя удалить передачу файлов, которая еще продолжается.";
+
+"kLabelContinue" = "Продолжить";
+
+"kDeleteConversationConfirmation" = "Этот разговор будет навсегда удален из вашей истории.";
+
+"kContactsScreenFriendInvitesGroupName" = "ЗАПРОСЫ НА ОБМЕН КОНТАКТНЫМИ ДАННЫМИ";
+
+"kContactsScreenFavoritesGroupName" = "ИЗБРАННОЕ";
+
+"kContactsScreenFriendsGroupName" = "ДРУЗЬЯ";
+
+"kContactsScreenGroupChatsGroupName" = "ГРУППЫ";
+
+"kContactsScreenAddressbookGroupName" = "Телефонные номера";
+
+"kContactsScreenAutopopulateGroupName" = "Телефонные контакты";
+
+"kContactsScreenFriendRequestSent" = "Запрос на обмен контактными данными отправлен и ожидает подтверждения";
+
+"kLoadingScreenSubtitle" = "Спасибо, что пользуетесь WowApp!";
+
+"kResumeCallLabel" = "Коснитесь экрана, чтобы вернуться к звонку";
+
+"kSwitchCamera" = "Переключить камеру";
+
+"kTurnOffCamera" = "Нет камеры";
+
+"kVideoToggleAnnotation" = "Видео";
+
+"kMicrophoneToggleAnnotation" = "Выключить звук";
+
+"kSpeakerToggleAnnotation" = "Динамик";
+
+"kMenuAnnotation" = "Еще";
+
+// Cannot test
+"kAddressBookUpdateItemSucceeded" = "Профиль обновлен";
+
+"kAddressBookUpdateItemFailed" = "Сбой обновления адресной книги. Пожалуйста, повторите попытку.";
+
+"kCameraNotAvailableMessage" = "WowApp не сможет выполнить ваш запрос, если вы не предоставите доступ к камере. Для этого перейдите в Настройки > Конфиденциальность > Камера";
+
+"kConnectionUnavailableTitle" = "Подключение недоступно";
+
+"kInternalServerErrorMessage" = "В настоящее время приложение WowApp недоступно. Повторите попытку позже. Нам уже известно об этой проблеме, и мы уже ее решаем. Если ошибка не будет устранена через некоторое время, напишите нам по адресу support@wowapp.com.";
+
+"kIgnoreWowCallWhileGSMCall" = "Нельзя ответить на звонок по Wow, если вы уже разговариваете по GSM.";
+
+"kUnknownCallerID" = "Неизвестный Caller ID";
+
+"kInsufficientFunds" = "You have insufficient credit to make a call to this destination.";
+
