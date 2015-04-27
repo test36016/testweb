@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke" duration-ms="73372" started-at="2015-04-27T07:09:31Z" finished-at="2015-04-27T07:10:44Z">
+    <groups>
+    </groups>
+    <test name="login" duration-ms="73372" started-at="2015-04-27T07:09:31Z" finished-at="2015-04-27T07:10:44Z">
+      <class name="com.testframework.testscripts.GmailLogout">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testframework.testscripts.GmailLogout@2098ff]" name="setUp" is-config="true" duration-ms="9414" started-at="2015-04-27T12:39:57Z" finished-at="2015-04-27T12:40:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogOut()[pri:0, instance:com.testframework.testscripts.GmailLogout@2098ff]" name="testLogOut" duration-ms="24739" started-at="2015-04-27T12:40:07Z" finished-at="2015-04-27T12:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogOut -->
+        <test-method status="PASS" signature="getScreenshotOnFailed(org.testng.ITestResult)[pri:0, instance:com.testframework.testscripts.GmailLogout@2098ff]" name="getScreenshotOnFailed" is-config="true" duration-ms="0" started-at="2015-04-27T12:40:32Z" finished-at="2015-04-27T12:40:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogOut status=SUCCESS method=GmailLogout.testLogOut()[pri:0, instance:com.testframework.testscripts.GmailLogout@2098ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenshotOnFailed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testframework.testscripts.GmailLogout@2098ff]" name="tearDown" is-config="true" duration-ms="417" started-at="2015-04-27T12:40:32Z" finished-at="2015-04-27T12:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testframework.testscripts.GmailLogout -->
+      <class name="com.testframework.testscripts.GmailLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testframework.testscripts.GmailLogin@87cbde]" name="setUp" is-config="true" duration-ms="11042" started-at="2015-04-27T12:39:31Z" finished-at="2015-04-27T12:39:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGmailLogin()[pri:0, instance:com.testframework.testscripts.GmailLogin@87cbde]" name="testGmailLogin" duration-ms="14883" started-at="2015-04-27T12:39:42Z" finished-at="2015-04-27T12:39:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGmailLogin -->
+        <test-method status="PASS" signature="getScreenshotOnFailed(org.testng.ITestResult)[pri:0, instance:com.testframework.testscripts.GmailLogin@87cbde]" name="getScreenshotOnFailed" is-config="true" duration-ms="1" started-at="2015-04-27T12:39:57Z" finished-at="2015-04-27T12:39:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGmailLogin status=SUCCESS method=GmailLogin.testGmailLogin()[pri:0, instance:com.testframework.testscripts.GmailLogin@87cbde] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenshotOnFailed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testframework.testscripts.GmailLogin@87cbde]" name="tearDown" is-config="true" duration-ms="359" started-at="2015-04-27T12:39:57Z" finished-at="2015-04-27T12:39:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testframework.testscripts.GmailLogin -->
+      <class name="com.testframework.testscripts.SearchGoogle">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testframework.testscripts.SearchGoogle@16ce9df]" name="setUp" is-config="true" duration-ms="9465" started-at="2015-04-27T12:40:32Z" finished-at="2015-04-27T12:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSearchGoogle()[pri:0, instance:com.testframework.testscripts.SearchGoogle@16ce9df]" name="testSearchGoogle" duration-ms="2748" started-at="2015-04-27T12:40:41Z" finished-at="2015-04-27T12:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchGoogle -->
+        <test-method status="PASS" signature="getScreenshotOnFailed(org.testng.ITestResult)[pri:0, instance:com.testframework.testscripts.SearchGoogle@16ce9df]" name="getScreenshotOnFailed" is-config="true" duration-ms="0" started-at="2015-04-27T12:40:44Z" finished-at="2015-04-27T12:40:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchGoogle status=SUCCESS method=SearchGoogle.testSearchGoogle()[pri:0, instance:com.testframework.testscripts.SearchGoogle@16ce9df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenshotOnFailed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testframework.testscripts.SearchGoogle@16ce9df]" name="tearDown" is-config="true" duration-ms="286" started-at="2015-04-27T12:40:44Z" finished-at="2015-04-27T12:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testframework.testscripts.SearchGoogle -->
+    </test> <!-- login -->
+  </suite> <!-- Smoke -->
+</testng-results>
