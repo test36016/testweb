@@ -38,43 +38,43 @@ Then /^I should see the back button arrow$/ do
 end
 
 Then /^I should see the Name of the contact I am calling$/ do
-	sleep(3)
+	sleep(5)
 	waitForElementPresent("* id:'conference_call_title_textview' text:'test5 automation'")
 	check_element_exists("* id:'conference_call_title_textview' text:'test5 automation'")
 end
 
 Then /^I should see the connecting status$/ do
-	sleep(3)
+	sleep(4)
 	waitForElementPresent("* id:'call_status_textview'")
 	check_element_exists("* id:'call_status_textview'")
 end
 
 Then /^I Should see the contacts avatar$/ do
-	sleep(5)
+	sleep(8)
 	waitForElementPresent("* id:'conference_call_participant_avatar_layout'")
 	check_element_exists("* id:'conference_call_participant_avatar_layout'")
 end
 
 Then /^I should see the video button$/ do
-	sleep(3)
+	sleep(4)
 	waitForElementPresent("* id:'call_camera_button'")
 	check_element_exists("* id:'call_camera_button'")
 end
 
 Then /^I should see the speaker button$/ do
-	sleep(3)
+	sleep(4)
 	waitForElementPresent("* id:'call_speaker_togglebutton'")
 	check_element_exists("* id:'call_speaker_togglebutton'")
 end
 
 Then /^I should see the dialpad button$/ do
-	sleep(3)
+	sleep(4)
 	waitForElementPresent("* id:'call_dialpad_button'")
 	check_element_exists("* id:'call_dialpad_button'")
 end
 
 Then /^I should see the end call button$/ do
-	sleep(4)
+	sleep(6)
 	waitForElementPresent("* id:'call_end_call_button'")
 	check_element_exists("* id:'call_end_call_button'")
 end
@@ -113,6 +113,7 @@ When /^I tap on video call$/ do
 	sleep(3)
 	waitForElementPresent("* text:'Video Call'")
 	touch(query("* text:'Video Call'"))
+	step"I mute the call"
 end
 
 When /^I perform a p(\d+)p video call to "(.*?)"$/ do |arg1, arg2|
@@ -125,19 +126,19 @@ When /^I perform a p(\d+)p video call to "(.*?)"$/ do |arg1, arg2|
 end
 
 Then /^I should see my local feed to the right$/ do
-	sleep(4)
+	sleep(5)
 	waitForElementPresent("* id:'local_render_layout'")
 	check_element_exists("* id:'local_render_layout'")
 end
 
 Then /^above the local feed should be the flip camera button$/ do
-	sleep(4)
+	sleep(5)
 	waitForElementPresent("* id:'call_rotate_camera'")
 	check_element_exists("* id:'call_rotate_camera'")
 end
 
 Then /^I should see the video button with the blue active bar enabled$/ do
-	sleep(4)
+	sleep(5)
 	waitForElementPresent("* id:'call_buttons_layout' enabled:'true'")
 	check_element_exists("* id:'call_buttons_layout' enabled:'true'")
 end
@@ -240,11 +241,12 @@ When /^I am in a video call with "(.*?)" in Portrait to Portrait$/ do |arg1|
 	step "I Select Second device"
 	step "User accepts a video call"
 end
-###
+
 When /^User accepts a video call$/ do
-	sleep(8)
+	sleep(10)
 	waitForElementPresent("* id:'call_respond_with_video_button'")
 	touch(query("* id:'call_respond_with_video_button'"))
+	step"I mute the call"
 end
 
 When /^I rotate the device to Portrait$/ do
@@ -317,6 +319,7 @@ When /^I end the call$/ do
 end
 
 Then /^the call should stop$/ do
+	sleep(1)
 	waitForElementPresent("* id:'topbar_chat_title'")
 	check_element_does_not_exist("* id:'call_top_layout'")
 end
@@ -343,6 +346,7 @@ end
 
 When /^the peer ends the call$/ do
 	step "I Select Second device"
+	sleep(2)
 	waitForElementPresent("* id:'call_end_call_button'")
 	touch(query("* id:'call_end_call_button'"))	
 end
@@ -372,6 +376,7 @@ Given /^I start my video stream$/ do
 	step "I Select First device"
 	waitForElementPresent("* id:'call_camera_button'")
 	touch(query("* id:'call_camera_button'"))
+	step"I mute the call"
 end
 
 Then /^I should see my video stream active on the screen$/ do
@@ -384,6 +389,7 @@ Given /^peer starts his video stream$/ do
 	sleep(5)
 	waitForElementPresent("* id:'call_camera_button'")
 	touch(query("* id:'call_camera_button'"))
+	#step"I mute the call"
 end
 
 Then(/^I should see peer's video stream active on the screen$/) do
@@ -426,4 +432,9 @@ end
 When /^I close the video stream$/ do
 	step "I Select First device"
 	step "I tap a button from the bottom bar"
+end
+
+When /^I mute the call$/ do
+	waitForElementPresent("* id:'call_microphone_togglebutton'")
+	touch(query("* id:'call_microphone_togglebutton'"))
 end

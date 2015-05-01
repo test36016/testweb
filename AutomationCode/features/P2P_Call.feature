@@ -70,7 +70,7 @@ Feature: P2P Call
 		And I should see the answer with video button
 		And I should see the answer with audio button
 		And I should see the reject call button
-	
+@2
 	Scenario: Checks element in out going Video call screen (Landscape mode)
 		Given I am logged in with "pl.automation1" account
 		When I perform a p2p video call to "pl.automation5" in Landscape mode
@@ -270,7 +270,7 @@ Feature: P2P Call
 		And the peer answers
 		And I start my video stream
 		Then I should see my video stream active on the screen
-
+@1
 	Scenario: Peer starts video after initiating in a P2P Voice call
 		Given I am logged in with "pl.automation1" account
 		And I am in the roster
@@ -317,7 +317,7 @@ Feature: P2P Call
 		And the peer answers with video
 		And the peer locks the device
 		Then the call should run normally
-@a
+
 	Scenario: Contact locks the device after a P2P video call is initiated by user
 		Given I am logged in with "pl.automation1" account
 		And I am in the roster

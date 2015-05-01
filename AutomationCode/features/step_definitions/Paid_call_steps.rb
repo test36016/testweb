@@ -139,7 +139,7 @@ When /^I type a valid phone number for the user$/ do
 end
 
 Then /^I should NOT see the call quality feedback popup$/ do
-	sleep(5)
+	sleep(8)
 	waitForElementPresent("* id:'edttxt_phone_number'")
 	check_element_does_not_exist("* id:'call_feedback_dialog_title'")
 end

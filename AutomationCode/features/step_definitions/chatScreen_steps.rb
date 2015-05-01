@@ -116,6 +116,7 @@ When /^I tap on "Free Call" button$/ do
 	#wait_for(:timeout => 30) { element_exists("* id:'dialog_button_choice_choice' text:'Free call'") }
 	waitForElementPresent("* id:'dialog_button_choice_choice' text:'Free call'")
 	touch(query("* id:'dialog_button_choice_choice' text:'Free call'"))
+	step "I mute the call"
 end
 
 When /^I tap on "Hangup" button$/ do
@@ -139,15 +140,17 @@ end
 When /^"pl.automation5" answers my call with "Audio"$/ do
 	step "I Select Second device"
 	#wait_for(:timeout => 30) { element_exists("* id:'call_respond_button'") }
-	sleep (10)
+	sleep (12)
 	waitForElementPresent("* id:'call_respond_button'")
 	sleep (5)
 	touch(query("* id:'call_respond_button'"))
+	step "I mute the call"
 	sleep (2)
 end
 
 Then /^the call should be established$/ do
 	#wait_for(:timeout => 30) { element_exists("* id:'call_end_call_button'") }	
+	sleep(1)
 	waitForElementPresent("* id:'call_end_call_button'")
 	check_element_exists("* id:'call_end_call_button'") 
 end
