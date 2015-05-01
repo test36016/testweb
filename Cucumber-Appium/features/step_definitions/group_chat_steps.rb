@@ -4,9 +4,11 @@ end
 
 Then(/^second user should see message sent to group (\d+)$/) do |arg1|
   	step "I am logged in with \"pl.ios.automation2\" account on second device"
-  	close_pop_up
-  	waitForElementPresent("xpath", "//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]")
-  	text = @driver.find_element(:xpath,"//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]").text
+  if $closePopUps
+      close_pop_up
+  end
+  	waitForElementPresent("xpath", "//UIATableView[1]/UIATableCell[1]")
+  	text = @driver.find_element(:xpath,"//UIATableView[1]/UIATableCell[1]").text
 	assert_send([text, :include?, @message]) 
 end
 
@@ -19,16 +21,16 @@ end
 Then(/^user should see the file in group chat$/) do
 	sleep(3)
   	step "I press the back button"
-	waitForElementPresent("xpath", "//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]")
-  	text = @driver.find_element(:xpath,"//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]").text
+	waitForElementPresent("xpath", "//UIATableView[1]/UIATableCell[1]")
+  	text = @driver.find_element(:xpath,"//UIATableView[1]/UIATableCell[1]").text
   	assert_send([text, :include?, "File Transfer"])
 end
 
 Then(/^user should see the shared contact in group chat$/) do
   	sleep(3)
   	step "I press the back button"
-	waitForElementPresent("xpath", "//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]")
-  	text = @driver.find_element(:xpath,"//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]").text
+	waitForElementPresent("xpath", "//UIATableView[1]/UIATableCell[1]")
+  	text = @driver.find_element(:xpath,"//UIATableView[1]/UIATableCell[1]").text
   	assert_send([text, :include?, "Shared contact"])
 end
 
@@ -56,8 +58,8 @@ end
 
 Then(/^the message should be sent to group (\d+) from third user$/) do |arg1|
   	step "I press the back button"
-  	waitForElementPresent("xpath", "//UIAApplication[1]//UIATableView[1]/UIATableCell[1]/UIAStaticText[2]")
-  	text = @driver.find_element(:xpath,"//UIAApplication[1]//UIATableView[1]/UIATableCell[1]/UIAStaticText[2]").text
+  	waitForElementPresent("xpath", "//UIATableCell[1]/UIAStaticText[2]")
+  	text = @driver.find_element(:xpath,"//UIATableCell[1]/UIAStaticText[2]").text
 	assert_send([text, :include?, @message4]) 
 end
 

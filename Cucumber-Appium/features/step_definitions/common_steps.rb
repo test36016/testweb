@@ -13,8 +13,8 @@ def close_pop_up
     rescue
     end
     begin
-    	wait.until { @driver.find_element(:xpath, "//UIAApplication[1]//UIAAlert[1]/UIACollectionView[1]/UIACollectionCell[1]/UIAButton[1]") }
-   		@driver.find_element(:xpath, "//UIAApplication[1]//UIAAlert[1]/UIACollectionView[1]/UIACollectionCell[1]/UIAButton[1]").click
+    	wait.until { @driver.find_element(:xpath, "//UIAApplication[1]//UIAAlert[1]//UIACollectionCell[1]/UIAButton[1]") }
+   		@driver.find_element(:xpath, "//UIAApplication[1]//UIAAlert[1]//UIACollectionCell[1]/UIAButton[1]").click
    rescue
     end
     #Click on first Ok pop-up
@@ -82,7 +82,7 @@ def assertElementPresent(element)
 
 def waitForElementPresent (locatorType, element)
 		i=1
-		while i<30
+		while i<20
 		flag = isElementPresent(locatorType, element)
 		if flag==true
 			break
@@ -98,7 +98,7 @@ def waitForElementNotPresent (locatorType, element)
 		i=1
 		while i<60
 		flag = isElementPresent(locatorType, element)
-		if flag==flag
+		if flag==false
 			break
 		else
 			sleep (1)
@@ -148,9 +148,20 @@ When(/^I select simulator device$/) do
 	step "I set simulator device"
 end
 
-When(/^I tap on back button$/) do
-  	waitForElementPresent("name", "Back")
-	@driver.find_element(:name,"Back").click
+When(/^I switch to First device$/) do
+	step "I set First device"
+end
+
+When(/^I switch to Second device$/) do
+	step "I am on second device"
+end
+
+When(/^I switch to Third device$/) do
+	step "I am on third device"
+end
+
+When(/^I switch to simulator device$/) do
+	step "I am on simulator device"
 end
 
 When(/^I am on second device$/) do
@@ -175,6 +186,26 @@ When(/^I tap on Ok button$/) do
    		@driver.find_element(:name, "OK").click
    rescue
     end
+end
+
+When(/^I tap on back button$/) do
+  	waitForElementPresent("name", "Back")
+	@driver.find_element(:name,"Back").click
+end
+
+When(/^I tap on edit button$/) do
+  	waitForElementPresent("name", "Edit")
+	@driver.find_element(:name,"Edit").click
+end
+
+When(/^I tap on done button$/) do
+  	waitForElementPresent("name", "Done")
+	@driver.find_element(:name,"Done").click
+end
+
+When(/^I tap on cancel button$/) do
+  	waitForElementPresent("name", "Cancel")
+	@driver.find_element(:name,"Cancel").click
 end
 
 def scroll_screen_until_element_not_exist(locatorType, element)

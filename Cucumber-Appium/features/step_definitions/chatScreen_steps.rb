@@ -6,23 +6,42 @@ require 'test/unit/assertions.rb'
 World(::Test::Unit::Assertions)
 
 When(/^I click on contact icon$/) do
-  	#waitForElementPresent("xpath", "//UIAApplication[1]//UIATabBar[1]/UIAButton[3]")
-  	#@driver.find_element(:xpath,"//UIAApplication[1]//UIATabBar[1]/UIAButton[3]").click
-	waitForElementPresent("xpath", "//UIAApplication[1]/UIAWindow[1]/UIATabBar[1]/UIAButton[3]")
-  	@driver.find_element(:xpath,"//UIAApplication[1]/UIAWindow[1]/UIATabBar[1]/UIAButton[3]").click
+  	waitForElementPresent("xpath", "//UIATabBar[1]/UIAButton[3]")
+  	@driver.find_element(:xpath,"//UIATabBar[1]/UIAButton[3]").click
+	#waitForElementPresent("xpath", "//UIAApplication[1]/UIAWindow[1]/UIATabBar[1]/UIAButton[3]")
+  	#@driver.find_element(:xpath,"//UIAApplication[1]/UIAWindow[1]/UIATabBar[1]/UIAButton[3]").click
 end
 
-
+# This method can be used for Automation two user
 Given(/^I am in chat window with "(.*?)"$/) do |arg1|
-	close_pop_up
+  if $closePopUps
+        close_pop_up
+  end
 	step "I click on contact icon"
 	waitForElementPresent("name", "Automation Two")
 	@driver.find_element(:name,"Automation Two").click
 end
 
+# This method can be used for Automation two user
 Given(/^I am in chat window with "(.*?)" user$/) do |arg1|
   step "I set First device"
   step "I am in chat window with \"pl.ios.automation2\""
+end
+
+#This Method can be user for All user
+Given(/^I am on chat window with "(.*?)"$/) do |arg1|
+  if $closePopUps
+        close_pop_up
+  end
+	step "I click on contact icon"
+	waitForElementPresent("name", arg1)
+	@driver.find_element(:name, arg1).click
+end
+
+#This Method can be user for All user
+Given(/^I am on chat window with "(.*?)" user$/) do |arg1|
+  step "I set First device"
+  step "I am on chat window with \"Automation One\""
 end
 
 When(/^I press the back button$/) do
@@ -89,8 +108,8 @@ Given(/^I press the Emoticon icon$/) do
 end
 
 Then(/^I should see the emoticons, emoji picker$/) do
-  waitForElementPresent("xpath", "//UIAApplication[1]//UIACollectionView[1]/UIACollectionCell[1]/UIAImage[1]")
-  assertElementPresent(@driver.find_element(:xpath,"//UIAApplication[1]//UIACollectionView[1]/UIACollectionCell[1]/UIAImage[1]"))
+  waitForElementPresent("xpath", "//UIACollectionCell[1]/UIAImage[1]")
+  assertElementPresent(@driver.find_element(:xpath,"//UIACollectionCell[1]/UIAImage[1]"))
 end
 
 When(/^I select an emoticon$/) do
@@ -111,12 +130,14 @@ When(/^I write a "(.*?)" message$/) do |arg1|
 end
 
 When(/^Peer click on contact icon$/) do
-	waitForElementPresent("xpath", "//UIAApplication[1]/UIAWindow[1]/UIATabBar[1]/UIAButton[3]")
-  	@driverSecond.find_element(:xpath,"//UIAApplication[1]/UIAWindow[1]/UIATabBar[1]/UIAButton[3]").click
+	waitForElementPresent("xpath", "//UIATabBar[1]/UIAButton[3]")
+  	#@driverSecond.find_element(:xpath,"//UIATabBar[1]/UIAButton[3]").click
+	@driver.find_element(:xpath,"//UIATabBar[1]/UIAButton[3]").click
 end
 
 Then(/^friend should see the sent message$/) do
-  	text = @driverSecond.find_element(:name,"pl.ios.automation2@woow.com").text
+  	#text = @driverSecond.find_element(:name,"pl.ios.automation2@woow.com").text
+	text = @driver.find_element(:name,"pl.ios.automation2@woow.com").text
 	assert_send([text, :include?, @message])
 end
 
@@ -128,7 +149,9 @@ Then(/^the message should be sent to Automation Two$/) do
 end
 
 When(/^I go to "(.*?)" screen$/) do |arg1|
-	close_pop_up
+  if $closePopUps
+        close_pop_up
+  end
     step "I click on contact icon"
 end
 
@@ -139,7 +162,9 @@ end
 
 Given(/^I am in group chat$/) do
 	step "I set First device"
-  	close_pop_up
+  if $closePopUps
+        close_pop_up
+    end
     step "I click on contact icon"
 	step "I tap on \"group 1\" group"
 end
@@ -148,20 +173,22 @@ Then(/^the message should be sent to group (\d+)$/) do |arg1|
 	step "I press the back button"
   	#waitForElementPresent("xpath", "//UIAApplication[1]//UIATableView[1]/UIATableCell[1]/UIAStaticText[2]")
   	#text = @driver.find_element(:xpath,"//UIAApplication[1]//UIATableView[1]/UIATableCell[1]/UIAStaticText[2]").text		
-	waitForElementPresent("xpath", "//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]")
-  	text = @driver.find_element(:xpath,"//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]").text
+	waitForElementPresent("xpath", "//UIATableView[1]/UIATableCell[1]")
+  	text = @driver.find_element(:xpath,"//UIATableView[1]/UIATableCell[1]").text
 	assert_send([text, :include?, @message])  	
 end
 
 Then(/^the message should be sent to group (\d+) from other user$/) do |arg1|
 	step "I press the back button"
-  	waitForElementPresent("xpath", "//UIAApplication[1]//UIATableView[1]/UIATableCell[1]/UIAStaticText[2]")
-  	text = @driver.find_element(:xpath,"//UIAApplication[1]//UIATableView[1]/UIATableCell[1]/UIAStaticText[2]").text
+  	waitForElementPresent("xpath", "//UIATableCell[1]/UIAStaticText[2]")
+  	text = @driver.find_element(:xpath,"//UIATableCell[1]/UIAStaticText[2]").text
 	assert_send([text, :include?, @message2])  	
 end
 
 When(/^I am in the group 1 chat window$/) do
-	close_pop_up
+  if $closePopUps
+        close_pop_up
+    end
 	step "I click on contact icon"
 	waitForElementPresent("name", "group 1")
 	@driver.find_element(:name,"group 1").click
@@ -219,7 +246,9 @@ Then(/^I should see the Chat screen$/) do
 end
 
 Given(/^Peer in chat window with "pl\.ios\.automation(\d+)”$/) do |arg1|
-	close_pop_up
+  if $closePopUps
+        close_pop_up
+  end
 	sleep(2)
 	step "I click on contact icon"
 	waitForElementPresent("name", "Automation One")
@@ -263,7 +292,9 @@ end
 
 Then(/^friend should see sent message in the chat screen$/) do
 	step "I set Second device"
-	close_pop_up
+  if $closePopUps
+        close_pop_up
+  end
 	#step "I press the back button"
   	waitForElementPresent("name", "pl.ios.automation1@woow.com")
   	text = @driver.find_element(:name,"pl.ios.automation1@woow.com").text
@@ -272,7 +303,9 @@ end
 
 Given(/^I am in chat window with "(.*?)" when friend is online$/) do |arg1|
 	step "I set First device"
-	close_pop_up
+  if $closePopUps
+        close_pop_up
+  end
 	step "I click on contact icon"
 	waitForElementPresent("name", "Automation Two")
 	@driver.find_element(:name,"Automation Two").click
@@ -320,21 +353,25 @@ Then(/^Peer should see the file in the chat screen$/) do
 end
 
 When(/^I see the file in the chat screen$/) do
-  waitForElementPresent("xpath", "//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]")
-  text = @driver.find_element(:xpath,"//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]").text
+  waitForElementPresent("xpath", "//UIATableCell[1]")
+  text = @driver.find_element(:xpath,"//UIATableCell[1]").text
   assert_send([text, :include?, "File Transfer"]) 
 end
 
 Then(/^friend should see sent photo in the chat screen/) do
 	step "I set Second device"
-	close_pop_up
+  if $closePopUps
+        close_pop_up
+    end
 	#step "I press the back button"
   	step "I see the file in the chat screen"
 end
 
 Then(/^User should see sent photo in the chat screen/) do
 	step "I set First device"
-	close_pop_up
+  if $closePopUps
+        close_pop_up
+    end
 	#waitForElementPresent("name", "pl.automation5@woow.com")
   	#text = @driver.find_element(:name,"pl.automation5@woow.com").text
 	#assert_send([text, :include?, "File Transfer"])  	
@@ -348,14 +385,14 @@ end
 
 When(/^I Select video file from gallery$/) do
   sleep(2)
-  waitForElementPresent("xpath", "//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[1]")
-  @driver.find_element(:xpath,"//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[1]").click
+  waitForElementPresent("xpath", "//UIAApplication[1]//UIACollectionView[1]/UIACollectionCell[1]")
+  @driver.find_element(:xpath,"//UIAApplication[1]//UIACollectionView[1]/UIACollectionCell[1]").click
 end
 
 When(/^I send video file from gallery$/) do
-  waitForElementPresent("xpath", "//UIAApplication[1]/UIAWindow[1]/UIAButton[3]")
-  @driver.find_element(:xpath,"//UIAApplication[1]/UIAWindow[1]/UIAButton[3]").click
-  waitForElementNotPresent("xpath", "//UIAApplication[1]/UIAWindow[1]/UIAStaticText[1]")
+  waitForElementPresent("xpath", "//UIAApplication[1]//UIAButton[3]")
+  @driver.find_element(:xpath,"//UIAApplication[1]//UIAButton[3]").click
+  waitForElementNotPresent("xpath", "//UIAApplication[1]//UIAStaticText[1]")
   sleep(10)
 end
 
@@ -384,7 +421,9 @@ end
 
 Then(/^friend should see share Contact in the chat screen/) do
 	step "I set Second device"
-	close_pop_up
+  if $closePopUps
+        close_pop_up
+    end
 	#step "I press the back button"
   	step "I see the share contact in the chat screen"
 end
@@ -406,7 +445,7 @@ When(/^I send the location$/) do
   begin
   		sleep(2)
     	#waitForElementPresent("xpath", "//UIAApplication[1]//UIAAlert[1]/UIACollectionView[1]/UIACollectionCell[2]")
-  		@driver.find_element(:xpath,"//UIAApplication[1]//UIAAlert[1]/UIACollectionView[1]/UIACollectionCell[2]").click
+  		@driver.find_element(:xpath,"//UIACollectionView[1]/UIACollectionCell[2]").click
     rescue
     end
   waitForElementPresent("name", "buttonSendLocation")
@@ -415,7 +454,7 @@ end
 
 Then(/^the shared location should be displayed in the chat screen$/) do
   	step "I press the back button"
-  	sleep(1)
+  	sleep(2)
   	step "I see the share location in the chat screen"
 end
 
@@ -427,7 +466,9 @@ end
 
 Then(/^friend should see share location in the chat screen/) do
 	step "I set Second device"
-	close_pop_up
+  if $closePopUps
+        close_pop_up
+    end
 	#step "I press the back button"
   	step "I see the share location in the chat screen"
 end
@@ -439,8 +480,8 @@ Then(/^Peer should see share location in the chat screen$/) do
 end
 
 When(/^I press more button on profile$/) do
-	waitForElementPresent("xpath", "//UIAApplication[1]//UIATableView[1]/UIAButton[4]")
-  @driver.find_element(:xpath,"//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIAButton[4]").click
+	waitForElementPresent("id", "moreButton")
+  @driver.find_element(:id,"moreButton").click
 end
 
 When(/^I tap on the Gallery button from user profile$/) do
@@ -456,15 +497,14 @@ When(/^I tap on the Share Contact button from user profile$/) do
 end
 
 When(/^I tap on the Share location button from user profile$/) do
-	#waitForElementPresent("xpath", "//UIAApplication[1]//UIAActionSheet[1]/UIACollectionView[1]/UIACollectionCell[4]")
-  	#@driver.find_element(:xpath,"//UIAApplication[1]//UIAActionSheet[1]/UIACollectionView[1]/UIACollectionCell[4]").click
 	step "I tap on the Share location button"
+	step "I send the location"
 end
 
 Then(/^I should see that emoticon in the group chat screen$/) do
   	step "I press the back button"
-  	waitForElementPresent("xpath", "//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]")
-  	text = @driver.find_element(:xpath,"//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]").text
+  	waitForElementPresent("xpath", "//UIAApplication[1]//UIATableView[1]/UIATableCell[1]")
+  	text = @driver.find_element(:xpath,"//UIAApplication[1]//UIATableView[1]/UIATableCell[1]").text
 	assert_send([text, :include?, "Sticker sent"]) 
 end
 

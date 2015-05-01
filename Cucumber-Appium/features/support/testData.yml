@@ -14,3 +14,23 @@ liveAccount3: alexl.13
 usualPassword: 123456
 paidAccount: pl.android.paidcall2
 paidAccountPassword: woow1@3
+
+# Users which are using for chat and Call
+#pl.ios.automation1: pl.ios.automation1
+#pl.ios.automation2: pl.ios.automation2
+#pl.ios.automation5: pl.ios.automation5
+
+# User which is using for PhoneValidation
+#pl.ios.automation3: pl.ios.automation3
+
+# Users which are using for dial pad
+#pl.ios.automation6: pl.ios.automation6
+#pl.ios.automation1: pl.ios.automation1
+
+# User which is using for paid call
+#pl.ios.automation5: pl.ios.automation5
+
+# Users which are using for Add new features
+# pl.ios.automation4: pl.ios.automation4
+# pl.ios.automation6: pl.ios.automation6
+# pl.ios.automation7: pl.ios.automation7

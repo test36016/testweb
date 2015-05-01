@@ -50,14 +50,18 @@ When(/^I enter the usual password in password field$/) do
 end
 
 When(/^I click on login Button$/) do
-	waitForElementPresent("xpath", "//UIAElement[1]//UIAButton[contains(@name,'signInButton')]")
-	@driver.find_element(:xpath, "//UIAElement[1]//UIAButton[contains(@name,'signInButton')]").click
+	waitForElementPresent("id", "signInButton")
+	@driver.find_element(:id, "signInButton").click
 end
 
 Then(/^I should be in "(.*?)" Screen$/) do |arg1|
-  	close_pop_up
-	waitForElementPresent("xpath", "//UIAApplication[1]//UIATabBar[1]/UIAButton[3]")
-	assertElementPresent(@driver.find_element(:xpath, "//UIAApplication[1]//UIATabBar[1]/UIAButton[3]"))
+  $closePopUps = true
+  if $closePopUps
+        close_pop_up
+    end
+	waitForElementPresent("xpath", "//UIATabBar[1]/UIAButton[3]")
+	assertElementPresent(@driver.find_element(:xpath, "//UIATabBar[1]/UIAButton[3]"))
+  $closePopUps = false
 end
 
 Then /^I should see Phone number validation screen$/ do
@@ -105,5 +109,9 @@ Given(/^I am logged with "([^"]*)" account$/) do |arg1|
   	waitForElementPresent("xpath", "//UIASecureTextField[1]")
   	@driver.find_element(:xpath, "//UIASecureTextField[1]").send_keys password
   	step "I click on login Button"
-  	close_pop_up
+  $closePopUps = true
+    if $closePopUps
+          close_pop_up
+      end
+  $closePopUps = false
 end

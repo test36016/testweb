@@ -1,17 +1,26 @@
 When(/^I tap on profile icon$/) do
-  	waitForElementPresent("xpath", "//UIAApplication[1]/UIAWindow[1]/UIATabBar[1]/UIAButton[1]")
-  	@driver.find_element(:xpath,"//UIAApplication[1]/UIAWindow[1]/UIATabBar[1]/UIAButton[1]").click
+  	waitForElementPresent("xpath", "//UIATabBar[1]/UIAButton[1]")
+  	@driver.find_element(:xpath,"//UIATabBar[1]/UIAButton[1]").click
+end
+
+When(/^I tap on activity icon$/) do
+  	waitForElementPresent("xpath", "//UIATabBar[1]/UIAButton[2]")
+  	@driver.find_element(:xpath,"//UIATabBar[1]/UIAButton[2]").click
 end
 
 When(/^I press on profile icon$/) do
+  if $closePopUps
   	close_pop_up
-  	waitForElementPresent("xpath", "//UIAApplication[1]/UIAWindow[1]/UIATabBar[1]/UIAButton[1]")
-  	@driver.find_element(:xpath,"//UIAApplication[1]/UIAWindow[1]/UIATabBar[1]/UIAButton[1]").click
+  end
+  	waitForElementPresent("xpath", "//UIATabBar[1]/UIAButton[1]")
+  	@driver.find_element(:xpath,"//UIATabBar[1]/UIAButton[1]").click
 end
-
+#Test DailPad
 When(/^I am in the dial pad$/) do
   step "I set First device"
-  close_pop_up
+  if $closePopUps
+      close_pop_up
+  end
   step "I tap on profile icon"
   step "I tap on keypad option"
 end
@@ -35,10 +44,10 @@ When(/^I select "([^"]*)" country$/) do |arg1|
   	waitForElementPresent("name", "buttonSelectCountry")
   	@driver.find_element(:name,"buttonSelectCountry").click
   	puts arg1
-  	waitForElementPresent("xpath", "//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIASearchBar[1]")
-  	@driver.find_element(:xpath,"//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIASearchBar[1]").send_keys arg1
-  	waitForElementPresent("xpath", "//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]")
-  	@driver.find_element(:xpath,"//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]").click  	
+  	waitForElementPresent("xpath", "//UIASearchBar[1]")
+  	@driver.find_element(:xpath,"//UIASearchBar[1]").send_keys arg1
+  	waitForElementPresent("xpath", "//UIATableCell[1]")
+  	@driver.find_element(:xpath,"//UIATableCell[1]").click  	
 end
 
 When(/^I type one number$/) do
@@ -119,14 +128,16 @@ Then(/^User should see typed number$/) do
   	step "I end the call"
   	step "I tap on Ok button"
   	step "I tap on back button"
-  	waitForElementPresent("xpath", "//UIAApplication[1]//UIATableView[1]/UIATableCell[1]/UIAStaticText[1]")
-  	text = @driver.find_element(:xpath,"//UIAApplication[1]//UIATableView[1]/UIATableCell[1]/UIAStaticText[1]").text
+  	waitForElementPresent("xpath", "//UIATableCell[1]/UIAStaticText[1]")
+  	text = @driver.find_element(:xpath,"//UIATableCell[1]/UIAStaticText[1]").text
 	assert_send([text, :include?, "+91 97112 41126"])
 end
 
 When(/^I am in the activity screen$/) do
   step "I set First device"
-  close_pop_up
+  if $closePopUps
+      close_pop_up
+  end
 end
 
 Then(/^User should see the selected country$/) do
@@ -180,4 +191,72 @@ end
 
 Then(/^I should NOT see the call quality feedback popup$/) do
   	step "Call should not be started"
+end
+
+Then(/^User should see typed number on keypad$/) do
+  	step "I press call button on keypad"
+  	step "I end the call"
+  	step "I tap on Ok button"
+  	step "I tap on back button"
+  	step "I tap on activity icon"
+  	waitForElementPresent("xpath", "//UIATableCell[1]/UIAStaticText[1]")
+  	text = @driver.find_element(:xpath,"//UIATableCell[1]/UIAStaticText[1]").text
+	assert_send([text, :include?, "+91 97112 41126"])
+end
+
+When(/^I tap on keypad button from contact$/) do
+  	step "I click on contact icon"
+  	waitForElementPresent("xpath", "//UIATableGroup[1]/UIAButton[1]")
+  	@driver.find_element(:xpath,"//UIATableGroup[1]/UIAButton[1]").click
+end
+
+When(/^I tap on backspace button$/) do
+	waitForElementPresent("name", "buttonDeleteLastCharacter")
+  	@driver.find_element(:name,"buttonDeleteLastCharacter").click
+end
+
+When(/^I clear the number$/) do
+	step "I tap on backspace button"
+	step "I tap on backspace button"
+	step "I tap on backspace button"
+end
+
+Then(/^user should see message for invalid number$/) do
+  	waitForElementPresent("name", "Error")
+  	assertElementPresent(@driver.find_element(:name,"Error"))
+end
+
+When(/^I tap contact icon on keypad screen$/) do
+  	waitForElementPresent("name", "DialpadScreenAddressBook")
+  	@driver.find_element(:name,"DialpadScreenAddressBook").click
+end
+
+Then(/^user should see all contact screen$/) do
+  	waitForElementPresent("name", "All Contacts")
+  	assertElementPresent(@driver.find_element(:name,"All Contacts"))
+end
+
+When(/^I tap on Add number on key pad$/) do
+  	waitForElementPresent("name", "buttonSaveNumber")
+  	@driver.find_element(:name,"buttonSaveNumber").click
+end
+
+When(/^I tap on create new contact option$/) do
+  	waitForElementPresent("name", "Create new contact")
+  	@driver.find_element(:name,"Create new contact").click
+end
+
+Then(/^user should see edit profile screen$/) do
+  	waitForElementPresent("name", "Edit Profile")
+  	assertElementPresent(@driver.find_element(:name,"Edit Profile"))
+end
+
+When(/^I tap on add to existing option$/) do
+  	waitForElementPresent("name", "Add to existing")
+  	@driver.find_element(:name,"Add to existing").click
+end
+
+Then(/^user should see Address book contacts screen$/) do
+  	waitForElementPresent("name", "Addressbook Contacts")
+  	assertElementPresent(@driver.find_element(:name,"Addressbook Contacts"))
 end

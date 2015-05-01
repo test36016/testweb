@@ -1,6 +1,7 @@
 @P2P_Call
 Feature: P2P Call feature
 
+@WithoutAlert
 Scenario: User calls to his friend
 		Given I am logged in with "pl.ios.automation1" account
 		And  I am logged in with "pl.ios.automation2" account on second device
@@ -11,6 +12,7 @@ Scenario: User calls to his friend
 		And I tap on Free call button
 		Then I should see the call screen
 
+@WithoutAlert
  Scenario: Checks element in out going Audio call screen
 		Given I perform a p2p call to second user
 		Then I should see the call screen
@@ -19,6 +21,7 @@ Scenario: User calls to his friend
 		And I should see the mute button
 		And I should see the end call button
 
+@WithoutAlert
 Scenario: Checks element in incoming Audio call screen
 		Given I receive a p2p call from first user
 		Then I should see the incoming call screen
@@ -26,6 +29,7 @@ Scenario: Checks element in incoming Audio call screen
 		And I should see the answer with audio button
 		And I should see the reject call button
 
+@WithoutAlert
 Scenario: Checks element in out going Video call screen
 		Given I perform a p2p video call to second user
 		Then I should see the call screen
@@ -34,21 +38,25 @@ Scenario: Checks element in out going Video call screen
 		And I should see the mute button
 		And I should see the end call button
 
+@WithoutAlert
 Scenario: Single Call is answered
 		Given I receive a p2p call from first user
 		And I answer the call
 		Then call should be established
 
+@WithoutAlert
 Scenario: Single Call is declined
 		Given I perform a p2p call to second user
 		And I end the call
 		Then call should not be established
 
+@WithoutAlert
 Scenario: User sees the more options when he is in the call
 		Given I receive a p2p call from first user
 		And I answer the call
 		Then User should see more options
-			
+
+@WithoutAlert			
 Scenario: User selects a contact from the roster to perform a P2P call
 		Given I am in the roster
 		When I select a contact from the Wow roster
@@ -56,6 +64,7 @@ Scenario: User selects a contact from the roster to perform a P2P call
 		And I press the Call button
 		Then I want to get connected with the contact
 
+@WithoutAlert
  Scenario: User ends P2P Voice call started with another contact
 		Given I am in the roster
 		When I select a contact from the Wow roster
@@ -65,6 +74,7 @@ Scenario: User selects a contact from the roster to perform a P2P call
 		And I end the call
 		Then the call should stop
 
+@WithoutAlert
 Scenario: User ends P2P Voice call before the other contact answers
 		Given I am in the roster
 		When I select a contact from the Wow roster
@@ -73,6 +83,7 @@ Scenario: User ends P2P Voice call before the other contact answers
 		And I end the call before the contact answers
 		Then the call should stop on both devices
 
+@WithoutAlert
 Scenario: Contact rejects P2P Voice call started by the user
 		Given I am in the roster
 		When I select a contact from the Wow roster
@@ -81,6 +92,7 @@ Scenario: Contact rejects P2P Voice call started by the user
 		And the contact rejects the call
 		Then the call should stop on both devices
 
+@WithoutAlert
 Scenario: Contact ends P2P Voice call started by the user
 		Given I am in the roster
 		When I select a contact from the Wow roster
@@ -89,13 +101,15 @@ Scenario: Contact ends P2P Voice call started by the user
 		And the peer answers
 		And the peer ends the call
 		Then the call should stop
-		
+
+@WithoutAlert		
 Scenario: User selects a contact from the roster to perform a P2P call
 		Given I am in the roster
 		And I tap on View profile
 		And I press the Call button on contact profile
 		Then I want to get connected with the contact
-		
+
+@WithoutAlert		
 Scenario: User performs a P2P call from the contact
 		Given I am in the roster
 		When I select a contact from the Wow roster
@@ -103,6 +117,7 @@ Scenario: User performs a P2P call from the contact
 		And I press the Call button
 		Then I want to get connected with the contact
 	
+@WithoutAlert	
 Scenario: User ends P2P Voice call started with another contact (from the contact profile)
 		Given I am in the roster
 		And I tap on View profile
@@ -111,6 +126,7 @@ Scenario: User ends P2P Voice call started with another contact (from the contac
 		And I end the call
 		Then the call should stop
 
+@WithoutAlert
 Scenario: Contact ends P2P Voice call started by the user (from the contact profile)
 		Given I am in the roster
 		And I tap on View profile
@@ -119,6 +135,7 @@ Scenario: Contact ends P2P Voice call started by the user (from the contact prof
 		And the peer ends the call
 		Then the call should stop
 
+@WithoutAlert
 Scenario: User starts video after performing a P2P Voice call
 		Given I am in the roster
 		And I tap on View profile
@@ -127,6 +144,7 @@ Scenario: User starts video after performing a P2P Voice call
 		And I start my video stream
 		Then I should see my video stream active on the screen
 
+@WithoutAlert
 Scenario: Peer starts video after initiating in a P2P Voice call
 		Given I am in the roster
 		And I tap on View profile
@@ -135,6 +153,7 @@ Scenario: Peer starts video after initiating in a P2P Voice call
 		And peer starts his video stream
 		Then I should see peer's video stream active on the screen
 
+@WithoutAlert
 Scenario: User performs a P2P video call with a contact from the roster
 		Given I am in the roster
 		When I select a contact from the Wow roster
@@ -142,6 +161,7 @@ Scenario: User performs a P2P video call with a contact from the roster
 		And I press the Video button
 		Then I want to get connected with the other contact
 
+@WithoutAlert
 Scenario: User ends P2P video call started with another contact
 		Given I am in the roster
 		When I select a contact from the Wow roster
@@ -151,6 +171,7 @@ Scenario: User ends P2P video call started with another contact
 		And I end the call
 		Then the call should stop
 
+@WithoutAlert
 Scenario: User ends P2P Video call before the other contact answers
 		Given I am in the roster
 		When I select a contact from the Wow roster
@@ -159,6 +180,7 @@ Scenario: User ends P2P Video call before the other contact answers
 		And I end the call before the contact answers
 		Then the call should stop on both devices
 
+@WithoutAlert
 Scenario: Contact rejects P2P video call started by the user
 		Given I am in the roster
 		When I select a contact from the Wow roster
@@ -167,6 +189,7 @@ Scenario: Contact rejects P2P video call started by the user
 		And the contact rejects the call
 		Then the call should stop on both devices
 
+@WithoutAlert
 Scenario: Contact ends P2P video call started by the user
 		Given I am in the roster
 		When I select a contact from the Wow roster
@@ -176,6 +199,7 @@ Scenario: Contact ends P2P video call started by the user
 		And the peer ends the call
 		Then the call should stop
 
+@WithoutAlert
 Scenario: Contact ends P2P video call started by the user(answers without video)
 		Given I am in the roster
 		When I select a contact from the Wow roster

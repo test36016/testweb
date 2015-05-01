@@ -160,7 +160,7 @@ end
 
 Then(/^the call should stop$/) do
 	sleep(2)
-  	waitForElementPresent("xpath", "//*[contains(@label,'Chats')]")
+  	waitForElementPresent("xpath", "//UIAStaticText[contains(@label,'Incoming Call')]")
  	isElementNotPresent("name", "endCall")
 end
 

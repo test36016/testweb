@@ -14,6 +14,11 @@ APP_PATH = '/../../YowWowMe/YouWowMe.ipa'
 #Path for screenshot
 IMAGE = "/../../Screenshot/"
 
+## Allow Close Pop-up Method by giving true and false
+#$closePopUps = false
+$closePopUps = true
+
+
 def absolute_image_path
   File.join(File.dirname(__FILE__), IMAGE)
 end
@@ -30,7 +35,7 @@ def  firstDeviceLaunch
   		{
     		'browserName' => '',
     		'platform' => 'Mac',
-    		'version' => '8.1.2',
+    		'version' => '8.3',
     		'deviceName' => "755c301229aab3180b62e574b8ebb7d06f4b97f1",
     		'platformName' => 'iOS',        
     		'app' => '/Users/chirags/Documents/WoowTalk/Cucumber-Appium/YowWowMe/WowApp.ipa',
@@ -38,6 +43,34 @@ def  firstDeviceLaunch
     		'udid' => "755c301229aab3180b62e574b8ebb7d06f4b97f1",
     		'launchTimeout' => '600000',
     		'autoAcceptAlerts' => 'true',	
+  		}
+  		
+  		begin
+  			@driverFirst ||= Selenium::WebDriver.for(:remote, :desired_capabilities => capabilities, :url => server_url)	
+		rescue 
+			sleep(60)
+ 			 @driverFirst ||= Selenium::WebDriver.for(:remote, :desired_capabilities => capabilities, :url => server_url)
+ 			 puts "First Driver launch after time out"
+		end
+end
+
+def server_url
+  "http://192.168.9.15:4723/wd/hub"
+end
+
+# capabilities for first driver without AutoAlert Accept
+def  firstDeviceLaunchWithAlert
+	capabilities =
+  		{
+    		'browserName' => '',
+    		'platform' => 'Mac',
+    		'version' => '8.3',
+    		'deviceName' => "755c301229aab3180b62e574b8ebb7d06f4b97f1",
+    		'platformName' => 'iOS',        
+    		'app' => '/Users/chirags/Documents/WoowTalk/Cucumber-Appium/YowWowMe/WowApp.ipa',
+    		'newCommandTimeout' => '600',
+    		'udid' => "755c301229aab3180b62e574b8ebb7d06f4b97f1",
+    		'launchTimeout' => '600000',	
   		}
   		
   		begin
@@ -67,7 +100,7 @@ end
     		'newCommandTimeout' => '600',
     		'udid' => "17006b330e705035909a2e1b33b6ebbdb5b86893",
     		'launchTimeout' => '600000',
-    		'autoAcceptAlerts' => 'true',
+    		#'autoAcceptAlerts' => 'true',
   		}
 		begin
   			@driverSecond ||= Selenium::WebDriver.for(:remote, :desired_capabilities => capabilities1, :url => server_url1)	
@@ -125,20 +158,20 @@ def  simulatorLaunch
     		'browserName' => 'iOS',
     		'platform' => 'Mac',
     		'version' => '8.2',
-    		'deviceName' => 'iPhone 6',
+    		#'deviceName' => 'iPhone 6',
+    		'deviceName' => 'iPhone 5s',
     		'platformName' => 'iOS',        
     		'app' => '/Users/360_macmini/Documents/WoowTalk/Cucumber-Appium/YowWowMe/YouWowMe.app',
     		'newCommandTimeout' => '600',
     		'fullReset' => 'true',	
     		'launchTimeout' => '300000',
-    		'autoAcceptAlerts' => 'true',	
   		}
 		begin
   			 @driverSimulator ||= Selenium::WebDriver.for(:remote, :desired_capabilities => capabilities3, :url => server_url3)
 		rescue 
 			sleep(60)
  			 @driverSimulator ||= Selenium::WebDriver.for(:remote, :desired_capabilities => capabilities3, :url => server_url3)
- 			 puts "Third Driver launch after time out"
+ 			 puts "Simulator driver launch after time out"
 		end
 end
 
@@ -150,12 +183,18 @@ def absolute_app_path
   File.join(File.dirname(__FILE__), APP_PATH)
 end
 
-# Before Scenario
-Before { 
+# Before Scenario without Alert
+Before('@WithoutAlert') { 
 		quiteDriver
 		firstDeviceLaunch 
+		
 	}
 
+# Before Scenario with Alert
+Before('@WithAlert') {
+	quiteDriver
+	firstDeviceLaunchWithAlert
+}
 # Method to launch the second device
 def secondDeviceLaunch
 	secondRealDeviceLaunch 
@@ -205,6 +244,7 @@ After {
 	if @ele==false 
   		screenshot
  	end
+ 	sleep(1)
 	quiteDriver
 	}
 
