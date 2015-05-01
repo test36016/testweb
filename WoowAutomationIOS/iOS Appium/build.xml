@@ -1,0 +1,10 @@
+<project name="Test" default="cucumberTest" basedir=".">
+	
+	
+	<target name="cucumberTest">
+		 <exec dir="./" executable="bundle">
+			<arg line="/c bundle exec cucumber features/Login.feature -f html --out report/report.html " />
+		</exec>
+	</target>	
+
+</project>
